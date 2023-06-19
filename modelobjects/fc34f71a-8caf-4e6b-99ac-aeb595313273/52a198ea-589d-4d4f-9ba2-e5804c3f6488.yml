@@ -1,0 +1,34 @@
+id: 52a198ea-589d-4d4f-9ba2-e5804c3f6488
+modelObjectTypeId: fc34f71a-8caf-4e6b-99ac-aeb595313273
+name: TestLink
+terms:
+  - id: 68faef31-ada9-4254-9c45-107e6b12ac00
+    name: BG_LoadTimestamp
+    description: Default term with the load timestamp
+    dataType:
+      platformDataTypeId: 88718695-75e5-413d-a8e9-fa27fe064353
+    defaultTermId: 3fdfd83b-00b6-47e7-b139-9b25993626ac
+    isForeignKey: false
+    isIdentity: false
+    isBusinessKey: false
+  - id: ef7ab82b-0b3a-48d5-b5fd-a5a79668db3c
+    name: Link_HK
+    description: Identifier of a record
+    dataType:
+      platformDataTypeId: 77e450ef-2083-4296-a00e-3da0da7ad152
+      length: 20
+    defaultTermId: 681eef24-7738-4e91-852b-8c53a3197e64
+    isForeignKey: false
+    isIdentity: true
+    isBusinessKey: false
+  - id: 618558cc-5505-44d3-81ad-38c9d331d80b
+    name: BG_SourceSystem
+    description: Default term with an identifier of the source system
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      length: 255
+    defaultTermId: c3654f1c-5c92-4200-82ef-baac15ffa0ba
+    isForeignKey: false
+    isIdentity: false
+    isBusinessKey: false
+    isNullable: true
