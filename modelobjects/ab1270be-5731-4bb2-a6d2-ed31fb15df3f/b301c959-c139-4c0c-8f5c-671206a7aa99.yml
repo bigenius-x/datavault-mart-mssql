@@ -1,0 +1,213 @@
+id: b301c959-c139-4c0c-8f5c-671206a7aa99
+name: SALESTRANSACTION_LinkSatellite1
+description: Generated Model Object from SALESTRANSACTION
+modelObjectTypeId: ab1270be-5731-4bb2-a6d2-ed31fb15df3f
+terms:
+  - id: a0a11e42-13cf-45ee-bbb7-602083c8c17a
+    name: BG_LoadTimestamp
+    description: Default term with the load timestamp
+    dataType:
+      platformDataTypeId: 88718695-75e5-413d-a8e9-fa27fe064353
+    defaultTermId: 3fdfd83b-00b6-47e7-b139-9b25993626ac
+    isForeignKey: false
+    isIdentity: false
+    isBusinessKey: false
+  - id: cc2b79e4-0039-4bf3-afa4-6bd70859a3c4
+    name: Link_HK
+    description: Identifier of a record
+    dataType:
+      platformDataTypeId: 77e450ef-2083-4296-a00e-3da0da7ad152
+      length: 20
+    defaultTermId: 681eef24-7738-4e91-852b-8c53a3197e64
+    isForeignKey: false
+    isIdentity: true
+    isBusinessKey: false
+  - id: e1e722ec-8296-48e9-b9a5-f9bd501d9257
+    name: BG_SourceSystem
+    description: Default term with an identifier of the source system
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      length: 255
+    defaultTermId: c3654f1c-5c92-4200-82ef-baac15ffa0ba
+    isForeignKey: false
+    isIdentity: false
+    isBusinessKey: false
+    isNullable: true
+  - id: 8dba965c-ea43-454d-8098-215f3acab501
+    name: BG_ValidFromTimestamp
+    description: Default term for the technical validity or objects
+    dataType:
+      platformDataTypeId: 88718695-75e5-413d-a8e9-fa27fe064353
+    defaultTermId: dae67eab-4d4c-415c-b8a2-98bc6820719d
+    isForeignKey: false
+    isIdentity: false
+    isBusinessKey: false
+  - id: d458e640-7490-47c9-a198-0a076075cb32
+    name: BG_RowHash
+    description: Default term that stores the computed hash value for defined attributes
+    dataType:
+      platformDataTypeId: 77e450ef-2083-4296-a00e-3da0da7ad152
+      length: 20
+    defaultTermId: 2362debf-62f0-4e46-b0eb-bd221e3961eb
+    isForeignKey: false
+    isIdentity: false
+    isBusinessKey: false
+    isNullable: true
+  - id: 09e5f54f-08b0-45fb-81c8-c02783220a1e
+    name: BG_ValidToTimestamp
+    description: Default term for the technical validity or objects
+    dataType:
+      platformDataTypeId: 88718695-75e5-413d-a8e9-fa27fe064353
+    defaultTermId: 8a0e3b61-609b-4b0b-9a14-58a7730ed12e
+    isForeignKey: false
+    isIdentity: false
+    isBusinessKey: false
+    isNullable: true
+  - id: c02a71ab-32a1-4ea2-bd98-bea6777f3eef
+    name: POS_ID
+    dataType:
+      name: int
+      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+    isBusinessKey: false
+  - id: 5ab096db-38cd-4d78-a6a4-0e203781b9fb
+    name: ITEM_ID
+    dataType:
+      name: int
+      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+    isBusinessKey: false
+  - id: 5260add2-485c-4b32-b44a-c3a76b9f6047
+    name: DESCRIPTION
+    dataType:
+      name: varchar
+      length: 1000
+      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
+    isBusinessKey: false
+  - id: 85ed812e-2642-411b-a665-423b5d9965de
+    name: UOM
+    dataType:
+      name: varchar
+      length: 10
+      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
+    isBusinessKey: false
+  - id: 6d3113b6-3f33-4b3b-be03-07db1b2a698e
+    name: BRANCH_ID
+    dataType:
+      name: varchar
+      length: 10
+      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
+    isBusinessKey: false
+  - id: db464d20-f9de-453b-9d3b-fafd84b6b274
+    name: TRANSACTION_TIME
+    dataType:
+      name: datetime2
+      platformDataTypeId: f136e1f5-12f2-451f-ad33-06fd581e5c41
+    isBusinessKey: false
+  - id: b8d4f211-ffb7-4fe0-8c38-cad3e7a1e338
+    name: CASHIER_ID
+    dataType:
+      name: int
+      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+    isBusinessKey: false
+  - id: bde35d03-4b8a-4990-a662-9af8e15a19db
+    name: LOYALTYCARD_ID
+    dataType:
+      name: int
+      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+    isBusinessKey: false
+  - id: a99400fc-729b-4f28-884d-a1925510f3bf
+    name: CUSTOMER_ID
+    dataType:
+      name: decimal
+      precision: 38
+      platformDataTypeId: ea625964-ee65-4825-8d1b-87ebbd7baa31
+    isBusinessKey: false
+  - id: 0d6d92f4-f4f5-4c93-bb29-8bce77f06439
+    name: SALES_PRICE
+    dataType:
+      name: decimal
+      precision: 18
+      scale: 2
+      platformDataTypeId: ea625964-ee65-4825-8d1b-87ebbd7baa31
+    isBusinessKey: false
+  - id: e16d1df5-2016-4a02-80ee-186423722850
+    name: REDUCTION
+    dataType:
+      name: decimal
+      precision: 18
+      scale: 2
+      platformDataTypeId: ea625964-ee65-4825-8d1b-87ebbd7baa31
+    isBusinessKey: false
+  - id: 5dd0df4d-a202-45a9-8519-43c2b69bdd7f
+    name: QUANTITY
+    dataType:
+      name: decimal
+      precision: 18
+      scale: 3
+      platformDataTypeId: ea625964-ee65-4825-8d1b-87ebbd7baa31
+    isBusinessKey: false
+  - id: 7c4c52ba-bc5e-44c8-b42d-d1b2f4df32cc
+    name: SALES_AMOUNT
+    dataType:
+      name: decimal
+      precision: 18
+      scale: 2
+      platformDataTypeId: ea625964-ee65-4825-8d1b-87ebbd7baa31
+    isBusinessKey: false
+dataflows:
+  - id: 7bc0397f-03c5-43a3-a505-01a94f8a5ddf
+    name: Dataflow1
+    dataflowSets:
+      - id: c49f5b73-c35b-4d32-9254-07d55f9cf98f
+        name: Set1
+        termMappings:
+          - termId: a0a11e42-13cf-45ee-bbb7-602083c8c17a
+          - termId: cc2b79e4-0039-4bf3-afa4-6bd70859a3c4
+          - termId: e1e722ec-8296-48e9-b9a5-f9bd501d9257
+          - termId: 8dba965c-ea43-454d-8098-215f3acab501
+          - termId: d458e640-7490-47c9-a198-0a076075cb32
+          - termId: 09e5f54f-08b0-45fb-81c8-c02783220a1e
+          - termId: c02a71ab-32a1-4ea2-bd98-bea6777f3eef
+            expression: >-
+              9425eb17-3876-4f27-aa27-eab39bcfe8c8.a2d2c287-1507-4691-944e-de2f18814c62
+          - termId: 5ab096db-38cd-4d78-a6a4-0e203781b9fb
+            expression: >-
+              9425eb17-3876-4f27-aa27-eab39bcfe8c8.7225df4d-96db-4526-9f00-b2427bc81bb7
+          - termId: 5260add2-485c-4b32-b44a-c3a76b9f6047
+            expression: >-
+              9425eb17-3876-4f27-aa27-eab39bcfe8c8.64067bbb-3bdb-4963-8944-fb4312eb12d3
+          - termId: 85ed812e-2642-411b-a665-423b5d9965de
+            expression: >-
+              9425eb17-3876-4f27-aa27-eab39bcfe8c8.9feb8a88-2b98-4019-8ee9-af75a1dd81f4
+          - termId: 6d3113b6-3f33-4b3b-be03-07db1b2a698e
+            expression: >-
+              9425eb17-3876-4f27-aa27-eab39bcfe8c8.b8161ecb-6182-4d2a-b143-91a9853f9690
+          - termId: db464d20-f9de-453b-9d3b-fafd84b6b274
+            expression: >-
+              9425eb17-3876-4f27-aa27-eab39bcfe8c8.3e7e6e79-ab6f-4640-97d0-21349ba48ca5
+          - termId: b8d4f211-ffb7-4fe0-8c38-cad3e7a1e338
+            expression: >-
+              9425eb17-3876-4f27-aa27-eab39bcfe8c8.84408f62-28e9-4eeb-ac58-264f768ed133
+          - termId: bde35d03-4b8a-4990-a662-9af8e15a19db
+            expression: >-
+              9425eb17-3876-4f27-aa27-eab39bcfe8c8.aebe8d6b-262a-403f-9d27-2ffe4d471786
+          - termId: a99400fc-729b-4f28-884d-a1925510f3bf
+            expression: >-
+              9425eb17-3876-4f27-aa27-eab39bcfe8c8.cdd54ec2-3241-4411-a9d4-7525a7f58427
+          - termId: 0d6d92f4-f4f5-4c93-bb29-8bce77f06439
+            expression: >-
+              9425eb17-3876-4f27-aa27-eab39bcfe8c8.845bc48c-7cd3-4a8e-af86-e3a1a788f001
+          - termId: e16d1df5-2016-4a02-80ee-186423722850
+            expression: >-
+              9425eb17-3876-4f27-aa27-eab39bcfe8c8.356b077e-2143-43df-b432-61d0406340c0
+          - termId: 5dd0df4d-a202-45a9-8519-43c2b69bdd7f
+            expression: >-
+              9425eb17-3876-4f27-aa27-eab39bcfe8c8.ebb31de9-10dd-4220-b821-5f3487ab71e1
+          - termId: 7c4c52ba-bc5e-44c8-b42d-d1b2f4df32cc
+            expression: >-
+              9425eb17-3876-4f27-aa27-eab39bcfe8c8.d464ff11-67d5-4016-bcc2-5f3f13bf2237
+        dataflowModelObjects:
+          - id: 9425eb17-3876-4f27-aa27-eab39bcfe8c8
+            sourceModelObjectId: b8472bc6-3141-40cd-9798-187139499292
+            alias: s1
+tags:
+  - $view#id#edfe9c89-57e1-4f41-a8c1-d53b6de09472
