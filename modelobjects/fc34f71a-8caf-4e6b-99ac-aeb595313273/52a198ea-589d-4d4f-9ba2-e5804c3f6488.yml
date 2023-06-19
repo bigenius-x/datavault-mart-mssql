@@ -66,6 +66,23 @@ terms:
     isForeignKey: true
     isIdentity: true
     isBusinessKey: false
+  - id: c7caec6a-8fcc-432c-8294-9a59702cb22a
+    name: FK_Item_Item1_No_
+    isForeignKey: true
+    dataType:
+      name: nvarchar
+      length: 20
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: 966e64f9-3515-450f-ba62-c2deeb6e4c28
+    name: Item_Item1_HK
+    description: Identifier of the referenced Hub record
+    dataType:
+      platformDataTypeId: 77e450ef-2083-4296-a00e-3da0da7ad152
+      length: 20
+    defaultTermId: 3e06f270-8fdf-4e8e-80f6-3583cf8bf51c
+    isForeignKey: true
+    isIdentity: true
+    isBusinessKey: false
 tags:
   - $view#id#edfe9c89-57e1-4f41-a8c1-d53b6de09472
 relationships:
@@ -85,3 +102,11 @@ relationships:
         referenceTermId: d15e38bb-6e21-454e-8d61-bce831327cbe
     additionalTermIds:
       - c1436fab-f5e6-4fa1-b746-f0b62ede1051
+  - id: d1cd4579-0b39-4b3e-83a0-389c392e252b
+    referencedModelObjectId: 1b31df90-a5ec-40ad-8ebd-3ba2c4f96cc2
+    role: Item1
+    relationshipTerms:
+      - termId: c7caec6a-8fcc-432c-8294-9a59702cb22a
+        referenceTermId: d15e38bb-6e21-454e-8d61-bce831327cbe
+    additionalTermIds:
+      - 966e64f9-3515-450f-ba62-c2deeb6e4c28
