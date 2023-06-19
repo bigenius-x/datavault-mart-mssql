@@ -62,3 +62,5 @@ terms:
     isIdentity: false
     isBusinessKey: false
     isNullable: true
+tags:
+  - $view#id#edfe9c89-57e1-4f41-a8c1-d53b6de09472
