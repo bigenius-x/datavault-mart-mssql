@@ -25,3 +25,5 @@ sourceSystems:
     description: ERP
   - name: pos
     description: POS
+  - name: very_long_source_system_name
+    description: Pos
