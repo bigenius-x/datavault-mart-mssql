@@ -32,5 +32,56 @@ terms:
     isIdentity: false
     isBusinessKey: false
     isNullable: true
+  - id: 5437ae9c-2f33-44d5-aade-38d7d0925fa4
+    name: FK_Customer_No_
+    isForeignKey: true
+    dataType:
+      name: nvarchar
+      length: 20
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: 4f795fe8-d88c-492b-8b5c-19a87cba98ee
+    name: Customer_HK
+    description: Identifier of the referenced Hub record
+    dataType:
+      platformDataTypeId: 77e450ef-2083-4296-a00e-3da0da7ad152
+      length: 20
+    defaultTermId: 3e06f270-8fdf-4e8e-80f6-3583cf8bf51c
+    isForeignKey: true
+    isIdentity: true
+    isBusinessKey: false
+  - id: fea99f66-ebfb-4ce7-85e7-f6ef3406517d
+    name: FK_Item_No_
+    isForeignKey: true
+    dataType:
+      name: nvarchar
+      length: 20
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: c1436fab-f5e6-4fa1-b746-f0b62ede1051
+    name: Item_HK
+    description: Identifier of the referenced Hub record
+    dataType:
+      platformDataTypeId: 77e450ef-2083-4296-a00e-3da0da7ad152
+      length: 20
+    defaultTermId: 3e06f270-8fdf-4e8e-80f6-3583cf8bf51c
+    isForeignKey: true
+    isIdentity: true
+    isBusinessKey: false
 tags:
   - $view#id#edfe9c89-57e1-4f41-a8c1-d53b6de09472
+relationships:
+  - id: edddcb6b-1b8c-4c6e-aa89-1b8d2e836cc9
+    referencedModelObjectId: a7269756-1a42-4678-8a99-d82550e835f3
+    role: Customer
+    relationshipTerms:
+      - termId: 5437ae9c-2f33-44d5-aade-38d7d0925fa4
+        referenceTermId: 81afdf23-9622-488f-83e9-58e777c9abf2
+    additionalTermIds:
+      - 4f795fe8-d88c-492b-8b5c-19a87cba98ee
+  - id: b3ee90aa-f71a-4c64-b604-babe6a9a75ee
+    referencedModelObjectId: 1b31df90-a5ec-40ad-8ebd-3ba2c4f96cc2
+    role: Item
+    relationshipTerms:
+      - termId: fea99f66-ebfb-4ce7-85e7-f6ef3406517d
+        referenceTermId: d15e38bb-6e21-454e-8d61-bce831327cbe
+    additionalTermIds:
+      - c1436fab-f5e6-4fa1-b746-f0b62ede1051
