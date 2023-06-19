@@ -64,3 +64,16 @@ terms:
     isNullable: true
 tags:
   - $view#id#edfe9c89-57e1-4f41-a8c1-d53b6de09472
+dataflows:
+  - id: 3486eaed-2647-4ffd-9ce9-410c5d5b7148
+    name: Dataflow1
+    dataflowSets:
+      - id: d7219e45-a3ac-4d0e-ac0d-5f5e44a712c5
+        name: Set1
+        termMappings:
+          - termId: 3fa85793-727d-442d-bd72-2054224aa29a
+          - termId: 9aa64693-8494-4b48-8ea0-a5a38846336e
+          - termId: 8c54e8fd-c747-4c1f-ae4b-25d66190b1bd
+          - termId: 840df017-5d35-4021-be61-405cbdc053e5
+          - termId: 9a724f94-3836-40e9-bea8-1454828ff55d
+          - termId: 4c036ab3-ab77-471a-9b61-ab9c5ffa3ac2
