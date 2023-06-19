@@ -84,14 +84,14 @@ terms:
     isIdentity: true
     isBusinessKey: false
   - id: f223325f-224a-4b25-8fcb-9dc91fe0b9a6
-    name: FK_Item_Item1_No_
+    name: FK_Item_ItemOli1_No_
     isForeignKey: true
     dataType:
       name: nvarchar
       length: 20
       platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
   - id: 61dfdae1-c66e-4fa0-8743-4c8516d562db
-    name: Item_Item1_HK
+    name: Item_ItemOli1_HK
     description: Identifier of the referenced Hub record
     dataType:
       platformDataTypeId: 77e450ef-2083-4296-a00e-3da0da7ad152
@@ -129,7 +129,7 @@ relationships:
       - 966e64f9-3515-450f-ba62-c2deeb6e4c28
   - id: 9565e2f7-1761-4ee5-826e-cf2b16ab78d0
     referencedModelObjectId: 1b31df90-a5ec-40ad-8ebd-3ba2c4f96cc2
-    role: Item1
+    role: ItemOli1
     relationshipTerms:
       - termId: f223325f-224a-4b25-8fcb-9dc91fe0b9a6
         referenceTermId: d15e38bb-6e21-454e-8d61-bce831327cbe
