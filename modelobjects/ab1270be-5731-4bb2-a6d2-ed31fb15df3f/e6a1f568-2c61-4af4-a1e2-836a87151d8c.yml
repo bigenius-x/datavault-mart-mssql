@@ -1,0 +1,64 @@
+id: e6a1f568-2c61-4af4-a1e2-836a87151d8c
+modelObjectTypeId: ab1270be-5731-4bb2-a6d2-ed31fb15df3f
+name: TestSatel
+terms:
+  - id: 3fa85793-727d-442d-bd72-2054224aa29a
+    name: BG_LoadTimestamp
+    description: Default term with the load timestamp
+    dataType:
+      platformDataTypeId: 88718695-75e5-413d-a8e9-fa27fe064353
+    defaultTermId: 3fdfd83b-00b6-47e7-b139-9b25993626ac
+    isForeignKey: false
+    isIdentity: false
+    isBusinessKey: false
+  - id: 9aa64693-8494-4b48-8ea0-a5a38846336e
+    name: Link_HK
+    description: Identifier of a record
+    dataType:
+      platformDataTypeId: 77e450ef-2083-4296-a00e-3da0da7ad152
+      length: 20
+    defaultTermId: 681eef24-7738-4e91-852b-8c53a3197e64
+    isForeignKey: false
+    isIdentity: true
+    isBusinessKey: false
+  - id: 8c54e8fd-c747-4c1f-ae4b-25d66190b1bd
+    name: BG_SourceSystem
+    description: Default term with an identifier of the source system
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      length: 255
+    defaultTermId: c3654f1c-5c92-4200-82ef-baac15ffa0ba
+    isForeignKey: false
+    isIdentity: false
+    isBusinessKey: false
+    isNullable: true
+  - id: 840df017-5d35-4021-be61-405cbdc053e5
+    name: BG_ValidFromTimestamp
+    description: Default term for the technical validity or objects
+    dataType:
+      platformDataTypeId: 88718695-75e5-413d-a8e9-fa27fe064353
+    defaultTermId: dae67eab-4d4c-415c-b8a2-98bc6820719d
+    isForeignKey: false
+    isIdentity: false
+    isBusinessKey: false
+  - id: 9a724f94-3836-40e9-bea8-1454828ff55d
+    name: BG_RowHash
+    description: Default term that stores the computed hash value for defined attributes
+    dataType:
+      platformDataTypeId: 77e450ef-2083-4296-a00e-3da0da7ad152
+      length: 20
+    defaultTermId: 2362debf-62f0-4e46-b0eb-bd221e3961eb
+    isForeignKey: false
+    isIdentity: false
+    isBusinessKey: false
+    isNullable: true
+  - id: 4c036ab3-ab77-471a-9b61-ab9c5ffa3ac2
+    name: BG_ValidToTimestamp
+    description: Default term for the technical validity or objects
+    dataType:
+      platformDataTypeId: 88718695-75e5-413d-a8e9-fa27fe064353
+    defaultTermId: 8a0e3b61-609b-4b0b-9a14-58a7730ed12e
+    isForeignKey: false
+    isIdentity: false
+    isBusinessKey: false
+    isNullable: true
