@@ -1,0 +1,58 @@
+id: 7bba7975-bd59-43ca-8d60-e50d28ecff9c
+name: Location1
+description: Generated Model Object from Location
+modelObjectTypeId: ac3f7f40-3068-47df-af3d-c6990ad73f7d
+terms:
+  - id: 47bc6acd-1fcb-4c3b-a5c6-1cab26ef180b
+    name: BG_LoadTimestamp
+    description: Default term with the load timestamp
+    dataType:
+      platformDataTypeId: 88718695-75e5-413d-a8e9-fa27fe064353
+    defaultTermId: 3fdfd83b-00b6-47e7-b139-9b25993626ac
+    isIdentity: false
+    isBusinessKey: false
+  - id: aa8b781b-fcad-4aba-822a-d2d9ba735371
+    name: Hub_HK
+    description: Identifier of a record
+    dataType:
+      platformDataTypeId: 77e450ef-2083-4296-a00e-3da0da7ad152
+      length: 20
+    defaultTermId: 2689505b-2079-48b5-9fea-60ac633b04fe
+    isIdentity: true
+    isBusinessKey: false
+  - id: 5173baa3-81b5-4ff3-b3c0-3d2fcf2db5c1
+    name: BG_SourceSystem
+    description: Default term with an identifier of the source system
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      length: 255
+    defaultTermId: c3654f1c-5c92-4200-82ef-baac15ffa0ba
+    isIdentity: false
+    isBusinessKey: false
+    isNullable: true
+  - id: 3cf1aa03-515e-4709-b1e8-24303b063773
+    name: Code
+    dataType:
+      name: nvarchar
+      length: 10
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+    isBusinessKey: true
+dataflows:
+  - id: 87408dba-aea1-4ce1-928e-ccc180372e81
+    name: Dataflow1
+    dataflowSets:
+      - id: 9da48302-cbb6-48ab-be78-ad562f21bdbb
+        name: Set1
+        termMappings:
+          - termId: 47bc6acd-1fcb-4c3b-a5c6-1cab26ef180b
+          - termId: aa8b781b-fcad-4aba-822a-d2d9ba735371
+          - termId: 5173baa3-81b5-4ff3-b3c0-3d2fcf2db5c1
+          - termId: 3cf1aa03-515e-4709-b1e8-24303b063773
+            expression: >-
+              6b8ea4cd-09ca-4b96-bb30-6d851e65b0bc.5839b7cc-6c8f-47b8-80d7-4c36205e9105
+        dataflowModelObjects:
+          - id: 6b8ea4cd-09ca-4b96-bb30-6d851e65b0bc
+            sourceModelObjectId: 759a83ea-66f6-4b60-93be-c13557b6327b
+            alias: s1
+tags:
+  - $view#id#edfe9c89-57e1-4f41-a8c1-d53b6de09472
