@@ -80,6 +80,13 @@ terms:
       length: 50
       platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
     isBusinessKey: false
+  - id: 2c85f32f-b6c4-4225-b3cf-65afd100d254
+    name: Bill-to City
+    dataType:
+      name: nvarchar
+      length: 30
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+    isBusinessKey: false
 tags:
   - $view#id#edfe9c89-57e1-4f41-a8c1-d53b6de09472
   - $view#id#2142fb6b-b215-4238-b0e5-4bd90041a867
@@ -116,6 +123,9 @@ dataflows:
           - termId: 684831f9-aecb-4f4e-8d1e-d43d7bd1f07e
             expression: >-
               b3710721-7a6a-4825-b6ff-6bbff737ec61.f98cb67d-dc1f-490b-8748-5e0a1444fca6
+          - termId: 2c85f32f-b6c4-4225-b3cf-65afd100d254
+            expression: >-
+              b3710721-7a6a-4825-b6ff-6bbff737ec61.7ee273d7-0eb7-4e42-9629-f3fdb4ccc021
         dataflowModelObjects:
           - alias: s1
             id: b3710721-7a6a-4825-b6ff-6bbff737ec61
