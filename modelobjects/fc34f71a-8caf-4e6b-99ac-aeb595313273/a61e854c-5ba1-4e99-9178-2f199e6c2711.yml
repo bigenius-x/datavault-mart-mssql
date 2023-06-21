@@ -73,6 +73,13 @@ terms:
       length: 20
       platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
     isBusinessKey: true
+  - id: 684831f9-aecb-4f4e-8d1e-d43d7bd1f07e
+    name: Bill-to Address
+    dataType:
+      name: nvarchar
+      length: 50
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+    isBusinessKey: false
 tags:
   - $view#id#edfe9c89-57e1-4f41-a8c1-d53b6de09472
   - $view#id#2142fb6b-b215-4238-b0e5-4bd90041a867
@@ -106,6 +113,9 @@ dataflows:
           - termId: 73cbdcca-e490-4ac2-8eb5-97b94b9149ef
             expression: >-
               b3710721-7a6a-4825-b6ff-6bbff737ec61.7ab2114a-949e-480e-9555-e015f84225b7
+          - termId: 684831f9-aecb-4f4e-8d1e-d43d7bd1f07e
+            expression: >-
+              b3710721-7a6a-4825-b6ff-6bbff737ec61.f98cb67d-dc1f-490b-8748-5e0a1444fca6
         dataflowModelObjects:
           - alias: s1
             id: b3710721-7a6a-4825-b6ff-6bbff737ec61
