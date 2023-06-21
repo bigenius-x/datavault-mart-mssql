@@ -20,6 +20,11 @@ views:
     description: Sales Information POS
     type: data-pipe
     default: false
+  - id: 4d34e997-4fa9-4d96-8b14-10f4ff9a484c
+    name: test
+    description: abc
+    type: data-pipe
+    default: false
 sourceSystems:
   - name: erp
     description: ERP
