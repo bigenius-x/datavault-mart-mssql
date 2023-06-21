@@ -58,6 +58,7 @@ propertyValues:
   - propertyId: a57fa4ce-3f1f-4542-85e0-27c0c5dc9b3f
 tags:
   - $view#id#edfe9c89-57e1-4f41-a8c1-d53b6de09472
+  - $view#id#4d34e997-4fa9-4d96-8b14-10f4ff9a484c
 dataflows:
   - id: 1a884e7b-af74-47b8-8c0e-ceb8e5ae6f14
     name: Dataflow1
