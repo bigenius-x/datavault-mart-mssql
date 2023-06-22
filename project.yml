@@ -23,5 +23,7 @@ views:
 sourceSystems:
   - name: erp
     description: ERP
+    id: 963df8c5-e464-4584-83f8-ff3734e75456
   - name: pos
     description: POS
+    id: a86540c3-707b-4e4a-b19f-2317c01d045b

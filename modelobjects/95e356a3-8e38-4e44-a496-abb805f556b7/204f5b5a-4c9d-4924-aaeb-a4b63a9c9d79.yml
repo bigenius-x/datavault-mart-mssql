@@ -24,7 +24,7 @@ terms:
     isBusinessKey: false
 tags:
   - $discovery#id#dcfb76e2-57c3-4849-b250-f7337c2b99d2
-  - $sourcesystem#name#erp
   - $initial#name#customer_discount_group
   - $view#id#edfe9c89-57e1-4f41-a8c1-d53b6de09472
+  - $sourcesystem#id#963df8c5-e464-4584-83f8-ff3734e75456
 propertyValues: []
