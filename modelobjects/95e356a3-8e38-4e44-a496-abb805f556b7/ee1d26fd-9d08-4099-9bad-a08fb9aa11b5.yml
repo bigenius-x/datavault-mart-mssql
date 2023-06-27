@@ -733,8 +733,8 @@ terms:
     isBusinessKey: false
 tags:
   - $discovery#id#dcfb76e2-57c3-4849-b250-f7337c2b99d2
-  - $sourcesystem#name#erp
   - $initial#name#sales_invoice_header
   - $view#id#edfe9c89-57e1-4f41-a8c1-d53b6de09472
   - $view#id#2142fb6b-b215-4238-b0e5-4bd90041a867
+  - $sourcesystem#id#dcfa6409-b833-42f7-951b-2f210bb8394e
 propertyValues: []

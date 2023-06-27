@@ -106,7 +106,7 @@ terms:
     isBusinessKey: false
 tags:
   - $discovery#id#8b609b52-8c82-44b7-9cc1-18bc0fab9762
-  - $sourcesystem#name#pos
   - $initial#name#salestransaction
   - $view#id#2142fb6b-b215-4238-b0e5-4bd90041a867
+  - $sourcesystem#id#afbc4b58-68ae-4c97-a2eb-248aa1a8510e
 propertyValues: []
