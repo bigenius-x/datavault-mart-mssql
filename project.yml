@@ -27,3 +27,4 @@ sourceSystems:
   - name: POS
     description: POS
     id: a86540c3-707b-4e4a-b19f-2317c01d045b
+version: v1
