@@ -51,8 +51,6 @@ dataflows:
           - termId: cd8b31b0-f6d8-418d-b8a8-6ada93b310f1
           - termId: 24fca7d9-d41b-41d2-ae82-15944c064eba
           - termId: 23f95d69-7f4f-4577-bd84-00eed53aed9e
-            expression: >-
-              4a5de904-b757-4a54-9aa4-8b632f887c30.8059e3e7-ee3d-4af9-bc14-fe3f70d943bc
         dataflowModelObjects:
           - id: 4a5de904-b757-4a54-9aa4-8b632f887c30
             sourceModelObjectId: 7407bcdd-7e07-440d-8442-c28b6e1b4a05
