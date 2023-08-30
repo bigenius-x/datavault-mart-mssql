@@ -279,9 +279,3 @@ relationships:
         referenceTermId: fe384262-df24-44a6-8ccc-559843b57dab
       - termId: eb342a82-b6f3-4fde-b088-b7ef7ccfe318
         referenceTermId: 73cbdcca-e490-4ac2-8eb5-97b94b9149ef
-  - id: 5928bbdc-72da-4d36-ab26-bf9f2344c805
-    referencedModelObjectId: a61e854c-5ba1-4e99-9178-2f199e6c2711
-    role: SalesData1
-    missingBusinessKeyBehavior: none
-    relationshipTerms: []
-    additionalTermIds: []
