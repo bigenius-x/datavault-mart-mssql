@@ -40,6 +40,16 @@ terms:
       length: 10
       platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
     isBusinessKey: true
+  - id: bedef368-c428-4b5a-ad11-259d417553f5
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+    name: City
+    dataType:
+      platformDataTypeId: 776a7a08-0210-4465-a493-fd08d329944c
 dataflows:
   - id: 02bef3c9-1db1-46fd-a87c-dec830ab894f
     name: Dataflow1
@@ -53,6 +63,9 @@ dataflows:
           - termId: 89bfab93-d87d-4903-b61b-24427d9a674a
             expression: >-
               ed500139-b09e-42e1-8d97-0cb404f5ba00.5839b7cc-6c8f-47b8-80d7-4c36205e9105
+          - termId: bedef368-c428-4b5a-ad11-259d417553f5
+            expression: >-
+              ed500139-b09e-42e1-8d97-0cb404f5ba00.686a67bf-07a4-4728-9fad-822f6d3c6720
         dataflowModelObjects:
           - id: ed500139-b09e-42e1-8d97-0cb404f5ba00
             sourceModelObjectId: 759a83ea-66f6-4b60-93be-c13557b6327b
