@@ -90,6 +90,7 @@ terms:
     isBusinessKey: false
 tags:
   - $view#id#edfe9c89-57e1-4f41-a8c1-d53b6de09472
+  - $view#id#2edf46ca-c8ac-45eb-833e-a54ed53c325f
 relationships:
   - id: 69661898-c641-4a51-9abc-db5666636f6b
     referencedModelObjectId: 81866cb7-5d58-49c3-a037-d4cda1b87bb8
