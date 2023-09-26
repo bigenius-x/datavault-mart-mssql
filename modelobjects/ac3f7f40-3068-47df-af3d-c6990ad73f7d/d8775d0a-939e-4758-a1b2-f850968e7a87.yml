@@ -64,6 +64,18 @@ terms:
     isNullable: true
     hiddenInSource: false
     hiddenInTarget: false
+  - id: 9be0a48f-4eea-4800-94d2-ada59114743f
+    name: Address 2
+    dataType:
+      name: nvarchar
+      length: 50
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+    isBusinessKey: false
+    isIdentity: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
 dataflows:
   - id: 02bef3c9-1db1-46fd-a87c-dec830ab894f
     name: Dataflow1
@@ -83,6 +95,9 @@ dataflows:
           - termId: d96b910e-dd96-4664-96ea-034f23fead11
             expression: >-
               ed500139-b09e-42e1-8d97-0cb404f5ba00.ae6309b2-90ee-4935-a132-1a696f033efa
+          - termId: 9be0a48f-4eea-4800-94d2-ada59114743f
+            expression: >-
+              ed500139-b09e-42e1-8d97-0cb404f5ba00.55113e3f-08b7-41c9-8d5a-bdb17adf66ed
         dataflowModelObjects:
           - id: ed500139-b09e-42e1-8d97-0cb404f5ba00
             sourceModelObjectId: 759a83ea-66f6-4b60-93be-c13557b6327b
