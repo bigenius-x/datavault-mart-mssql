@@ -1,5 +1,5 @@
 id: d7111915-55fc-4755-937b-4ad3aa3b3868
-name: Customer
+name: Customer1
 description: Generated Model Object from Customer
 modelObjectTypeId: 5a74b513-9166-4fd4-96c4-4062356fc4a4
 terms:
@@ -812,3 +812,6 @@ dataflows:
             alias: s1
 tags:
   - $view#id#edfe9c89-57e1-4f41-a8c1-d53b6de09472
+propertyValues:
+  - propertyId: 713ec758-07f0-4d05-8b91-5d3427261f76
+    value: Distinct
