@@ -67,15 +67,15 @@ terms:
   - id: 9be0a48f-4eea-4800-94d2-ada59114743f
     name: Address 2
     dataType:
-      name: nvarchar
-      length: 50
       platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      length: 50
     isBusinessKey: false
     isIdentity: false
     isForeignKey: false
     isNullable: true
     hiddenInSource: false
     hiddenInTarget: false
+    propertyValues: []
   - id: 54476fdf-f7ca-48ec-a9ad-1dd6b3d14f49
     name: City
     dataType:
@@ -109,6 +109,8 @@ dataflows:
               ed500139-b09e-42e1-8d97-0cb404f5ba00.ae6309b2-90ee-4935-a132-1a696f033efa
           - termId: 9be0a48f-4eea-4800-94d2-ada59114743f
             expression: >-
+              ed500139-b09e-42e1-8d97-0cb404f5ba00.55113e3f-08b7-41c9-8d5a-bdb17adf66ed
+              +
               ed500139-b09e-42e1-8d97-0cb404f5ba00.55113e3f-08b7-41c9-8d5a-bdb17adf66ed
           - termId: 54476fdf-f7ca-48ec-a9ad-1dd6b3d14f49
             expression: >-
