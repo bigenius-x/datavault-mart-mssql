@@ -3,7 +3,7 @@ description: product-launch-event
 id: f4af988b-6568-4aee-2bb3-08db50014549
 configuration:
   id: biGENIUS.Implementation.Generator.VaultAndMart.Mssql
-  version: 1.0.0
+  version: 1.1.0
 views:
   - id: 2edf46ca-c8ac-45eb-833e-a54ed53c325f
     name: Datamodel View 1
@@ -28,3 +28,4 @@ sourceSystems:
     description: POS
     id: a86540c3-707b-4e4a-b19f-2317c01d045b
 version: v1
+propertyValues: []
