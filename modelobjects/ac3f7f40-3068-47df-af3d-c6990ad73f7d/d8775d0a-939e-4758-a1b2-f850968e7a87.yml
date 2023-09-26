@@ -40,6 +40,18 @@ terms:
       length: 10
       platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
     isBusinessKey: true
+  - id: 24cec6ad-96e7-464d-9225-4e4dd4c4f608
+    name: Name 2
+    dataType:
+      name: nvarchar
+      length: 50
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+    isBusinessKey: false
+    isIdentity: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
 dataflows:
   - id: 02bef3c9-1db1-46fd-a87c-dec830ab894f
     name: Dataflow1
@@ -53,6 +65,9 @@ dataflows:
           - termId: 89bfab93-d87d-4903-b61b-24427d9a674a
             expression: >-
               ed500139-b09e-42e1-8d97-0cb404f5ba00.5839b7cc-6c8f-47b8-80d7-4c36205e9105
+          - termId: 24cec6ad-96e7-464d-9225-4e4dd4c4f608
+            expression: >-
+              ed500139-b09e-42e1-8d97-0cb404f5ba00.42880da7-abfd-4a06-9784-c56c0b7af7bf
         dataflowModelObjects:
           - id: ed500139-b09e-42e1-8d97-0cb404f5ba00
             sourceModelObjectId: 759a83ea-66f6-4b60-93be-c13557b6327b
