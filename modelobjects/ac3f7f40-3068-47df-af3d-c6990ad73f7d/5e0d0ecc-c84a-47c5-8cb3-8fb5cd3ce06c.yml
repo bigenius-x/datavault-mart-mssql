@@ -1,0 +1,42 @@
+id: 5e0d0ecc-c84a-47c5-8cb3-8fb5cd3ce06c
+modelObjectTypeId: ac3f7f40-3068-47df-af3d-c6990ad73f7d
+name: Test
+terms:
+  - id: 476ceb62-3860-430f-bd1f-edcb01ae5c37
+    name: BG_LoadTimestamp
+    description: Default term with the load timestamp
+    dataType:
+      platformDataTypeId: 88718695-75e5-413d-a8e9-fa27fe064353
+    defaultTermId: 3fdfd83b-00b6-47e7-b139-9b25993626ac
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: false
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 71e9b034-4dfe-4552-9592-9e947b508656
+    name: Hub_HK
+    description: Identifier of a record
+    dataType:
+      platformDataTypeId: 77e450ef-2083-4296-a00e-3da0da7ad152
+      length: 20
+    defaultTermId: 2689505b-2079-48b5-9fea-60ac633b04fe
+    isIdentity: true
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: false
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 939d2d03-6b11-47d4-8435-ca9d0115343d
+    name: BG_SourceSystem
+    description: Default term with an identifier of the source system
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      length: 255
+    defaultTermId: c3654f1c-5c92-4200-82ef-baac15ffa0ba
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
