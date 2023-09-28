@@ -1,0 +1,127 @@
+id: 52cc1925-471a-4787-8ece-62c21f4a3e03
+name: SUPPLIER
+modelObjectTypeId: 95e356a3-8e38-4e44-a496-abb805f556b7
+terms:
+  - id: 97005be5-9560-4fe7-906c-4a341e727504
+    name: SUPPLIER_ID
+    dataType:
+      name: int
+      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 66b064f2-6d19-42e2-b2f0-11ec8f48d5f3
+    name: SUPPLIER
+    dataType:
+      name: varchar
+      length: 100
+      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: e8797a10-7d83-41ec-8b76-866f769c1304
+    name: SUPPLIER_SINCE
+    dataType:
+      name: date
+      platformDataTypeId: 4a8bdc4b-94cd-4a71-bac1-93b6b7120ef9
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 12277794-35c1-4f05-bf7e-db6b1a270f69
+    name: SUPPLIER_FOR
+    dataType:
+      name: varchar
+      length: 100
+      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 0ca473a4-42da-4ac4-b7bd-7fe35c977528
+    name: ADDRESS_LINE1
+    dataType:
+      name: varchar
+      length: 100
+      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: c40c22cd-409b-48b4-93be-69638ed04eb4
+    name: ADDRESS_LINE2
+    dataType:
+      name: varchar
+      length: 100
+      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: aa4c09d0-2269-4859-be2f-ebf4e7271fab
+    name: ADDRESS_LINE3
+    dataType:
+      name: varchar
+      length: 100
+      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 08771378-cc3b-4245-b1e5-d65c1abfdb00
+    name: ZIP_CODE
+    dataType:
+      name: varchar
+      length: 20
+      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 9e320aac-015e-44b0-86fd-4bef69717dac
+    name: COUNTRY
+    dataType:
+      name: varchar
+      length: 50
+      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 07ddbb69-14f2-4869-819c-fa7759ce512f
+    name: COUNTRY_ISO_CODE
+    dataType:
+      name: varchar
+      length: 2
+      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+tags:
+  - $discovery#id#8b609b52-8c82-44b7-9cc1-18bc0fab9762
+  - $sourcesystem#id#a86540c3-707b-4e4a-b19f-2317c01d045b
+  - $initial#name#supplier
+propertyValues: []
