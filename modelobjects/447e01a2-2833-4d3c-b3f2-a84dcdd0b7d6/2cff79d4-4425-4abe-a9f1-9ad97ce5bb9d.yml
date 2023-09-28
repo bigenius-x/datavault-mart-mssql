@@ -13,6 +13,7 @@ terms:
     isBusinessKey: false
     isForeignKey: false
     isNullable: true
+    propertyValues: []
   - id: dd715d40-cd69-4071-85f0-ee59e6ec6dd9
     name: BG_LoadTimestamp
     description: Default term with the load timestamp
@@ -82,6 +83,8 @@ dataflows:
           - termId: 2cf2653d-352d-45e0-abd6-71e97c6d6148
             expression: >-
               f9ef94f8-23c7-4fef-9bde-4aeef3041931.26ecb336-f1c2-43d0-ae97-8a3a3e68e14e
+              +
+              f9ef94f8-23c7-4fef-9bde-4aeef3041931.f042c79a-7f35-414e-aa77-0217d48082a9
           - termId: dd715d40-cd69-4071-85f0-ee59e6ec6dd9
           - termId: 0677de28-3e46-4b1b-a909-c2b5084e7fa0
             expression: >-
