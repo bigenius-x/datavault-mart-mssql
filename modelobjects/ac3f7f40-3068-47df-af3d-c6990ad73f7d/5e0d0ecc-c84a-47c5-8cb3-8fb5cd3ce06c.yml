@@ -40,5 +40,16 @@ terms:
     isNullable: true
     hiddenInSource: false
     hiddenInTarget: false
+  - id: c4bfac09-a023-4b5c-a580-65a08ce4fc33
+    isIdentity: false
+    isBusinessKey: true
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+    name: BK_Test
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+    propertyValues: []
 tags:
   - $view#id#2edf46ca-c8ac-45eb-833e-a54ed53c325f
