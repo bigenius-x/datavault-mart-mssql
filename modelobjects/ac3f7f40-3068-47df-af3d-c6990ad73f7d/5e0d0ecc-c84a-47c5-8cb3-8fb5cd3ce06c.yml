@@ -40,3 +40,5 @@ terms:
     isNullable: true
     hiddenInSource: false
     hiddenInTarget: false
+tags:
+  - $view#id#2edf46ca-c8ac-45eb-833e-a54ed53c325f
