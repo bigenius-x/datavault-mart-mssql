@@ -1,30 +1,29 @@
-id: 204f5b5a-4c9d-4924-aaeb-a4b63a9c9d79
-name: Customer Discount Group
-modelObjectTypeId: 95e356a3-8e38-4e44-a496-abb805f556b7
+id: '204f5b5a-4c9d-4924-aaeb-a4b63a9c9d79'
+name: 'Customer Discount Group'
+modelObjectTypeId: '95e356a3-8e38-4e44-a496-abb805f556b7'
 terms:
-  - id: e90f7cce-b615-4c56-8710-75c721bf8fcc
-    name: timestamp
+  - id: 'e90f7cce-b615-4c56-8710-75c721bf8fcc'
+    name: 'timestamp'
     dataType:
-      name: timestamp
-      platformDataTypeId: f7afc941-4327-4359-b72f-7f663b794f08
+      name: 'timestamp'
+      platformDataTypeId: 'f7afc941-4327-4359-b72f-7f663b794f08'
     isBusinessKey: false
-  - id: 14af7fac-2dc1-495a-84d0-d4ac4d840ccc
-    name: Code
+  - id: '14af7fac-2dc1-495a-84d0-d4ac4d840ccc'
+    name: 'Code'
     dataType:
-      name: nvarchar
+      name: 'nvarchar'
       length: 20
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: true
-  - id: e866df45-4721-4008-be10-b0b98dbd991c
-    name: Description
+  - id: 'e866df45-4721-4008-be10-b0b98dbd991c'
+    name: 'Description'
     dataType:
-      name: nvarchar
+      name: 'nvarchar'
       length: 50
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
 tags:
-  - $discovery#id#dcfb76e2-57c3-4849-b250-f7337c2b99d2
-  - $initial#name#customer_discount_group
-  - $view#id#edfe9c89-57e1-4f41-a8c1-d53b6de09472
-  - $sourcesystem#id#963df8c5-e464-4584-83f8-ff3734e75456
+  - '$discovery#id#dcfb76e2-57c3-4849-b250-f7337c2b99d2'
+  - '$initial#name#customer_discount_group'
+  - '$sourcesystem#id#963df8c5-e464-4584-83f8-ff3734e75456'
 propertyValues: []

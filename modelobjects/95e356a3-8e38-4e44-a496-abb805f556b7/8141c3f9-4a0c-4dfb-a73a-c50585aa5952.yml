@@ -1,49 +1,48 @@
-id: 8141c3f9-4a0c-4dfb-a73a-c50585aa5952
-name: Item Category
-modelObjectTypeId: 95e356a3-8e38-4e44-a496-abb805f556b7
+id: '8141c3f9-4a0c-4dfb-a73a-c50585aa5952'
+name: 'Item Category'
+modelObjectTypeId: '95e356a3-8e38-4e44-a496-abb805f556b7'
 terms:
-  - id: e8ce05bb-0c8b-4387-afdd-e0d6397d409e
-    name: timestamp
+  - id: 'e8ce05bb-0c8b-4387-afdd-e0d6397d409e'
+    name: 'timestamp'
     dataType:
-      name: timestamp
-      platformDataTypeId: f7afc941-4327-4359-b72f-7f663b794f08
+      name: 'timestamp'
+      platformDataTypeId: 'f7afc941-4327-4359-b72f-7f663b794f08'
     isBusinessKey: false
-  - id: 45b574dd-c414-4eeb-8716-f68a3439c818
-    name: Code
+  - id: '45b574dd-c414-4eeb-8716-f68a3439c818'
+    name: 'Code'
     dataType:
-      name: nvarchar
+      name: 'nvarchar'
       length: 20
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: true
-  - id: df93e7cb-eae9-48d2-a137-dbea386b4037
-    name: Parent Category
+  - id: 'df93e7cb-eae9-48d2-a137-dbea386b4037'
+    name: 'Parent Category'
     dataType:
-      name: nvarchar
+      name: 'nvarchar'
       length: 20
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
-  - id: 25d6e0ef-cdf5-4a1d-99d5-cf1f247618aa
-    name: Description
+  - id: '25d6e0ef-cdf5-4a1d-99d5-cf1f247618aa'
+    name: 'Description'
     dataType:
-      name: nvarchar
+      name: 'nvarchar'
       length: 50
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
-  - id: a4cc5ab3-ef50-4ed5-92fc-ae1fdcdf19ac
-    name: Indentation
+  - id: 'a4cc5ab3-ef50-4ed5-92fc-ae1fdcdf19ac'
+    name: 'Indentation'
     dataType:
-      name: int
-      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+      name: 'int'
+      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
     isBusinessKey: false
-  - id: a4170fc6-87b1-4939-b4ba-526cd281e94b
-    name: Presentation Order
+  - id: 'a4170fc6-87b1-4939-b4ba-526cd281e94b'
+    name: 'Presentation Order'
     dataType:
-      name: int
-      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+      name: 'int'
+      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
     isBusinessKey: false
 tags:
-  - $discovery#id#dcfb76e2-57c3-4849-b250-f7337c2b99d2
-  - $initial#name#item_category
-  - $view#id#edfe9c89-57e1-4f41-a8c1-d53b6de09472
-  - $sourcesystem#id#963df8c5-e464-4584-83f8-ff3734e75456
+  - '$discovery#id#dcfb76e2-57c3-4849-b250-f7337c2b99d2'
+  - '$initial#name#item_category'
+  - '$sourcesystem#id#963df8c5-e464-4584-83f8-ff3734e75456'
 propertyValues: []
