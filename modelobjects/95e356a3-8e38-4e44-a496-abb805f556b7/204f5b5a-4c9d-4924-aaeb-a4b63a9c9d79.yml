@@ -5,20 +5,17 @@ terms:
   - id: 'e90f7cce-b615-4c56-8710-75c721bf8fcc'
     name: 'timestamp'
     dataType:
-      name: 'timestamp'
       platformDataTypeId: 'f7afc941-4327-4359-b72f-7f663b794f08'
     isBusinessKey: false
   - id: '14af7fac-2dc1-495a-84d0-d4ac4d840ccc'
     name: 'Code'
     dataType:
-      name: 'nvarchar'
       length: 20
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: true
   - id: 'e866df45-4721-4008-be10-b0b98dbd991c'
     name: 'Description'
     dataType:
-      name: 'nvarchar'
       length: 50
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false

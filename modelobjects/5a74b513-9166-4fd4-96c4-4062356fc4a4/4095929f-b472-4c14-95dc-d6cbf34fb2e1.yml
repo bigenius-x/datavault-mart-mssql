@@ -26,40 +26,34 @@ terms:
   - id: 'd0f02cf4-c791-4a4b-a30e-cfea7e732235'
     name: 'timestamp'
     dataType:
-      name: 'timestamp'
       platformDataTypeId: 'f7afc941-4327-4359-b72f-7f663b794f08'
     isBusinessKey: false
   - id: 'bc77647b-068a-4680-b4b1-e641480095d1'
     name: 'Code'
     dataType:
-      name: 'nvarchar'
       length: 20
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: true
   - id: '2ebeb8fd-16ef-443a-82fe-faf428a56067'
     name: 'Parent Category'
     dataType:
-      name: 'nvarchar'
       length: 20
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
   - id: '96f25c5a-4af8-45c9-b9e3-ac010990ad73'
     name: 'Description'
     dataType:
-      name: 'nvarchar'
       length: 50
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
   - id: 'df6d84df-b9f4-416d-9159-070799a7631b'
     name: 'Indentation'
     dataType:
-      name: 'int'
       platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
     isBusinessKey: false
   - id: 'de366098-f551-4c40-a149-597bd696d33d'
     name: 'Presentation Order'
     dataType:
-      name: 'int'
       platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
     isBusinessKey: false
 dataflows:

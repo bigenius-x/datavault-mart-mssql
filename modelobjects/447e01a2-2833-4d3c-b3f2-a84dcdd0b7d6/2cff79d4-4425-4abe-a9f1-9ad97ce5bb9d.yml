@@ -25,25 +25,21 @@ terms:
   - id: '0677de28-3e46-4b1b-a909-c2b5084e7fa0'
     name: 'SellToCustomer_No'
     dataType:
-      name: 'nvarchar'
       length: 20
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
   - id: '33873c3e-1883-4445-8efe-e8da4d12abe8'
     name: 'Item_No'
     dataType:
-      name: 'nvarchar'
       length: 20
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
   - id: '36afcd8b-0fa2-4007-b56e-37a2b0c7c59e'
     name: 'Location_Code'
     dataType:
-      name: 'nvarchar'
       length: 10
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
   - id: 'f2f6b5e3-c78b-4064-b263-61d4471d00a2'
     name: 'Quantity'
     dataType:
-      name: 'decimal'
       precision: 38
       scale: 20
       platformDataTypeId: 'ea625964-ee65-4825-8d1b-87ebbd7baa31'
@@ -51,7 +47,6 @@ terms:
   - id: 'af89888a-2450-49d4-a458-7ee36ea4eabe'
     name: 'Amount'
     dataType:
-      name: 'decimal'
       precision: 38
       scale: 20
       platformDataTypeId: 'ea625964-ee65-4825-8d1b-87ebbd7baa31'
@@ -87,7 +82,6 @@ dataflows:
             joinExpression: '2e89b7dc-72a9-45ef-a9a0-2ac1bd086f67.9189cfec-cbb1-490b-b3de-1a1710499096 = f9ef94f8-23c7-4fef-9bde-4aeef3041931.817c0a6f-f62d-4dd4-8ea6-a51ede734a47'
       - id: 'd02610ee-dc7a-4207-a782-87edcc837c0a'
         name: 'Set2'
-        dataflowId: 'e2fa2a15-96c6-48a0-a6a8-cf02af039ba1'
         setOperatorId: 'd921d814-3fed-4cf8-b359-854754b78fea'
         termMappings:
           - termId: '2cf2653d-352d-45e0-abd6-71e97c6d6148'

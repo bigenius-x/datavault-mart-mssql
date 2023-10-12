@@ -66,118 +66,101 @@ terms:
   - id: 'd6b8cf20-4829-43b5-bde0-aba3ecdfef61'
     name: 'timestamp'
     dataType:
-      name: 'timestamp'
       platformDataTypeId: 'f7afc941-4327-4359-b72f-7f663b794f08'
     isBusinessKey: false
   - id: '5ee24de7-cfc0-4840-8900-553b318b9ee0'
     name: 'Name'
     dataType:
-      name: 'nvarchar'
       length: 50
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
   - id: '228b10b1-0d12-400c-93c8-7124da235499'
     name: 'Search Name'
     dataType:
-      name: 'nvarchar'
       length: 50
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
   - id: 'bed4b301-2d0a-44d0-b245-9b8281d3976b'
     name: 'Name 2'
     dataType:
-      name: 'nvarchar'
       length: 50
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
   - id: 'fef14e7f-1242-444a-9a74-1d2d08eb71dc'
     name: 'Address'
     dataType:
-      name: 'nvarchar'
       length: 50
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
   - id: '669c8e47-18e3-4330-9eda-dfa21a5dff2a'
     name: 'Address 2'
     dataType:
-      name: 'nvarchar'
       length: 50
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
   - id: '5be99f47-bfdd-4f72-8766-452d1bdb3340'
     name: 'City'
     dataType:
-      name: 'nvarchar'
       length: 30
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
   - id: '45785994-60ae-47e8-af2b-e9058fd01af1'
     name: 'Contact'
     dataType:
-      name: 'nvarchar'
       length: 50
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
   - id: '1d23251f-b7a2-4e79-bc7f-04f2d36b6fa0'
     name: 'Phone No_'
     dataType:
-      name: 'nvarchar'
       length: 30
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
   - id: '6ccc8984-86e1-441f-8f8c-7a632aad935c'
     name: 'Telex No_'
     dataType:
-      name: 'nvarchar'
       length: 20
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
   - id: '6a30f548-c971-4ef2-b3fb-7148babafd47'
     name: 'Document Sending Profile'
     dataType:
-      name: 'nvarchar'
       length: 20
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
   - id: 'bb682f73-0f58-4a0b-8e77-864f96f09304'
     name: 'Our Account No_'
     dataType:
-      name: 'nvarchar'
       length: 20
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
   - id: 'a82dcf3f-1c67-4f31-8ccc-46aee688124b'
     name: 'Territory Code'
     dataType:
-      name: 'nvarchar'
       length: 10
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
   - id: '2cc21f65-8ac5-4001-9501-e8a321849dda'
     name: 'Global Dimension 1 Code'
     dataType:
-      name: 'nvarchar'
       length: 20
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
   - id: '49d054c3-175c-45e6-86bc-10ad517e8bed'
     name: 'Global Dimension 2 Code'
     dataType:
-      name: 'nvarchar'
       length: 20
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
   - id: '83ad4b26-5470-4da5-a18b-dd860b50ebeb'
     name: 'Chain Name'
     dataType:
-      name: 'nvarchar'
       length: 10
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
   - id: '26659b8a-90e3-4bb7-9c5c-d9b57b456098'
     name: 'Budgeted Amount'
     dataType:
-      name: 'decimal'
       precision: 38
       scale: 20
       platformDataTypeId: 'ea625964-ee65-4825-8d1b-87ebbd7baa31'
@@ -185,7 +168,6 @@ terms:
   - id: '2d32da02-4d35-431d-80bf-1e29c582e4b4'
     name: 'Credit Limit (LCY)'
     dataType:
-      name: 'decimal'
       precision: 38
       scale: 20
       platformDataTypeId: 'ea625964-ee65-4825-8d1b-87ebbd7baa31'
@@ -193,111 +175,95 @@ terms:
   - id: 'd33ced68-38c0-49fb-8298-77b056a07d21'
     name: 'Customer Posting Group'
     dataType:
-      name: 'nvarchar'
       length: 10
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
   - id: 'd6c370b6-dae1-48ea-aed8-94d403a13d63'
     name: 'Currency Code'
     dataType:
-      name: 'nvarchar'
       length: 10
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
   - id: '6c4bdd39-6f75-4be4-8144-39fbd4c39e13'
     name: 'Customer Price Group'
     dataType:
-      name: 'nvarchar'
       length: 10
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
   - id: '9e7b1968-c971-418e-9181-2a6e30bcf82a'
     name: 'Language Code'
     dataType:
-      name: 'nvarchar'
       length: 10
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
   - id: '2b88e1a8-4a83-430a-9a36-faade8d75e06'
     name: 'Statistics Group'
     dataType:
-      name: 'int'
       platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
     isBusinessKey: false
   - id: 'c452ec17-3437-4add-a5f6-437bbc97efc0'
     name: 'Payment Terms Code'
     dataType:
-      name: 'nvarchar'
       length: 10
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
   - id: '2c66558a-508a-4721-ae84-5a275b5de841'
     name: 'Fin_ Charge Terms Code'
     dataType:
-      name: 'nvarchar'
       length: 10
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
   - id: 'e13025e0-43e1-4199-9282-4cba797fceb1'
     name: 'Salesperson Code'
     dataType:
-      name: 'nvarchar'
       length: 10
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
   - id: '4d9d6b00-cb13-41de-a86a-1f862f4112a9'
     name: 'Shipment Method Code'
     dataType:
-      name: 'nvarchar'
       length: 10
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
   - id: '84e2aef5-8251-4190-a2f6-2bc8ffefb42d'
     name: 'Shipping Agent Code'
     dataType:
-      name: 'nvarchar'
       length: 10
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
   - id: '872a873d-80b0-4b99-95c1-5a6fe2591985'
     name: 'Place of Export'
     dataType:
-      name: 'nvarchar'
       length: 20
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
   - id: 'e4225a4f-777c-4cce-9c2c-c1e3b3ed4b56'
     name: 'Invoice Disc_ Code'
     dataType:
-      name: 'nvarchar'
       length: 20
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
   - id: '402f6e34-37d6-4f1b-be98-99ac3ba50cd8'
     name: 'Customer Disc_ Group'
     dataType:
-      name: 'nvarchar'
       length: 20
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
   - id: '77911d3f-bf92-4ae1-aaa3-6b9966886062'
     name: 'Country_Region Code'
     dataType:
-      name: 'nvarchar'
       length: 10
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
   - id: 'a64869d5-834b-4319-998f-c43545b67ee1'
     name: 'Collection Method'
     dataType:
-      name: 'nvarchar'
       length: 20
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
   - id: '5b7fda66-bf14-4dc7-83cb-4c8345b6c5bb'
     name: 'Amount'
     dataType:
-      name: 'decimal'
       precision: 38
       scale: 20
       platformDataTypeId: 'ea625964-ee65-4825-8d1b-87ebbd7baa31'
@@ -305,204 +271,173 @@ terms:
   - id: '8d038301-279d-4680-a273-7893979961eb'
     name: 'Blocked'
     dataType:
-      name: 'int'
       platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
     isBusinessKey: false
   - id: 'a0dbb9df-fe01-43ad-8767-6ebabc3b40ee'
     name: 'Invoice Copies'
     dataType:
-      name: 'int'
       platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
     isBusinessKey: false
   - id: '888620ef-1c20-431a-bb37-eac49ac2bbf7'
     name: 'Last Statement No_'
     dataType:
-      name: 'int'
       platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
     isBusinessKey: false
   - id: '8732d3cf-fb93-48ae-864a-c4128a7e545d'
     name: 'Print Statements'
     dataType:
-      name: 'tinyint'
       platformDataTypeId: '7a777dd6-1617-462f-a41a-ea64dc65964e'
     isBusinessKey: false
   - id: 'ed09592a-83b8-4953-ad73-586739c55cc0'
     name: 'Bill-to Customer No_'
     dataType:
-      name: 'nvarchar'
       length: 20
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
   - id: 'f3adf538-3191-454b-982b-91311af289b7'
     name: 'Priority'
     dataType:
-      name: 'int'
       platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
     isBusinessKey: false
   - id: '9d57d589-7d5f-41f8-8734-0d44c84535ce'
     name: 'Payment Method Code'
     dataType:
-      name: 'nvarchar'
       length: 10
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
   - id: '2e5ed0d2-e6c2-4fa0-b524-1429dc207391'
     name: 'Last Date Modified'
     dataType:
-      name: 'datetime'
       platformDataTypeId: 'ee219fec-13ea-493e-9128-39a348ca0995'
     isBusinessKey: false
   - id: '66cb2c5a-caef-420d-bc5f-d45ef55abb71'
     name: 'Application Method'
     dataType:
-      name: 'int'
       platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
     isBusinessKey: false
   - id: 'f7b3ee60-4f53-45b3-a667-62425b7c81fc'
     name: 'Prices Including VAT'
     dataType:
-      name: 'tinyint'
       platformDataTypeId: '7a777dd6-1617-462f-a41a-ea64dc65964e'
     isBusinessKey: false
   - id: '00af7069-41f8-4c82-adfb-9bff1544b3a9'
     name: 'Location Code'
     dataType:
-      name: 'nvarchar'
       length: 10
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
   - id: 'e615270b-04ab-4639-9beb-dee4ea4418bc'
     name: 'Fax No_'
     dataType:
-      name: 'nvarchar'
       length: 30
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
   - id: 'ed0f6283-b3fd-45df-91ec-b6567b4ace42'
     name: 'Telex Answer Back'
     dataType:
-      name: 'nvarchar'
       length: 20
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
   - id: 'c5c2bc5d-7de6-480d-93ff-ab2f6d6265b7'
     name: 'VAT Registration No_'
     dataType:
-      name: 'nvarchar'
       length: 20
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
   - id: '18f0b6ca-a685-473f-9244-508160d2a966'
     name: 'Combine Shipments'
     dataType:
-      name: 'tinyint'
       platformDataTypeId: '7a777dd6-1617-462f-a41a-ea64dc65964e'
     isBusinessKey: false
   - id: 'd01ed397-34f6-4fba-a118-5b4459bc74f1'
     name: 'Gen_ Bus_ Posting Group'
     dataType:
-      name: 'nvarchar'
       length: 10
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
   - id: 'a169018e-f206-447b-a9dd-a974305d8bf8'
     name: 'Picture'
     dataType:
-      name: 'image'
       platformDataTypeId: 'bfeb1278-6e9d-4833-84fb-d5251dea8ae1'
     isBusinessKey: false
   - id: '963a93b8-ddf8-42ed-9edb-da807fadb8e8'
     name: 'GLN'
     dataType:
-      name: 'nvarchar'
       length: 13
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
   - id: '2fa7cce1-f2c7-43dd-99b9-bc4cd89b96ec'
     name: 'Post Code'
     dataType:
-      name: 'nvarchar'
       length: 20
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
   - id: '31fb914b-4a46-4c32-8653-ad336b27c76d'
     name: 'County'
     dataType:
-      name: 'nvarchar'
       length: 30
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
   - id: 'b71680ea-9c67-42c3-a476-3d007ca54188'
     name: 'E-Mail'
     dataType:
-      name: 'nvarchar'
       length: 80
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
   - id: '33f19e76-c2ff-4be9-a431-d50a5b8b6a5d'
     name: 'Home Page'
     dataType:
-      name: 'nvarchar'
       length: 80
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
   - id: '219bc304-93ce-45ac-8193-8ea1e8832b6d'
     name: 'Reminder Terms Code'
     dataType:
-      name: 'nvarchar'
       length: 10
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
   - id: '4d5ff631-99c5-442f-ab73-cf5906d3d67a'
     name: 'No_ Series'
     dataType:
-      name: 'nvarchar'
       length: 10
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
   - id: 'd7944424-8072-4ef5-86e8-cc1f5258704d'
     name: 'Tax Area Code'
     dataType:
-      name: 'nvarchar'
       length: 20
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
   - id: '37f249e7-3687-4cd8-9c42-d1d167f8cfda'
     name: 'Tax Liable'
     dataType:
-      name: 'tinyint'
       platformDataTypeId: '7a777dd6-1617-462f-a41a-ea64dc65964e'
     isBusinessKey: false
   - id: '4fbdd599-f85a-4ae1-9a18-02407f7d4c34'
     name: 'VAT Bus_ Posting Group'
     dataType:
-      name: 'nvarchar'
       length: 10
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
   - id: 'ba095e68-a987-4a99-9172-1a83ad9693fd'
     name: 'Reserve'
     dataType:
-      name: 'int'
       platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
     isBusinessKey: false
   - id: '06bfa014-1823-4776-9782-febcfc2afd04'
     name: 'Block Payment Tolerance'
     dataType:
-      name: 'tinyint'
       platformDataTypeId: '7a777dd6-1617-462f-a41a-ea64dc65964e'
     isBusinessKey: false
   - id: '0688fa8d-756b-426f-bd9e-fbdc5227b591'
     name: 'IC Partner Code'
     dataType:
-      name: 'nvarchar'
       length: 20
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
   - id: 'f7f02b29-a68e-4ca5-9bdc-151cb287e34f'
     name: 'Prepayment _'
     dataType:
-      name: 'decimal'
       precision: 38
       scale: 20
       platformDataTypeId: 'ea625964-ee65-4825-8d1b-87ebbd7baa31'
@@ -510,94 +445,80 @@ terms:
   - id: 'e21ca03f-3c0f-4d53-817b-b0c55626597e'
     name: 'Partner Type'
     dataType:
-      name: 'int'
       platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
     isBusinessKey: false
   - id: 'd7882610-b1aa-4dc4-a951-258ceeac9287'
     name: 'Image'
     dataType:
-      name: 'uniqueidentifier'
       platformDataTypeId: '351f41dd-ae2a-4710-85ad-b22383e7de6b'
     isBusinessKey: false
   - id: '69e0d24e-8df5-4423-80a7-8f7a0eb56816'
     name: 'Preferred Bank Account Code'
     dataType:
-      name: 'nvarchar'
       length: 10
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
   - id: '00d7fa69-0c8a-495d-82df-945e5c0cccb0'
     name: 'Cash Flow Payment Terms Code'
     dataType:
-      name: 'nvarchar'
       length: 10
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
   - id: 'b568d234-3a74-46e9-b2fb-d94d6719b69f'
     name: 'Primary Contact No_'
     dataType:
-      name: 'nvarchar'
       length: 20
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
   - id: '8930d0ac-7791-4915-a296-eb92c4b7f060'
     name: 'Responsibility Center'
     dataType:
-      name: 'nvarchar'
       length: 10
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
   - id: 'd27ab4ec-33a8-4969-af32-71b27dcbbda9'
     name: 'Shipping Advice'
     dataType:
-      name: 'int'
       platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
     isBusinessKey: false
   - id: '5b6ceb3c-f7a7-42c7-b6d7-77bcec4ceebe'
     name: 'Shipping Time'
     dataType:
-      name: 'varchar'
       length: 32
       platformDataTypeId: '9245c3e9-05f8-4e48-962c-e1b3c49bc239'
     isBusinessKey: false
   - id: '00dfd7f1-29f0-4e37-806c-4a12432299e4'
     name: 'Shipping Agent Service Code'
     dataType:
-      name: 'nvarchar'
       length: 10
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
   - id: '9839d2be-13ca-4f7e-bc0c-d2f0357e1692'
     name: 'Service Zone Code'
     dataType:
-      name: 'nvarchar'
       length: 10
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
   - id: 'e9a294d1-2175-4069-8c5b-fe9a1b11a5d2'
     name: 'Allow Line Disc_'
     dataType:
-      name: 'tinyint'
       platformDataTypeId: '7a777dd6-1617-462f-a41a-ea64dc65964e'
     isBusinessKey: false
   - id: '2542d160-0499-4120-adec-847fab55d704'
     name: 'Base Calendar Code'
     dataType:
-      name: 'nvarchar'
       length: 10
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
   - id: '00df2d78-b493-4a4e-b0a8-0ff9d063cf8d'
     name: 'Copy Sell-to Addr_ to Qte From'
     dataType:
-      name: 'int'
       platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
     isBusinessKey: false
   - id: 'e9693376-6b0a-4b53-8869-e0881989d08b'
     name: 'FK_Customer_No_'
     isForeignKey: true
     dataType:
-      name: 'nvarchar'
       length: 20
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
 dataflows:

@@ -25,28 +25,24 @@ terms:
   - id: '201de56b-c0b1-49e5-bf6a-59f6b16665ac'
     name: 'No_'
     dataType:
-      name: 'nvarchar'
       length: 20
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: true
   - id: '9f335c21-3fe9-453d-b3aa-cf13ddada81c'
     name: 'Name'
     dataType:
-      name: 'nvarchar'
       length: 50
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
   - id: 'e0231bc9-e73e-4fb2-b970-ed611b893e61'
     name: 'City'
     dataType:
-      name: 'nvarchar'
       length: 30
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
   - id: '59006c15-2938-4b8a-ac2b-7829085f778d'
     name: 'Territory Code'
     dataType:
-      name: 'nvarchar'
       length: 10
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
