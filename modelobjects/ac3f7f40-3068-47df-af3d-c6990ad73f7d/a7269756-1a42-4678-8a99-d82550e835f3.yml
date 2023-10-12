@@ -36,7 +36,6 @@ terms:
   - id: '81afdf23-9622-488f-83e9-58e777c9abf2'
     name: 'No_'
     dataType:
-      name: 'nvarchar'
       length: 20
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: true

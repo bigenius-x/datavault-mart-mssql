@@ -66,65 +66,55 @@ terms:
   - id: 'af4a7e5c-ea0c-4817-ad72-45899bd5dd4b'
     name: 'POS_ID'
     dataType:
-      name: 'int'
       platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
     isBusinessKey: false
   - id: '6b6b12a1-2cc1-4eeb-a6c4-fb97064573f1'
     name: 'ITEM_ID'
     dataType:
-      name: 'int'
       platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
     isBusinessKey: false
   - id: '9ef42830-2551-4c57-b331-be25f4d5d8ee'
     name: 'DESCRIPTION'
     dataType:
-      name: 'varchar'
       length: 1000
       platformDataTypeId: '9245c3e9-05f8-4e48-962c-e1b3c49bc239'
     isBusinessKey: false
   - id: '3a944245-2d33-4ded-ac82-c9ec1a611c76'
     name: 'UOM'
     dataType:
-      name: 'varchar'
       length: 10
       platformDataTypeId: '9245c3e9-05f8-4e48-962c-e1b3c49bc239'
     isBusinessKey: false
   - id: 'd3196713-59c3-48e8-bd2c-c73bc0db7d1c'
     name: 'BRANCH_ID'
     dataType:
-      name: 'varchar'
       length: 10
       platformDataTypeId: '9245c3e9-05f8-4e48-962c-e1b3c49bc239'
     isBusinessKey: false
   - id: '8ba57a36-d2d1-4601-9f02-4529738ae989'
     name: 'TRANSACTION_TIME'
     dataType:
-      name: 'datetime2'
       platformDataTypeId: 'f136e1f5-12f2-451f-ad33-06fd581e5c41'
     isBusinessKey: false
   - id: 'df56b442-c585-4da9-ad8d-8c184642d137'
     name: 'CASHIER_ID'
     dataType:
-      name: 'int'
       platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
     isBusinessKey: false
   - id: '46da77b9-5f14-4b1f-b6c3-bdafe8f0f302'
     name: 'LOYALTYCARD_ID'
     dataType:
-      name: 'int'
       platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
     isBusinessKey: false
   - id: '158cf81c-3938-4454-be95-27d4796b2d08'
     name: 'CUSTOMER_ID'
     dataType:
-      name: 'decimal'
       precision: 38
       platformDataTypeId: 'ea625964-ee65-4825-8d1b-87ebbd7baa31'
     isBusinessKey: false
   - id: '75d72b4b-75dc-4e75-b663-3d9b9bb4c0be'
     name: 'SALES_PRICE'
     dataType:
-      name: 'decimal'
       precision: 18
       scale: 2
       platformDataTypeId: 'ea625964-ee65-4825-8d1b-87ebbd7baa31'
@@ -132,7 +122,6 @@ terms:
   - id: '80d297c1-604a-421f-b0ef-76a31f284c87'
     name: 'REDUCTION'
     dataType:
-      name: 'decimal'
       precision: 18
       scale: 2
       platformDataTypeId: 'ea625964-ee65-4825-8d1b-87ebbd7baa31'
@@ -140,7 +129,6 @@ terms:
   - id: 'a608d3df-34de-4d08-9f16-9f156042686a'
     name: 'QUANTITY'
     dataType:
-      name: 'decimal'
       precision: 18
       scale: 3
       platformDataTypeId: 'ea625964-ee65-4825-8d1b-87ebbd7baa31'
@@ -148,7 +136,6 @@ terms:
   - id: 'c563e0c5-9c97-4882-bd1d-db58d0bc4fc3'
     name: 'SALES_AMOUNT'
     dataType:
-      name: 'decimal'
       precision: 18
       scale: 2
       platformDataTypeId: 'ea625964-ee65-4825-8d1b-87ebbd7baa31'
@@ -157,35 +144,30 @@ terms:
     name: 'FK_SalesData_FK_Customer_SellToCustomer_No_'
     isForeignKey: true
     dataType:
-      name: 'nvarchar'
       length: 20
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
   - id: '05076aef-99aa-4a4a-a6e8-6a3e598a2cb6'
     name: 'FK_SalesData_FK_Item_No_'
     isForeignKey: true
     dataType:
-      name: 'nvarchar'
       length: 20
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
   - id: '2b5a1a25-d91b-40e2-8192-763187616ffc'
     name: 'FK_SalesData_FK_Location_Code'
     isForeignKey: true
     dataType:
-      name: 'nvarchar'
       length: 10
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
   - id: 'cb52813a-98a8-40b3-b4c9-ba12aecf84b3'
     name: 'FK_SalesData_FK_SalesInvoice_No_'
     isForeignKey: true
     dataType:
-      name: 'nvarchar'
       length: 20
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
   - id: 'eb342a82-b6f3-4fde-b088-b7ef7ccfe318'
     name: 'FK_SalesData_FK_Customer_BillToCustomer_No_'
     isForeignKey: true
     dataType:
-      name: 'nvarchar'
       length: 20
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
 dataflows:

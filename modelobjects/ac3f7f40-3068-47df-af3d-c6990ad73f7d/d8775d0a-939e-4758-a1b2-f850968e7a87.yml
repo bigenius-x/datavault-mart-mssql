@@ -36,7 +36,6 @@ terms:
   - id: '89bfab93-d87d-4903-b61b-24427d9a674a'
     name: 'Code'
     dataType:
-      name: 'nvarchar'
       length: 10
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: true

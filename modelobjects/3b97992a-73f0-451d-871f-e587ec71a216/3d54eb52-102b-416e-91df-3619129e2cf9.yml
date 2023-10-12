@@ -66,333 +66,283 @@ terms:
   - id: '20dda452-0f42-421e-a055-0b3975842b9b'
     name: 'timestamp'
     dataType:
-      name: 'timestamp'
       platformDataTypeId: 'f7afc941-4327-4359-b72f-7f663b794f08'
     isBusinessKey: false
   - id: 'e70c64ee-7557-49d0-8d62-c7c8128940b2'
     name: 'Name'
     dataType:
-      name: 'nvarchar'
       length: 50
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
   - id: 'b1e01595-5822-422c-9666-905ac7ba99f9'
     name: 'Default Bin Code'
     dataType:
-      name: 'nvarchar'
       length: 20
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
   - id: 'd6d6fefb-f49f-4243-a62f-de5d6209ee7d'
     name: 'Name 2'
     dataType:
-      name: 'nvarchar'
       length: 50
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
   - id: '2e3e739a-8ac2-46fd-a01b-df981ba3858c'
     name: 'Address'
     dataType:
-      name: 'nvarchar'
       length: 50
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
   - id: '4a96e9d9-e408-4941-afb7-f6d83556abe9'
     name: 'Address 2'
     dataType:
-      name: 'nvarchar'
       length: 50
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
   - id: '6683f8ab-0d74-456e-aa74-b82556d0ceaa'
     name: 'City'
     dataType:
-      name: 'nvarchar'
       length: 30
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
   - id: '120346f4-f5ce-445e-992f-0c3b7f56717e'
     name: 'Phone No_'
     dataType:
-      name: 'nvarchar'
       length: 30
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
   - id: 'dc5ff053-42db-4c72-addc-fe9f46123f36'
     name: 'Phone No_ 2'
     dataType:
-      name: 'nvarchar'
       length: 30
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
   - id: '9501578c-bc01-4d4d-ab22-5d7c414f75cd'
     name: 'Telex No_'
     dataType:
-      name: 'nvarchar'
       length: 30
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
   - id: '77da76c5-0eb9-4a40-a40c-94722df1ce98'
     name: 'Fax No_'
     dataType:
-      name: 'nvarchar'
       length: 30
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
   - id: '88e2537a-0e1f-4682-9cc1-797670427ac3'
     name: 'Contact'
     dataType:
-      name: 'nvarchar'
       length: 50
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
   - id: '3841bfed-1545-4030-ba69-6019e7017803'
     name: 'Post Code'
     dataType:
-      name: 'nvarchar'
       length: 20
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
   - id: '11f62f31-11b1-4786-886a-2703904a63e2'
     name: 'County'
     dataType:
-      name: 'nvarchar'
       length: 30
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
   - id: 'f06af3e6-bbe6-4f34-8296-12bdc61ded44'
     name: 'E-Mail'
     dataType:
-      name: 'nvarchar'
       length: 80
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
   - id: '1de2556a-0adc-411f-bbaf-c428abdccaf8'
     name: 'Home Page'
     dataType:
-      name: 'nvarchar'
       length: 90
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
   - id: '81589a72-1b14-49ed-a99b-d5018b9b79ce'
     name: 'Country_Region Code'
     dataType:
-      name: 'nvarchar'
       length: 10
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
   - id: '7ac296a1-ae1e-4280-b694-bc0ee71aba4d'
     name: 'Use As In-Transit'
     dataType:
-      name: 'tinyint'
       platformDataTypeId: '7a777dd6-1617-462f-a41a-ea64dc65964e'
     isBusinessKey: false
   - id: 'b2d1d045-a5aa-4744-8562-e3dc08dae65e'
     name: 'Require Put-away'
     dataType:
-      name: 'tinyint'
       platformDataTypeId: '7a777dd6-1617-462f-a41a-ea64dc65964e'
     isBusinessKey: false
   - id: 'f8ae8279-dd7f-46f0-b199-765dc7f34b3f'
     name: 'Require Pick'
     dataType:
-      name: 'tinyint'
       platformDataTypeId: '7a777dd6-1617-462f-a41a-ea64dc65964e'
     isBusinessKey: false
   - id: '93c017bc-7bcb-47a8-9c33-11ec50e6f52f'
     name: 'Cross-Dock Due Date Calc_'
     dataType:
-      name: 'varchar'
       length: 32
       platformDataTypeId: '9245c3e9-05f8-4e48-962c-e1b3c49bc239'
     isBusinessKey: false
   - id: 'c994f1bd-7fbc-4f4b-83a5-50ea40d1f7bd'
     name: 'Use Cross-Docking'
     dataType:
-      name: 'tinyint'
       platformDataTypeId: '7a777dd6-1617-462f-a41a-ea64dc65964e'
     isBusinessKey: false
   - id: '0bf12071-88f3-473f-bc6a-f6486125245d'
     name: 'Require Receive'
     dataType:
-      name: 'tinyint'
       platformDataTypeId: '7a777dd6-1617-462f-a41a-ea64dc65964e'
     isBusinessKey: false
   - id: 'cd5ca392-55a3-4b90-ae9c-097d9d43b87c'
     name: 'Require Shipment'
     dataType:
-      name: 'tinyint'
       platformDataTypeId: '7a777dd6-1617-462f-a41a-ea64dc65964e'
     isBusinessKey: false
   - id: '46122db0-97e2-4505-934a-ac1786cbd927'
     name: 'Bin Mandatory'
     dataType:
-      name: 'tinyint'
       platformDataTypeId: '7a777dd6-1617-462f-a41a-ea64dc65964e'
     isBusinessKey: false
   - id: 'f2238184-16ef-4eb6-938e-b8f357322db2'
     name: 'Directed Put-away and Pick'
     dataType:
-      name: 'tinyint'
       platformDataTypeId: '7a777dd6-1617-462f-a41a-ea64dc65964e'
     isBusinessKey: false
   - id: '0a6fb5aa-2241-4056-b0b6-b30142dc90e3'
     name: 'Default Bin Selection'
     dataType:
-      name: 'int'
       platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
     isBusinessKey: false
   - id: '34be20d1-225e-47c0-ad14-19933f925bba'
     name: 'Outbound Whse_ Handling Time'
     dataType:
-      name: 'varchar'
       length: 32
       platformDataTypeId: '9245c3e9-05f8-4e48-962c-e1b3c49bc239'
     isBusinessKey: false
   - id: '70e8e7a8-266d-45eb-a90e-7680002fa127'
     name: 'Inbound Whse_ Handling Time'
     dataType:
-      name: 'varchar'
       length: 32
       platformDataTypeId: '9245c3e9-05f8-4e48-962c-e1b3c49bc239'
     isBusinessKey: false
   - id: 'f96aa6a8-db2c-405b-81d1-377cdaa7f2be'
     name: 'Put-away Template Code'
     dataType:
-      name: 'nvarchar'
       length: 10
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
   - id: 'd027c23d-e352-4434-8ee8-044d7aa18d4a'
     name: 'Use Put-away Worksheet'
     dataType:
-      name: 'tinyint'
       platformDataTypeId: '7a777dd6-1617-462f-a41a-ea64dc65964e'
     isBusinessKey: false
   - id: '5e091a83-9208-4a8f-b538-a4c50d2d15e2'
     name: 'Pick According to FEFO'
     dataType:
-      name: 'tinyint'
       platformDataTypeId: '7a777dd6-1617-462f-a41a-ea64dc65964e'
     isBusinessKey: false
   - id: '1d3d5311-6f63-47cd-8ea9-40ff64424b60'
     name: 'Allow Breakbulk'
     dataType:
-      name: 'tinyint'
       platformDataTypeId: '7a777dd6-1617-462f-a41a-ea64dc65964e'
     isBusinessKey: false
   - id: '6b66739a-eab5-42c4-9867-b1b531433e33'
     name: 'Bin Capacity Policy'
     dataType:
-      name: 'int'
       platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
     isBusinessKey: false
   - id: '24a6032b-2cb0-458e-9aa2-05015e328a67'
     name: 'Open Shop Floor Bin Code'
     dataType:
-      name: 'nvarchar'
       length: 20
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
   - id: '29221bc6-a9b9-41e1-8b54-b58de727dc51'
     name: 'To-Production Bin Code'
     dataType:
-      name: 'nvarchar'
       length: 20
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
   - id: '9c49f951-5c89-4587-9a2c-92520e1cc543'
     name: 'From-Production Bin Code'
     dataType:
-      name: 'nvarchar'
       length: 20
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
   - id: '47a111f4-7903-47dd-9871-d4bfbf195dac'
     name: 'Adjustment Bin Code'
     dataType:
-      name: 'nvarchar'
       length: 20
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
   - id: 'fe8817fc-4b14-408c-a244-9b883fb57be1'
     name: 'Always Create Put-away Line'
     dataType:
-      name: 'tinyint'
       platformDataTypeId: '7a777dd6-1617-462f-a41a-ea64dc65964e'
     isBusinessKey: false
   - id: 'f2dab046-cd34-4d0c-85ce-f6dd7965f815'
     name: 'Always Create Pick Line'
     dataType:
-      name: 'tinyint'
       platformDataTypeId: '7a777dd6-1617-462f-a41a-ea64dc65964e'
     isBusinessKey: false
   - id: '4b58c276-2998-4b2a-8718-a65319b5645e'
     name: 'Special Equipment'
     dataType:
-      name: 'int'
       platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
     isBusinessKey: false
   - id: '8b4b3e85-09b1-435d-9431-aa91da892024'
     name: 'Receipt Bin Code'
     dataType:
-      name: 'nvarchar'
       length: 20
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
   - id: 'b954f82a-d3ff-4d3b-aad4-5a7b174ae14b'
     name: 'Shipment Bin Code'
     dataType:
-      name: 'nvarchar'
       length: 20
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
   - id: '0c7ba6e6-7383-4b70-9b32-9583f2ef0023'
     name: 'Cross-Dock Bin Code'
     dataType:
-      name: 'nvarchar'
       length: 20
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
   - id: '17a4e8f2-3dbf-4ec2-82fb-1263a8116955'
     name: 'To-Assembly Bin Code'
     dataType:
-      name: 'nvarchar'
       length: 20
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
   - id: 'c84040c3-3760-4871-9060-7dffcf6f2e33'
     name: 'From-Assembly Bin Code'
     dataType:
-      name: 'nvarchar'
       length: 20
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
   - id: 'fc5088de-aa1a-440f-a219-9ff85c435907'
     name: 'Asm_-to-Order Shpt_ Bin Code'
     dataType:
-      name: 'nvarchar'
       length: 20
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
   - id: '0eb245de-c2b3-477d-97f7-c070ca483dda'
     name: 'Base Calendar Code'
     dataType:
-      name: 'nvarchar'
       length: 10
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
   - id: 'a539949f-eba5-4d2b-83a5-cfb0435d6f27'
     name: 'Use ADCS'
     dataType:
-      name: 'tinyint'
       platformDataTypeId: '7a777dd6-1617-462f-a41a-ea64dc65964e'
     isBusinessKey: false
   - id: '691aab78-f521-4c19-92ce-032bc5ffa1cd'
     name: 'FK_Location_Code'
     isForeignKey: true
     dataType:
-      name: 'nvarchar'
       length: 10
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
 dataflows:

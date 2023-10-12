@@ -26,77 +26,65 @@ terms:
   - id: 'a2d2c287-1507-4691-944e-de2f18814c62'
     name: 'POS_ID'
     dataType:
-      name: 'int'
       platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
     isBusinessKey: false
   - id: '7225df4d-96db-4526-9f00-b2427bc81bb7'
     name: 'ITEM_ID'
     dataType:
-      name: 'int'
       platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
     isBusinessKey: false
   - id: '64067bbb-3bdb-4963-8944-fb4312eb12d3'
     name: 'DESCRIPTION'
     dataType:
-      name: 'varchar'
       length: 1000
       platformDataTypeId: '9245c3e9-05f8-4e48-962c-e1b3c49bc239'
     isBusinessKey: false
   - id: '9feb8a88-2b98-4019-8ee9-af75a1dd81f4'
     name: 'UOM'
     dataType:
-      name: 'varchar'
       length: 10
       platformDataTypeId: '9245c3e9-05f8-4e48-962c-e1b3c49bc239'
     isBusinessKey: false
   - id: 'b8161ecb-6182-4d2a-b143-91a9853f9690'
     name: 'BRANCH_ID'
     dataType:
-      name: 'varchar'
       length: 10
       platformDataTypeId: '9245c3e9-05f8-4e48-962c-e1b3c49bc239'
     isBusinessKey: false
   - id: '238fbf36-fa9b-474d-8021-9c7adcd5aeda'
     name: 'TRANSACTION_ID'
     dataType:
-      name: 'int'
       platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
     isBusinessKey: true
   - id: '7337085f-4bd9-4b7b-a652-274ee1f5272e'
     name: 'TRANSACTION_LINE_NO'
     dataType:
-      name: 'int'
       platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
     isBusinessKey: true
   - id: '3e7e6e79-ab6f-4640-97d0-21349ba48ca5'
     name: 'TRANSACTION_TIME'
     dataType:
-      name: 'datetime2'
       platformDataTypeId: 'f136e1f5-12f2-451f-ad33-06fd581e5c41'
     isBusinessKey: false
   - id: '84408f62-28e9-4eeb-ac58-264f768ed133'
     name: 'CASHIER_ID'
     dataType:
-      name: 'int'
       platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
     isBusinessKey: false
   - id: 'aebe8d6b-262a-403f-9d27-2ffe4d471786'
     name: 'LOYALTYCARD_ID'
     dataType:
-      name: 'int'
       platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
     isBusinessKey: false
   - id: 'cdd54ec2-3241-4411-a9d4-7525a7f58427'
     name: 'CUSTOMER_ID'
     dataType:
-      name: 'decimal'
       precision: 38
       platformDataTypeId: 'ea625964-ee65-4825-8d1b-87ebbd7baa31'
     isBusinessKey: false
   - id: '845bc48c-7cd3-4a8e-af86-e3a1a788f001'
     name: 'SALES_PRICE'
     dataType:
-      name: 'decimal'
       precision: 18
       scale: 2
       platformDataTypeId: 'ea625964-ee65-4825-8d1b-87ebbd7baa31'
@@ -104,7 +92,6 @@ terms:
   - id: '356b077e-2143-43df-b432-61d0406340c0'
     name: 'REDUCTION'
     dataType:
-      name: 'decimal'
       precision: 18
       scale: 2
       platformDataTypeId: 'ea625964-ee65-4825-8d1b-87ebbd7baa31'
@@ -112,7 +99,6 @@ terms:
   - id: 'ebb31de9-10dd-4220-b821-5f3487ab71e1'
     name: 'QUANTITY'
     dataType:
-      name: 'decimal'
       precision: 18
       scale: 3
       platformDataTypeId: 'ea625964-ee65-4825-8d1b-87ebbd7baa31'
@@ -120,7 +106,6 @@ terms:
   - id: 'd464ff11-67d5-4016-bcc2-5f3f13bf2237'
     name: 'SALES_AMOUNT'
     dataType:
-      name: 'decimal'
       precision: 18
       scale: 2
       platformDataTypeId: 'ea625964-ee65-4825-8d1b-87ebbd7baa31'
