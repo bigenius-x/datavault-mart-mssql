@@ -1,649 +1,647 @@
-id: 9f19d8cc-f3a6-43f7-acfd-e1523b39353b
-name: Sales Invoice Line
-modelObjectTypeId: 95e356a3-8e38-4e44-a496-abb805f556b7
+id: '9f19d8cc-f3a6-43f7-acfd-e1523b39353b'
+name: 'Sales Invoice Line'
+modelObjectTypeId: '95e356a3-8e38-4e44-a496-abb805f556b7'
 terms:
-  - id: 0221c1fa-6848-49ae-b748-72704e786aa1
-    name: timestamp
+  - id: '0221c1fa-6848-49ae-b748-72704e786aa1'
+    name: 'timestamp'
     dataType:
-      name: timestamp
-      platformDataTypeId: f7afc941-4327-4359-b72f-7f663b794f08
+      name: 'timestamp'
+      platformDataTypeId: 'f7afc941-4327-4359-b72f-7f663b794f08'
     isBusinessKey: false
-  - id: c060f925-6091-4c84-870f-f853c155a7ec
-    name: Document No_
+  - id: 'c060f925-6091-4c84-870f-f853c155a7ec'
+    name: 'Document No_'
     dataType:
-      name: nvarchar
+      name: 'nvarchar'
       length: 20
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: true
-  - id: 983903d6-b762-4f46-b937-e3e9841e8187
-    name: Line No_
+  - id: '983903d6-b762-4f46-b937-e3e9841e8187'
+    name: 'Line No_'
     dataType:
-      name: int
-      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+      name: 'int'
+      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
     isBusinessKey: true
-  - id: 1ddaf70e-b06a-4b64-aced-7e4b1677f282
-    name: Sell-to Customer No_
+  - id: '1ddaf70e-b06a-4b64-aced-7e4b1677f282'
+    name: 'Sell-to Customer No_'
     dataType:
-      name: nvarchar
+      name: 'nvarchar'
       length: 20
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
-  - id: 77d9efc9-ff32-4341-a609-52ecb1207989
-    name: Type
+  - id: '77d9efc9-ff32-4341-a609-52ecb1207989'
+    name: 'Type'
     dataType:
-      name: int
-      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+      name: 'int'
+      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
     isBusinessKey: false
-  - id: 90e9e52a-e58f-4899-a962-561a46b419b7
-    name: No_
+  - id: '90e9e52a-e58f-4899-a962-561a46b419b7'
+    name: 'No_'
     dataType:
-      name: nvarchar
+      name: 'nvarchar'
       length: 20
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
-  - id: a520f8c3-1834-493f-a44f-c8375440f70b
-    name: Location Code
+  - id: 'a520f8c3-1834-493f-a44f-c8375440f70b'
+    name: 'Location Code'
     dataType:
-      name: nvarchar
+      name: 'nvarchar'
       length: 10
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
-  - id: e459d6ce-9a78-4a1a-b4b8-3f1c13c5ff30
-    name: Posting Group
+  - id: 'e459d6ce-9a78-4a1a-b4b8-3f1c13c5ff30'
+    name: 'Posting Group'
     dataType:
-      name: nvarchar
+      name: 'nvarchar'
       length: 10
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
-  - id: b364842b-89c7-47d4-b9ff-5c1aea216210
-    name: Shipment Date
+  - id: 'b364842b-89c7-47d4-b9ff-5c1aea216210'
+    name: 'Shipment Date'
     dataType:
-      name: datetime
-      platformDataTypeId: ee219fec-13ea-493e-9128-39a348ca0995
+      name: 'datetime'
+      platformDataTypeId: 'ee219fec-13ea-493e-9128-39a348ca0995'
     isBusinessKey: false
-  - id: 1aafa955-3f32-4550-b261-cb2806c3e0eb
-    name: Description
+  - id: '1aafa955-3f32-4550-b261-cb2806c3e0eb'
+    name: 'Description'
     dataType:
-      name: nvarchar
+      name: 'nvarchar'
       length: 50
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
-  - id: 1a5b40ed-6f86-4188-bc74-297ce4299dc2
-    name: Description 2
+  - id: '1a5b40ed-6f86-4188-bc74-297ce4299dc2'
+    name: 'Description 2'
     dataType:
-      name: nvarchar
+      name: 'nvarchar'
       length: 50
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
-  - id: 9c712c16-8623-4f31-8508-64af38447522
-    name: Unit of Measure
+  - id: '9c712c16-8623-4f31-8508-64af38447522'
+    name: 'Unit of Measure'
     dataType:
-      name: nvarchar
+      name: 'nvarchar'
       length: 10
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
-  - id: 9438f76f-64ee-4035-8751-dd2ce5761a9b
-    name: Quantity
+  - id: '9438f76f-64ee-4035-8751-dd2ce5761a9b'
+    name: 'Quantity'
     dataType:
-      name: decimal
+      name: 'decimal'
       precision: 38
       scale: 20
-      platformDataTypeId: ea625964-ee65-4825-8d1b-87ebbd7baa31
+      platformDataTypeId: 'ea625964-ee65-4825-8d1b-87ebbd7baa31'
     isBusinessKey: false
-  - id: da296b48-ab22-41e1-b22d-aa14ee1bd4d9
-    name: Unit Price
+  - id: 'da296b48-ab22-41e1-b22d-aa14ee1bd4d9'
+    name: 'Unit Price'
     dataType:
-      name: decimal
+      name: 'decimal'
       precision: 38
       scale: 20
-      platformDataTypeId: ea625964-ee65-4825-8d1b-87ebbd7baa31
+      platformDataTypeId: 'ea625964-ee65-4825-8d1b-87ebbd7baa31'
     isBusinessKey: false
-  - id: f8591702-3483-4281-8370-3b465ce8f76d
-    name: Unit Cost (LCY)
+  - id: 'f8591702-3483-4281-8370-3b465ce8f76d'
+    name: 'Unit Cost (LCY)'
     dataType:
-      name: decimal
+      name: 'decimal'
       precision: 38
       scale: 20
-      platformDataTypeId: ea625964-ee65-4825-8d1b-87ebbd7baa31
+      platformDataTypeId: 'ea625964-ee65-4825-8d1b-87ebbd7baa31'
     isBusinessKey: false
-  - id: be7ed2f8-2c6c-472b-a1a3-2703ca3a02e7
-    name: VAT _
+  - id: 'be7ed2f8-2c6c-472b-a1a3-2703ca3a02e7'
+    name: 'VAT _'
     dataType:
-      name: decimal
+      name: 'decimal'
       precision: 38
       scale: 20
-      platformDataTypeId: ea625964-ee65-4825-8d1b-87ebbd7baa31
+      platformDataTypeId: 'ea625964-ee65-4825-8d1b-87ebbd7baa31'
     isBusinessKey: false
-  - id: a1154f8a-476e-4d56-8091-ea4df29adbe7
-    name: Line Discount _
+  - id: 'a1154f8a-476e-4d56-8091-ea4df29adbe7'
+    name: 'Line Discount _'
     dataType:
-      name: decimal
+      name: 'decimal'
       precision: 38
       scale: 20
-      platformDataTypeId: ea625964-ee65-4825-8d1b-87ebbd7baa31
+      platformDataTypeId: 'ea625964-ee65-4825-8d1b-87ebbd7baa31'
     isBusinessKey: false
-  - id: ad057a44-7221-4618-b45d-ab05903b5d82
-    name: Line Discount Amount
+  - id: 'ad057a44-7221-4618-b45d-ab05903b5d82'
+    name: 'Line Discount Amount'
     dataType:
-      name: decimal
+      name: 'decimal'
       precision: 38
       scale: 20
-      platformDataTypeId: ea625964-ee65-4825-8d1b-87ebbd7baa31
+      platformDataTypeId: 'ea625964-ee65-4825-8d1b-87ebbd7baa31'
     isBusinessKey: false
-  - id: 63835f69-9cdb-4f42-bd57-ac4c3a1ed6d0
-    name: Amount
+  - id: '63835f69-9cdb-4f42-bd57-ac4c3a1ed6d0'
+    name: 'Amount'
     dataType:
-      name: decimal
+      name: 'decimal'
       precision: 38
       scale: 20
-      platformDataTypeId: ea625964-ee65-4825-8d1b-87ebbd7baa31
+      platformDataTypeId: 'ea625964-ee65-4825-8d1b-87ebbd7baa31'
     isBusinessKey: false
-  - id: a47d8617-5005-4192-8ed6-d731be1d43b0
-    name: Amount Including VAT
+  - id: 'a47d8617-5005-4192-8ed6-d731be1d43b0'
+    name: 'Amount Including VAT'
     dataType:
-      name: decimal
+      name: 'decimal'
       precision: 38
       scale: 20
-      platformDataTypeId: ea625964-ee65-4825-8d1b-87ebbd7baa31
+      platformDataTypeId: 'ea625964-ee65-4825-8d1b-87ebbd7baa31'
     isBusinessKey: false
-  - id: 2754c594-d376-4606-b758-71b35089bba6
-    name: Allow Invoice Disc_
+  - id: '2754c594-d376-4606-b758-71b35089bba6'
+    name: 'Allow Invoice Disc_'
     dataType:
-      name: tinyint
-      platformDataTypeId: 7a777dd6-1617-462f-a41a-ea64dc65964e
+      name: 'tinyint'
+      platformDataTypeId: '7a777dd6-1617-462f-a41a-ea64dc65964e'
     isBusinessKey: false
-  - id: a4e40b71-15de-4c5c-b074-0381b33e6d2b
-    name: Gross Weight
+  - id: 'a4e40b71-15de-4c5c-b074-0381b33e6d2b'
+    name: 'Gross Weight'
     dataType:
-      name: decimal
+      name: 'decimal'
       precision: 38
       scale: 20
-      platformDataTypeId: ea625964-ee65-4825-8d1b-87ebbd7baa31
+      platformDataTypeId: 'ea625964-ee65-4825-8d1b-87ebbd7baa31'
     isBusinessKey: false
-  - id: dc62a20e-1272-4fea-9fae-13714cff2973
-    name: Net Weight
+  - id: 'dc62a20e-1272-4fea-9fae-13714cff2973'
+    name: 'Net Weight'
     dataType:
-      name: decimal
+      name: 'decimal'
       precision: 38
       scale: 20
-      platformDataTypeId: ea625964-ee65-4825-8d1b-87ebbd7baa31
+      platformDataTypeId: 'ea625964-ee65-4825-8d1b-87ebbd7baa31'
     isBusinessKey: false
-  - id: 450b0b46-e232-4e37-90d3-0bdde9c959fa
-    name: Units per Parcel
+  - id: '450b0b46-e232-4e37-90d3-0bdde9c959fa'
+    name: 'Units per Parcel'
     dataType:
-      name: decimal
+      name: 'decimal'
       precision: 38
       scale: 20
-      platformDataTypeId: ea625964-ee65-4825-8d1b-87ebbd7baa31
+      platformDataTypeId: 'ea625964-ee65-4825-8d1b-87ebbd7baa31'
     isBusinessKey: false
-  - id: 320c1f2b-342a-4ae4-90e8-9fac1be60ad1
-    name: Unit Volume
+  - id: '320c1f2b-342a-4ae4-90e8-9fac1be60ad1'
+    name: 'Unit Volume'
     dataType:
-      name: decimal
+      name: 'decimal'
       precision: 38
       scale: 20
-      platformDataTypeId: ea625964-ee65-4825-8d1b-87ebbd7baa31
+      platformDataTypeId: 'ea625964-ee65-4825-8d1b-87ebbd7baa31'
     isBusinessKey: false
-  - id: db030f90-72f1-4117-b358-05b7f375ecbc
-    name: Appl_-to Item Entry
+  - id: 'db030f90-72f1-4117-b358-05b7f375ecbc'
+    name: 'Appl_-to Item Entry'
     dataType:
-      name: int
-      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+      name: 'int'
+      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
     isBusinessKey: false
-  - id: 0fd045f2-41f2-4ed6-89f6-05d823324bf8
-    name: Shortcut Dimension 1 Code
+  - id: '0fd045f2-41f2-4ed6-89f6-05d823324bf8'
+    name: 'Shortcut Dimension 1 Code'
     dataType:
-      name: nvarchar
+      name: 'nvarchar'
       length: 20
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
-  - id: 5671d6e0-6ee1-47e9-a5d1-006e1ced10ec
-    name: Shortcut Dimension 2 Code
+  - id: '5671d6e0-6ee1-47e9-a5d1-006e1ced10ec'
+    name: 'Shortcut Dimension 2 Code'
     dataType:
-      name: nvarchar
+      name: 'nvarchar'
       length: 20
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
-  - id: 8475d551-ddeb-41a5-8b78-add8f134b03b
-    name: Customer Price Group
+  - id: '8475d551-ddeb-41a5-8b78-add8f134b03b'
+    name: 'Customer Price Group'
     dataType:
-      name: nvarchar
+      name: 'nvarchar'
       length: 10
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
-  - id: 2bb04316-906d-47ed-a584-899008b566f7
-    name: Job No_
+  - id: '2bb04316-906d-47ed-a584-899008b566f7'
+    name: 'Job No_'
     dataType:
-      name: nvarchar
+      name: 'nvarchar'
       length: 20
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
-  - id: bbf2a7ce-0f97-4e25-9994-a1ab4c9da2fa
-    name: Work Type Code
+  - id: 'bbf2a7ce-0f97-4e25-9994-a1ab4c9da2fa'
+    name: 'Work Type Code'
     dataType:
-      name: nvarchar
+      name: 'nvarchar'
       length: 10
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
-  - id: ee10e504-4fbb-4602-a8fe-4399c45e39e0
-    name: Shipment No_
+  - id: 'ee10e504-4fbb-4602-a8fe-4399c45e39e0'
+    name: 'Shipment No_'
     dataType:
-      name: nvarchar
+      name: 'nvarchar'
       length: 20
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
-  - id: 4dbadfbd-11aa-46de-ac59-9e81c77e4cc7
-    name: Shipment Line No_
+  - id: '4dbadfbd-11aa-46de-ac59-9e81c77e4cc7'
+    name: 'Shipment Line No_'
     dataType:
-      name: int
-      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+      name: 'int'
+      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
     isBusinessKey: false
-  - id: 1a803f5a-e194-421e-b5ca-ebe83dc7e54f
-    name: Bill-to Customer No_
+  - id: '1a803f5a-e194-421e-b5ca-ebe83dc7e54f'
+    name: 'Bill-to Customer No_'
     dataType:
-      name: nvarchar
+      name: 'nvarchar'
       length: 20
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
-  - id: 97e126b9-3b48-4731-8a5c-fc0428a873f7
-    name: Inv_ Discount Amount
+  - id: '97e126b9-3b48-4731-8a5c-fc0428a873f7'
+    name: 'Inv_ Discount Amount'
     dataType:
-      name: decimal
+      name: 'decimal'
       precision: 38
       scale: 20
-      platformDataTypeId: ea625964-ee65-4825-8d1b-87ebbd7baa31
+      platformDataTypeId: 'ea625964-ee65-4825-8d1b-87ebbd7baa31'
     isBusinessKey: false
-  - id: e2fff727-cc5f-49aa-a241-4f76768fbc00
-    name: Drop Shipment
+  - id: 'e2fff727-cc5f-49aa-a241-4f76768fbc00'
+    name: 'Drop Shipment'
     dataType:
-      name: tinyint
-      platformDataTypeId: 7a777dd6-1617-462f-a41a-ea64dc65964e
+      name: 'tinyint'
+      platformDataTypeId: '7a777dd6-1617-462f-a41a-ea64dc65964e'
     isBusinessKey: false
-  - id: 6c5e9cb2-d5bb-4016-bfc4-aab989eb52bc
-    name: Gen_ Bus_ Posting Group
+  - id: '6c5e9cb2-d5bb-4016-bfc4-aab989eb52bc'
+    name: 'Gen_ Bus_ Posting Group'
     dataType:
-      name: nvarchar
+      name: 'nvarchar'
       length: 10
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
-  - id: 1e2c5959-3293-4cc4-a31f-a3db2324fa0d
-    name: Gen_ Prod_ Posting Group
+  - id: '1e2c5959-3293-4cc4-a31f-a3db2324fa0d'
+    name: 'Gen_ Prod_ Posting Group'
     dataType:
-      name: nvarchar
+      name: 'nvarchar'
       length: 10
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
-  - id: 7bea86e0-20f1-42d2-87fb-4f9ba069c0a0
-    name: VAT Calculation Type
+  - id: '7bea86e0-20f1-42d2-87fb-4f9ba069c0a0'
+    name: 'VAT Calculation Type'
     dataType:
-      name: int
-      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+      name: 'int'
+      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
     isBusinessKey: false
-  - id: f3d7562d-2ffd-4895-9792-eeef8e8a16e0
-    name: Transaction Type
+  - id: 'f3d7562d-2ffd-4895-9792-eeef8e8a16e0'
+    name: 'Transaction Type'
     dataType:
-      name: nvarchar
+      name: 'nvarchar'
       length: 10
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
-  - id: 75596969-1b4d-4435-b50a-3a699a8c43eb
-    name: Transport Method
+  - id: '75596969-1b4d-4435-b50a-3a699a8c43eb'
+    name: 'Transport Method'
     dataType:
-      name: nvarchar
+      name: 'nvarchar'
       length: 10
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
-  - id: 06fd4906-6c3b-4d45-b839-f26f2061f9c5
-    name: Attached to Line No_
+  - id: '06fd4906-6c3b-4d45-b839-f26f2061f9c5'
+    name: 'Attached to Line No_'
     dataType:
-      name: int
-      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+      name: 'int'
+      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
     isBusinessKey: false
-  - id: 7fcae515-5770-43d0-93f8-ccd288551d8e
-    name: Exit Point
+  - id: '7fcae515-5770-43d0-93f8-ccd288551d8e'
+    name: 'Exit Point'
     dataType:
-      name: nvarchar
+      name: 'nvarchar'
       length: 10
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
-  - id: 8c99b861-e7de-4cc2-b273-94bc2d79ce49
-    name: Area
+  - id: '8c99b861-e7de-4cc2-b273-94bc2d79ce49'
+    name: 'Area'
     dataType:
-      name: nvarchar
+      name: 'nvarchar'
       length: 10
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
-  - id: 5e5ce896-e459-4448-aedb-34a3355e633d
-    name: Transaction Specification
+  - id: '5e5ce896-e459-4448-aedb-34a3355e633d'
+    name: 'Transaction Specification'
     dataType:
-      name: nvarchar
+      name: 'nvarchar'
       length: 10
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
-  - id: 23ecb8b3-f3b7-4204-a01a-b42e1a26d2f8
-    name: Tax Category
+  - id: '23ecb8b3-f3b7-4204-a01a-b42e1a26d2f8'
+    name: 'Tax Category'
     dataType:
-      name: nvarchar
+      name: 'nvarchar'
       length: 10
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
-  - id: 1ed2d944-830b-414f-95bd-45260a5db460
-    name: Tax Area Code
+  - id: '1ed2d944-830b-414f-95bd-45260a5db460'
+    name: 'Tax Area Code'
     dataType:
-      name: nvarchar
+      name: 'nvarchar'
       length: 20
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
-  - id: 5e480da2-5626-475e-9b40-c0ae0ec2f104
-    name: Tax Liable
+  - id: '5e480da2-5626-475e-9b40-c0ae0ec2f104'
+    name: 'Tax Liable'
     dataType:
-      name: tinyint
-      platformDataTypeId: 7a777dd6-1617-462f-a41a-ea64dc65964e
+      name: 'tinyint'
+      platformDataTypeId: '7a777dd6-1617-462f-a41a-ea64dc65964e'
     isBusinessKey: false
-  - id: 4b587cc7-5b2c-41f3-af92-3b014454b993
-    name: Tax Group Code
+  - id: '4b587cc7-5b2c-41f3-af92-3b014454b993'
+    name: 'Tax Group Code'
     dataType:
-      name: nvarchar
+      name: 'nvarchar'
       length: 10
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
-  - id: 8e5a4212-67c3-4627-a472-4d0930fff605
-    name: VAT Clause Code
+  - id: '8e5a4212-67c3-4627-a472-4d0930fff605'
+    name: 'VAT Clause Code'
     dataType:
-      name: nvarchar
+      name: 'nvarchar'
       length: 10
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
-  - id: 6601fdfd-9107-4a08-bc9d-6323b26272cb
-    name: VAT Bus_ Posting Group
+  - id: '6601fdfd-9107-4a08-bc9d-6323b26272cb'
+    name: 'VAT Bus_ Posting Group'
     dataType:
-      name: nvarchar
+      name: 'nvarchar'
       length: 10
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
-  - id: 082df07e-92b3-4a79-9774-e3ffdc209abe
-    name: VAT Prod_ Posting Group
+  - id: '082df07e-92b3-4a79-9774-e3ffdc209abe'
+    name: 'VAT Prod_ Posting Group'
     dataType:
-      name: nvarchar
+      name: 'nvarchar'
       length: 10
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
-  - id: 8c84f9d4-b722-4be2-8daa-8a8f828b0c4d
-    name: Blanket Order No_
+  - id: '8c84f9d4-b722-4be2-8daa-8a8f828b0c4d'
+    name: 'Blanket Order No_'
     dataType:
-      name: nvarchar
+      name: 'nvarchar'
       length: 20
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
-  - id: 6949a6d5-f024-42eb-ab67-2f44e9038bdf
-    name: Blanket Order Line No_
+  - id: '6949a6d5-f024-42eb-ab67-2f44e9038bdf'
+    name: 'Blanket Order Line No_'
     dataType:
-      name: int
-      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+      name: 'int'
+      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
     isBusinessKey: false
-  - id: 5ab9ee09-8a81-4e05-8739-e62e53d08a09
-    name: VAT Base Amount
+  - id: '5ab9ee09-8a81-4e05-8739-e62e53d08a09'
+    name: 'VAT Base Amount'
     dataType:
-      name: decimal
+      name: 'decimal'
       precision: 38
       scale: 20
-      platformDataTypeId: ea625964-ee65-4825-8d1b-87ebbd7baa31
+      platformDataTypeId: 'ea625964-ee65-4825-8d1b-87ebbd7baa31'
     isBusinessKey: false
-  - id: 36d9978c-4d88-4836-b8e5-4315eef6c610
-    name: Unit Cost
+  - id: '36d9978c-4d88-4836-b8e5-4315eef6c610'
+    name: 'Unit Cost'
     dataType:
-      name: decimal
+      name: 'decimal'
       precision: 38
       scale: 20
-      platformDataTypeId: ea625964-ee65-4825-8d1b-87ebbd7baa31
+      platformDataTypeId: 'ea625964-ee65-4825-8d1b-87ebbd7baa31'
     isBusinessKey: false
-  - id: e59a6053-db49-46dc-aac8-e8e387f140c3
-    name: System-Created Entry
+  - id: 'e59a6053-db49-46dc-aac8-e8e387f140c3'
+    name: 'System-Created Entry'
     dataType:
-      name: tinyint
-      platformDataTypeId: 7a777dd6-1617-462f-a41a-ea64dc65964e
+      name: 'tinyint'
+      platformDataTypeId: '7a777dd6-1617-462f-a41a-ea64dc65964e'
     isBusinessKey: false
-  - id: b30594dd-5d0d-4f15-ab82-9275e670f8fb
-    name: Line Amount
+  - id: 'b30594dd-5d0d-4f15-ab82-9275e670f8fb'
+    name: 'Line Amount'
     dataType:
-      name: decimal
+      name: 'decimal'
       precision: 38
       scale: 20
-      platformDataTypeId: ea625964-ee65-4825-8d1b-87ebbd7baa31
+      platformDataTypeId: 'ea625964-ee65-4825-8d1b-87ebbd7baa31'
     isBusinessKey: false
-  - id: 32cf15ee-afd5-4831-a350-7d5344ee6298
-    name: VAT Difference
+  - id: '32cf15ee-afd5-4831-a350-7d5344ee6298'
+    name: 'VAT Difference'
     dataType:
-      name: decimal
+      name: 'decimal'
       precision: 38
       scale: 20
-      platformDataTypeId: ea625964-ee65-4825-8d1b-87ebbd7baa31
+      platformDataTypeId: 'ea625964-ee65-4825-8d1b-87ebbd7baa31'
     isBusinessKey: false
-  - id: 75e38a16-75a4-49ff-8268-e7c75f879285
-    name: VAT Identifier
+  - id: '75e38a16-75a4-49ff-8268-e7c75f879285'
+    name: 'VAT Identifier'
     dataType:
-      name: nvarchar
+      name: 'nvarchar'
       length: 10
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
-  - id: 0cf8e601-8c53-40c9-b9a6-9b60109f3e35
-    name: IC Partner Ref_ Type
+  - id: '0cf8e601-8c53-40c9-b9a6-9b60109f3e35'
+    name: 'IC Partner Ref_ Type'
     dataType:
-      name: int
-      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+      name: 'int'
+      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
     isBusinessKey: false
-  - id: 14dfc0f9-9a3e-405c-8a58-449b9340a30a
-    name: IC Partner Reference
+  - id: '14dfc0f9-9a3e-405c-8a58-449b9340a30a'
+    name: 'IC Partner Reference'
     dataType:
-      name: nvarchar
+      name: 'nvarchar'
       length: 20
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
-  - id: 491f20a7-2666-4f4a-8e79-a185b06834cc
-    name: Prepayment Line
+  - id: '491f20a7-2666-4f4a-8e79-a185b06834cc'
+    name: 'Prepayment Line'
     dataType:
-      name: tinyint
-      platformDataTypeId: 7a777dd6-1617-462f-a41a-ea64dc65964e
+      name: 'tinyint'
+      platformDataTypeId: '7a777dd6-1617-462f-a41a-ea64dc65964e'
     isBusinessKey: false
-  - id: 3d7f8871-b20d-4932-b32e-006004511776
-    name: IC Partner Code
+  - id: '3d7f8871-b20d-4932-b32e-006004511776'
+    name: 'IC Partner Code'
     dataType:
-      name: nvarchar
+      name: 'nvarchar'
       length: 20
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
-  - id: b4ed1900-5abf-4ff2-9283-c70574c73f02
-    name: Posting Date
+  - id: 'b4ed1900-5abf-4ff2-9283-c70574c73f02'
+    name: 'Posting Date'
     dataType:
-      name: datetime
-      platformDataTypeId: ee219fec-13ea-493e-9128-39a348ca0995
+      name: 'datetime'
+      platformDataTypeId: 'ee219fec-13ea-493e-9128-39a348ca0995'
     isBusinessKey: false
-  - id: fabbdf10-3122-4067-aa18-258075829a9f
-    name: Dimension Set ID
+  - id: 'fabbdf10-3122-4067-aa18-258075829a9f'
+    name: 'Dimension Set ID'
     dataType:
-      name: int
-      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+      name: 'int'
+      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
     isBusinessKey: false
-  - id: 884d64fc-6943-4ab1-b4ec-30d8e037fd55
-    name: Job Task No_
+  - id: '884d64fc-6943-4ab1-b4ec-30d8e037fd55'
+    name: 'Job Task No_'
     dataType:
-      name: nvarchar
+      name: 'nvarchar'
       length: 20
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
-  - id: b9cc2fb3-6d4b-433c-9e42-a7ed49472fbb
-    name: Job Contract Entry No_
+  - id: 'b9cc2fb3-6d4b-433c-9e42-a7ed49472fbb'
+    name: 'Job Contract Entry No_'
     dataType:
-      name: int
-      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+      name: 'int'
+      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
     isBusinessKey: false
-  - id: 63e71cb5-ca3e-4dc1-ad9f-567c00513cb9
-    name: Deferral Code
+  - id: '63e71cb5-ca3e-4dc1-ad9f-567c00513cb9'
+    name: 'Deferral Code'
     dataType:
-      name: nvarchar
+      name: 'nvarchar'
       length: 10
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
-  - id: c5ef6601-7ea9-4c9f-8345-e32edc4a3669
-    name: Variant Code
+  - id: 'c5ef6601-7ea9-4c9f-8345-e32edc4a3669'
+    name: 'Variant Code'
     dataType:
-      name: nvarchar
+      name: 'nvarchar'
       length: 10
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
-  - id: 3cb24a72-b921-43d4-8dfa-f345556e84d0
-    name: Bin Code
+  - id: '3cb24a72-b921-43d4-8dfa-f345556e84d0'
+    name: 'Bin Code'
     dataType:
-      name: nvarchar
+      name: 'nvarchar'
       length: 20
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
-  - id: 88b752a3-742e-4912-8173-fccf05625f79
-    name: Qty_ per Unit of Measure
+  - id: '88b752a3-742e-4912-8173-fccf05625f79'
+    name: 'Qty_ per Unit of Measure'
     dataType:
-      name: decimal
+      name: 'decimal'
       precision: 38
       scale: 20
-      platformDataTypeId: ea625964-ee65-4825-8d1b-87ebbd7baa31
+      platformDataTypeId: 'ea625964-ee65-4825-8d1b-87ebbd7baa31'
     isBusinessKey: false
-  - id: e99468df-855d-49cd-b3a1-ebf1075e7cf5
-    name: Unit of Measure Code
+  - id: 'e99468df-855d-49cd-b3a1-ebf1075e7cf5'
+    name: 'Unit of Measure Code'
     dataType:
-      name: nvarchar
+      name: 'nvarchar'
       length: 10
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
-  - id: 884eecaf-afd2-464e-93d9-edf4cb38d39e
-    name: Quantity (Base)
+  - id: '884eecaf-afd2-464e-93d9-edf4cb38d39e'
+    name: 'Quantity (Base)'
     dataType:
-      name: decimal
+      name: 'decimal'
       precision: 38
       scale: 20
-      platformDataTypeId: ea625964-ee65-4825-8d1b-87ebbd7baa31
+      platformDataTypeId: 'ea625964-ee65-4825-8d1b-87ebbd7baa31'
     isBusinessKey: false
-  - id: 5242c6f6-f9d2-4376-9457-b2e776a26133
-    name: FA Posting Date
+  - id: '5242c6f6-f9d2-4376-9457-b2e776a26133'
+    name: 'FA Posting Date'
     dataType:
-      name: datetime
-      platformDataTypeId: ee219fec-13ea-493e-9128-39a348ca0995
+      name: 'datetime'
+      platformDataTypeId: 'ee219fec-13ea-493e-9128-39a348ca0995'
     isBusinessKey: false
-  - id: 549fed67-d3c0-4277-81ef-199e80dfe3d3
-    name: Depreciation Book Code
+  - id: '549fed67-d3c0-4277-81ef-199e80dfe3d3'
+    name: 'Depreciation Book Code'
     dataType:
-      name: nvarchar
+      name: 'nvarchar'
       length: 10
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
-  - id: c5a0aa66-b3f8-4932-acc0-60562b579356
-    name: Depr_ until FA Posting Date
+  - id: 'c5a0aa66-b3f8-4932-acc0-60562b579356'
+    name: 'Depr_ until FA Posting Date'
     dataType:
-      name: tinyint
-      platformDataTypeId: 7a777dd6-1617-462f-a41a-ea64dc65964e
+      name: 'tinyint'
+      platformDataTypeId: '7a777dd6-1617-462f-a41a-ea64dc65964e'
     isBusinessKey: false
-  - id: 448a9770-59ab-4752-af61-969f8d8b3562
-    name: Duplicate in Depreciation Book
+  - id: '448a9770-59ab-4752-af61-969f8d8b3562'
+    name: 'Duplicate in Depreciation Book'
     dataType:
-      name: nvarchar
+      name: 'nvarchar'
       length: 10
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
-  - id: d3ae34bf-13f3-488e-810c-adee3335b83d
-    name: Use Duplication List
+  - id: 'd3ae34bf-13f3-488e-810c-adee3335b83d'
+    name: 'Use Duplication List'
     dataType:
-      name: tinyint
-      platformDataTypeId: 7a777dd6-1617-462f-a41a-ea64dc65964e
+      name: 'tinyint'
+      platformDataTypeId: '7a777dd6-1617-462f-a41a-ea64dc65964e'
     isBusinessKey: false
-  - id: b074262e-1511-494e-9294-7ead9702731d
-    name: Responsibility Center
+  - id: 'b074262e-1511-494e-9294-7ead9702731d'
+    name: 'Responsibility Center'
     dataType:
-      name: nvarchar
+      name: 'nvarchar'
       length: 10
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
-  - id: 1ba72ab7-42cd-4bc8-9604-c242bfe7e4d8
-    name: Cross-Reference No_
+  - id: '1ba72ab7-42cd-4bc8-9604-c242bfe7e4d8'
+    name: 'Cross-Reference No_'
     dataType:
-      name: nvarchar
+      name: 'nvarchar'
       length: 20
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
-  - id: 5c1d9156-7f84-4cbd-86e6-dfd897c67767
-    name: Unit of Measure (Cross Ref_)
+  - id: '5c1d9156-7f84-4cbd-86e6-dfd897c67767'
+    name: 'Unit of Measure (Cross Ref_)'
     dataType:
-      name: nvarchar
+      name: 'nvarchar'
       length: 10
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
-  - id: c1a18396-2635-4328-8025-cd47e6895fdf
-    name: Cross-Reference Type
+  - id: 'c1a18396-2635-4328-8025-cd47e6895fdf'
+    name: 'Cross-Reference Type'
     dataType:
-      name: int
-      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+      name: 'int'
+      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
     isBusinessKey: false
-  - id: fc27772f-9ce8-4a80-8471-ae28261b3f86
-    name: Cross-Reference Type No_
+  - id: 'fc27772f-9ce8-4a80-8471-ae28261b3f86'
+    name: 'Cross-Reference Type No_'
     dataType:
-      name: nvarchar
+      name: 'nvarchar'
       length: 30
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
-  - id: 7e50db2a-b521-4936-b8fd-5c65a5b0e891
-    name: Item Category Code
+  - id: '7e50db2a-b521-4936-b8fd-5c65a5b0e891'
+    name: 'Item Category Code'
     dataType:
-      name: nvarchar
+      name: 'nvarchar'
       length: 20
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
-  - id: 5ac29d2a-b336-4e77-9c0b-4f83d8560865
-    name: Nonstock
+  - id: '5ac29d2a-b336-4e77-9c0b-4f83d8560865'
+    name: 'Nonstock'
     dataType:
-      name: tinyint
-      platformDataTypeId: 7a777dd6-1617-462f-a41a-ea64dc65964e
+      name: 'tinyint'
+      platformDataTypeId: '7a777dd6-1617-462f-a41a-ea64dc65964e'
     isBusinessKey: false
-  - id: df512c50-d638-4ffe-97a8-04383daf3478
-    name: Purchasing Code
+  - id: 'df512c50-d638-4ffe-97a8-04383daf3478'
+    name: 'Purchasing Code'
     dataType:
-      name: nvarchar
+      name: 'nvarchar'
       length: 10
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
-  - id: 05615215-3915-4e23-ac4c-e4c0241b0f98
-    name: Product Group Code
+  - id: '05615215-3915-4e23-ac4c-e4c0241b0f98'
+    name: 'Product Group Code'
     dataType:
-      name: nvarchar
+      name: 'nvarchar'
       length: 10
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
-  - id: bde671da-90ba-4490-a744-60e15f03fad9
-    name: Appl_-from Item Entry
+  - id: 'bde671da-90ba-4490-a744-60e15f03fad9'
+    name: 'Appl_-from Item Entry'
     dataType:
-      name: int
-      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+      name: 'int'
+      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
     isBusinessKey: false
-  - id: b0f456fc-506b-47bd-b47a-786d0cff72ff
-    name: Return Reason Code
+  - id: 'b0f456fc-506b-47bd-b47a-786d0cff72ff'
+    name: 'Return Reason Code'
     dataType:
-      name: nvarchar
+      name: 'nvarchar'
       length: 10
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
-  - id: 224c8ddc-a257-4acc-93c6-ec1f4bf23122
-    name: Allow Line Disc_
+  - id: '224c8ddc-a257-4acc-93c6-ec1f4bf23122'
+    name: 'Allow Line Disc_'
     dataType:
-      name: tinyint
-      platformDataTypeId: 7a777dd6-1617-462f-a41a-ea64dc65964e
+      name: 'tinyint'
+      platformDataTypeId: '7a777dd6-1617-462f-a41a-ea64dc65964e'
     isBusinessKey: false
-  - id: 068b6ad7-4aa2-4fa6-be11-af847ce96aad
-    name: Customer Disc_ Group
+  - id: '068b6ad7-4aa2-4fa6-be11-af847ce96aad'
+    name: 'Customer Disc_ Group'
     dataType:
-      name: nvarchar
+      name: 'nvarchar'
       length: 20
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
 tags:
-  - $discovery#id#dcfb76e2-57c3-4849-b250-f7337c2b99d2
-  - $initial#name#sales_invoice_line
-  - $view#id#edfe9c89-57e1-4f41-a8c1-d53b6de09472
-  - $view#id#2142fb6b-b215-4238-b0e5-4bd90041a867
-  - $sourcesystem#id#963df8c5-e464-4584-83f8-ff3734e75456
+  - '$discovery#id#dcfb76e2-57c3-4849-b250-f7337c2b99d2'
+  - '$initial#name#sales_invoice_line'
+  - '$sourcesystem#id#963df8c5-e464-4584-83f8-ff3734e75456'
 propertyValues: []
