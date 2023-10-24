@@ -103,10 +103,11 @@ terms:
   - id: 'f042c79a-7f35-414e-aa77-0217d48082a9'
     name: 'Amount'
     dataType:
-      precision: 38
-      scale: 20
       platformDataTypeId: 'ea625964-ee65-4825-8d1b-87ebbd7baa31'
+      scale: 20
+      precision: 38
     isBusinessKey: false
+    propertyValues: []
 tags: []
 dataflows:
   - id: 'ed150669-7fac-4c76-b7a0-9297377e1d7e'
