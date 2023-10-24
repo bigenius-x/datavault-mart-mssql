@@ -103,10 +103,11 @@ terms:
   - id: 'f042c79a-7f35-414e-aa77-0217d48082a9'
     name: 'Amount'
     dataType:
-      precision: 38
-      scale: 20
       platformDataTypeId: 'ea625964-ee65-4825-8d1b-87ebbd7baa31'
+      scale: 20
+      precision: 38
     isBusinessKey: false
+    propertyValues: []
 tags: []
 dataflows:
   - id: 'ed150669-7fac-4c76-b7a0-9297377e1d7e'
@@ -136,6 +137,7 @@ dataflows:
             expression: '4c9b1d63-06da-49be-9a6f-4dde98c88abe.cbfcb792-3c4d-475c-aceb-575a9a268c91'
           - termId: 'f042c79a-7f35-414e-aa77-0217d48082a9'
             expression: '4c9b1d63-06da-49be-9a6f-4dde98c88abe.250603f2-0356-4251-9cde-c30367b6ffe7'
+            aggregationTypeId: '40ba1b13-ebb6-4157-bea2-bf6315983372'
         dataflowModelObjects:
           - alias: 's1'
             id: '022a1411-eb2e-4515-ac28-96357403ff4a'
