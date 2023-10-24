@@ -91,8 +91,9 @@ terms:
     name: 'FK_SalesData_FK_Customer_BillToCustomer_No_'
     isForeignKey: true
     dataType:
-      length: 20
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+      length: 20
+    propertyValues: []
   - id: '2e0825df-9226-4d91-b4c9-2f6ecc47cdb9'
     name: 'Quantity'
     dataType:
