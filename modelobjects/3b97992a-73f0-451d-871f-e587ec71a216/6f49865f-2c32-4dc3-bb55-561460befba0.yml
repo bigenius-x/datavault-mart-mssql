@@ -131,9 +131,10 @@ terms:
   - id: 'bb682f73-0f58-4a0b-8e77-864f96f09304'
     name: 'Our Account No_'
     dataType:
-      length: 20
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+      length: 20
     isBusinessKey: false
+    propertyValues: []
   - id: 'a82dcf3f-1c67-4f31-8ccc-46aee688124b'
     name: 'Territory Code'
     dataType:
@@ -558,6 +559,7 @@ dataflows:
             expression: '6ab80485-9d80-4f64-ab81-0df283264de4.d84a268a-11f1-483b-8025-d8b79c771b42'
           - termId: 'bb682f73-0f58-4a0b-8e77-864f96f09304'
             expression: '6ab80485-9d80-4f64-ab81-0df283264de4.8e6dc0dc-f4f8-42fd-80ed-11587ede349a'
+            aggregationTypeId: 'e14fc921-6113-495e-8786-8c99952cc7d6'
           - termId: 'a82dcf3f-1c67-4f31-8ccc-46aee688124b'
             expression: '6ab80485-9d80-4f64-ab81-0df283264de4.9afc9a0b-06de-40a4-a3d3-e03b98686a6e'
           - termId: '2cc21f65-8ac5-4001-9501-e8a321849dda'
