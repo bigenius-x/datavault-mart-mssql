@@ -137,7 +137,8 @@ dataflows:
             expression: '4c9b1d63-06da-49be-9a6f-4dde98c88abe.cbfcb792-3c4d-475c-aceb-575a9a268c91'
           - termId: 'f042c79a-7f35-414e-aa77-0217d48082a9'
             expression: '4c9b1d63-06da-49be-9a6f-4dde98c88abe.250603f2-0356-4251-9cde-c30367b6ffe7'
-            aggregationTypeId: '40ba1b13-ebb6-4157-bea2-bf6315983372'
+            aggregationTypeId:
+              name: '-'
         dataflowModelObjects:
           - alias: 's1'
             id: '022a1411-eb2e-4515-ac28-96357403ff4a'
