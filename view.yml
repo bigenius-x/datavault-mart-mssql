@@ -6,16 +6,49 @@ views:
     description: 'Default view for data model.'
     modelObjects:
       - id: 'a7269756-1a42-4678-8a99-d82550e835f3'
+        x: 239
+        'y': -181
+        collapsed: true
       - id: '6f49865f-2c32-4dc3-bb55-561460befba0'
+        x: 160
+        'y': 22
+        collapsed: true
       - id: '1b31df90-a5ec-40ad-8ebd-3ba2c4f96cc2'
+        x: 561.5
+        'y': -33
+        collapsed: true
       - id: '20175282-f535-4a09-910c-4c5afac50045'
+        x: 549.5
+        'y': 279
+        collapsed: true
       - id: 'd8775d0a-939e-4758-a1b2-f850968e7a87'
+        x: 1211
+        'y': -111
+        collapsed: true
       - id: '3d54eb52-102b-416e-91df-3619129e2cf9'
+        x: 1573
+        'y': -12
+        collapsed: true
       - id: 'a61e854c-5ba1-4e99-9178-2f199e6c2711'
+        x: 717.5
+        'y': -211
+        collapsed: true
       - id: 'c5c50f0c-8a24-43b9-9246-72d0cf8acfad'
+        x: 862.5
+        'y': 227
+        collapsed: true
       - id: '81866cb7-5d58-49c3-a037-d4cda1b87bb8'
+        x: 1278.5
+        'y': 123
+        collapsed: true
       - id: 'e2cc86e3-e877-4a27-883c-0a34c9306278'
+        x: 1580.5
+        'y': 272
+        collapsed: true
       - id: '13032dc0-dd00-42ab-8392-ef68f1fb90f5'
+        x: 1179.5
+        'y': 259
+        collapsed: true
   - id: 'edfe9c89-57e1-4f41-a8c1-d53b6de09472'
     name: 'Sales Information ERP'
     type: 'data-pipe'
