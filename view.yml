@@ -16,7 +16,6 @@ views:
       - id: '81866cb7-5d58-49c3-a037-d4cda1b87bb8'
       - id: 'e2cc86e3-e877-4a27-883c-0a34c9306278'
       - id: '13032dc0-dd00-42ab-8392-ef68f1fb90f5'
-      - id: '416de809-37cc-4676-9a8f-7a60c4cc6b1d'
   - id: 'edfe9c89-57e1-4f41-a8c1-d53b6de09472'
     name: 'Sales Information ERP'
     type: 'data-pipe'
