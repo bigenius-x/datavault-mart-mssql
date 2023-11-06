@@ -1,0 +1,7 @@
+CustomTemplateModules:
+  - InternalCode: '7079d1c8-692b-49df-a14c-8b7bf51bf8ba'
+    ModelObjectTypeId: 'ac3f7f40-3068-47df-af3d-c6990ad73f7d'
+    PartId: '825b126f-28c4-47d9-9324-7272f2b8b858'
+    ModelObjects:
+      - '81866cb7-5d58-49c3-a037-d4cda1b87bb8'
+    ModuleTemplate: '//Test'
