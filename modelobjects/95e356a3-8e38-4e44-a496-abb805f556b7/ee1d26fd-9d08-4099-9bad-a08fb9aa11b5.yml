@@ -5,8 +5,9 @@ terms:
   - id: 'f479f412-52ae-4b23-99de-1fa19fb5ab34'
     name: 'timestamp'
     dataType:
-      platformDataTypeId: 'f7afc941-4327-4359-b72f-7f663b794f08'
+      platformDataTypeId: 'ee219fec-13ea-493e-9128-39a348ca0995'
     isBusinessKey: false
+    propertyValues: []
   - id: 'b20cd9ad-4b62-4ca5-9790-9accf2558feb'
     name: 'No_'
     dataType:
