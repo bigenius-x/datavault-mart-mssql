@@ -12,6 +12,7 @@ terms:
     isIdentity: false
     isBusinessKey: false
     isForeignKey: false
+    isDefaultTerm: true
   - id: '817c0a6f-f62d-4dd4-8ea6-a51ede734a47'
     name: 'Link_HK'
     description: 'Identifier of a record'
@@ -22,6 +23,7 @@ terms:
     isIdentity: true
     isBusinessKey: false
     isForeignKey: false
+    isDefaultTerm: true
   - id: '26ecb336-f1c2-43d0-ae97-8a3a3e68e14e'
     name: 'BG_SourceSystem'
     description: 'Default term with an identifier of the source system'
@@ -33,6 +35,7 @@ terms:
     isBusinessKey: false
     isForeignKey: false
     isNullable: true
+    isDefaultTerm: true
   - id: 'a75defd0-bd4a-4e42-b91f-d327dc549083'
     name: 'BG_ValidFromTimestamp'
     description: 'Default term for the technical validity or objects'
@@ -42,6 +45,7 @@ terms:
     isIdentity: false
     isBusinessKey: false
     isForeignKey: false
+    isDefaultTerm: true
   - id: '9829b644-1230-447b-9657-e42864b301f6'
     name: 'BG_RowHash'
     description: 'Default term that stores the computed hash value for defined attributes'
@@ -53,6 +57,7 @@ terms:
     isBusinessKey: false
     isForeignKey: false
     isNullable: true
+    isDefaultTerm: true
   - id: '52f67322-5a1c-4175-b332-9ea6bfe3d88d'
     name: 'BG_ValidToTimestamp'
     description: 'Default term for the technical validity or objects'
@@ -63,36 +68,42 @@ terms:
     isBusinessKey: false
     isForeignKey: false
     isNullable: true
+    isDefaultTerm: true
   - id: 'a26e605e-433c-4598-974c-8a094b4c16c6'
     name: 'FK_SalesData_FK_Customer_SellToCustomer_No_'
     isForeignKey: true
     dataType:
       length: 20
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+    isBusinessKeyForeignKey: true
   - id: 'acf92bf8-793b-4774-810b-bb7737081836'
     name: 'FK_SalesData_FK_Item_No_'
     isForeignKey: true
     dataType:
       length: 20
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+    isBusinessKeyForeignKey: true
   - id: 'fcf84e31-54c9-4190-b405-57bc7511753a'
     name: 'FK_SalesData_FK_Location_Code'
     isForeignKey: true
     dataType:
       length: 10
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+    isBusinessKeyForeignKey: true
   - id: 'b57631ef-6baf-405c-81e0-055190a3735e'
     name: 'FK_SalesData_FK_SalesInvoice_No_'
     isForeignKey: true
     dataType:
       length: 20
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+    isBusinessKeyForeignKey: true
   - id: '70acfba2-c6d2-497d-a7d3-e34694321301'
     name: 'FK_SalesData_FK_Customer_BillToCustomer_No_'
     isForeignKey: true
     dataType:
       length: 20
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+    isBusinessKeyForeignKey: true
   - id: '2e0825df-9226-4d91-b4c9-2f6ecc47cdb9'
     name: 'Quantity'
     dataType:

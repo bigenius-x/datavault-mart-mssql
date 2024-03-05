@@ -12,6 +12,7 @@ terms:
     isIdentity: false
     isBusinessKey: false
     isForeignKey: false
+    isDefaultTerm: true
   - id: '1843db2e-2037-47a4-9bcf-e5b567b4e377'
     name: 'Hub_HK'
     description: 'Identifier of a record'
@@ -22,6 +23,7 @@ terms:
     isIdentity: true
     isBusinessKey: false
     isForeignKey: false
+    isDefaultTerm: true
   - id: '4b2e11d2-d26e-4784-84ad-e60bf3650f37'
     name: 'BG_SourceSystem'
     description: 'Default term with an identifier of the source system'
@@ -33,6 +35,7 @@ terms:
     isBusinessKey: false
     isForeignKey: false
     isNullable: true
+    isDefaultTerm: true
   - id: 'a1d2033c-e5ba-4f4e-824f-9647f16b154f'
     name: 'BG_ValidFromTimestamp'
     description: 'Default term for the technical validity or objects'
@@ -42,6 +45,7 @@ terms:
     isIdentity: false
     isBusinessKey: false
     isForeignKey: false
+    isDefaultTerm: true
   - id: '62d1b804-2900-4f8a-8186-b68b5a813b9e'
     name: 'BG_RowHash'
     description: 'Default term that stores the computed hash value for defined attributes'
@@ -53,6 +57,7 @@ terms:
     isBusinessKey: false
     isForeignKey: false
     isNullable: true
+    isDefaultTerm: true
   - id: '5af0dbe5-1b0c-4509-9acc-2b82da157fcb'
     name: 'BG_ValidToTimestamp'
     description: 'Default term for the technical validity or objects'
@@ -63,12 +68,14 @@ terms:
     isBusinessKey: false
     isForeignKey: false
     isNullable: true
+    isDefaultTerm: true
   - id: '0a58712a-d420-4fd6-b78d-875cda04c9c1'
     name: 'FK_SalesInvoice_No_'
     isForeignKey: true
     dataType:
       length: 20
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+    isBusinessKeyForeignKey: true
   - id: '11e65333-ccd1-4e37-9e1e-6d6de03debe8'
     name: 'Order Date'
     dataType:

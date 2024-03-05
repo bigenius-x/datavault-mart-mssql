@@ -12,6 +12,7 @@ terms:
     isIdentity: false
     isBusinessKey: false
     isForeignKey: false
+    isDefaultTerm: true
   - id: '01796a3e-6fc6-4602-b503-b3069e96b072'
     name: 'Hub_HK'
     description: 'Identifier of a record'
@@ -22,6 +23,7 @@ terms:
     isIdentity: true
     isBusinessKey: false
     isForeignKey: false
+    isDefaultTerm: true
   - id: 'fe09e075-bf83-4a51-8f0a-db17ac326323'
     name: 'BG_SourceSystem'
     description: 'Default term with an identifier of the source system'
@@ -33,6 +35,7 @@ terms:
     isBusinessKey: false
     isForeignKey: false
     isNullable: true
+    isDefaultTerm: true
   - id: '09538923-0b8f-4398-bf5e-1a93a0716675'
     name: 'BG_ValidFromTimestamp'
     description: 'Default term for the technical validity or objects'
@@ -42,6 +45,7 @@ terms:
     isIdentity: false
     isBusinessKey: false
     isForeignKey: false
+    isDefaultTerm: true
   - id: 'd6e36b8b-1eeb-47b2-93ee-358e2c24e034'
     name: 'BG_RowHash'
     description: 'Default term that stores the computed hash value for defined attributes'
@@ -53,6 +57,7 @@ terms:
     isBusinessKey: false
     isForeignKey: false
     isNullable: true
+    isDefaultTerm: true
   - id: 'd7fd4833-9ba0-4467-8769-5ad264a6bf13'
     name: 'BG_ValidToTimestamp'
     description: 'Default term for the technical validity or objects'
@@ -63,6 +68,7 @@ terms:
     isBusinessKey: false
     isForeignKey: false
     isNullable: true
+    isDefaultTerm: true
   - id: '20dda452-0f42-421e-a055-0b3975842b9b'
     name: 'timestamp'
     dataType:
@@ -345,6 +351,7 @@ terms:
     dataType:
       length: 10
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+    isBusinessKeyForeignKey: true
 dataflows:
   - id: '724aff89-e1f3-4200-8d84-38dde8d0242a'
     name: 'Dataflow1'

@@ -12,6 +12,7 @@ terms:
     isIdentity: false
     isBusinessKey: false
     isForeignKey: false
+    isDefaultTerm: true
   - id: 'c8bd2db8-822b-4e1f-ab39-16def2284ecb'
     name: 'BG_SourceSystem'
     description: 'Default term with an identifier of the source system'
@@ -23,6 +24,7 @@ terms:
     isBusinessKey: false
     isForeignKey: false
     isNullable: true
+    isDefaultTerm: true
   - id: 'fa85c449-6ccd-4819-8cf0-457bc0ba1be8'
     name: 'timestamp'
     dataType:
