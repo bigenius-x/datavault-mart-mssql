@@ -28,8 +28,9 @@ terms:
   - id: 'b5e1f5b9-f192-4c77-8978-193611dddb5b'
     name: 'timestamp'
     dataType:
-      platformDataTypeId: 'f7afc941-4327-4359-b72f-7f663b794f08'
+      platformDataTypeId: 'ee219fec-13ea-493e-9128-39a348ca0995'
     isBusinessKey: false
+    propertyValues: []
   - id: '84ab2440-7cfe-4863-b00d-c84b4c19dc53'
     name: 'Document No_'
     dataType:
