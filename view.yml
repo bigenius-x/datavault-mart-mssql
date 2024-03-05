@@ -6,8 +6,17 @@ views:
     description: 'Default view for data model.'
     modelObjects:
       - id: '81866cb7-5d58-49c3-a037-d4cda1b87bb8'
+        x: 708
+        'y': 326
+        collapsed: true
       - id: 'c5c50f0c-8a24-43b9-9246-72d0cf8acfad'
+        x: 254
+        'y': 144
+        collapsed: true
       - id: 'a61e854c-5ba1-4e99-9178-2f199e6c2711'
+        x: 704
+        'y': 144
+        collapsed: true
   - id: 'edfe9c89-57e1-4f41-a8c1-d53b6de09472'
     name: 'Sales Information ERP'
     type: 'data-pipe'
