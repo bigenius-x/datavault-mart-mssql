@@ -72,8 +72,9 @@ terms:
   - id: '20dda452-0f42-421e-a055-0b3975842b9b'
     name: 'timestamp'
     dataType:
-      platformDataTypeId: 'f7afc941-4327-4359-b72f-7f663b794f08'
+      platformDataTypeId: 'ee219fec-13ea-493e-9128-39a348ca0995'
     isBusinessKey: false
+    propertyValues: []
   - id: 'e70c64ee-7557-49d0-8d62-c7c8128940b2'
     name: 'Name'
     dataType:
