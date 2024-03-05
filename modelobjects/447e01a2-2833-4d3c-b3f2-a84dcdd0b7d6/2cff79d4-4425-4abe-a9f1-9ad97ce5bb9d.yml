@@ -13,6 +13,7 @@ terms:
     isBusinessKey: false
     isForeignKey: false
     isNullable: true
+    isDefaultTerm: true
   - id: 'dd715d40-cd69-4071-85f0-ee59e6ec6dd9'
     name: 'BG_LoadTimestamp'
     description: 'Default term with the load timestamp'
@@ -22,6 +23,7 @@ terms:
     isIdentity: false
     isBusinessKey: false
     isForeignKey: false
+    isDefaultTerm: true
   - id: '0677de28-3e46-4b1b-a909-c2b5084e7fa0'
     name: 'SellToCustomer_No'
     dataType:

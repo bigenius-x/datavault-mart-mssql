@@ -12,6 +12,7 @@ terms:
     isIdentity: false
     isBusinessKey: false
     isForeignKey: false
+    isDefaultTerm: true
   - id: '0ee55c65-787e-4c98-bfbf-5af4a3791248'
     name: 'Hub_HK'
     description: 'Identifier of a record'
@@ -22,6 +23,7 @@ terms:
     isIdentity: true
     isBusinessKey: false
     isForeignKey: false
+    isDefaultTerm: true
   - id: '93b0d182-8922-4a18-8c00-3d1ca675f52c'
     name: 'BG_SourceSystem'
     description: 'Default term with an identifier of the source system'
@@ -33,6 +35,7 @@ terms:
     isBusinessKey: false
     isForeignKey: false
     isNullable: true
+    isDefaultTerm: true
   - id: 'fa0e96d8-dca3-4dd4-bf54-65b791a31cbd'
     name: 'BG_ValidFromTimestamp'
     description: 'Default term for the technical validity or objects'
@@ -42,6 +45,7 @@ terms:
     isIdentity: false
     isBusinessKey: false
     isForeignKey: false
+    isDefaultTerm: true
   - id: 'd9f5a3c9-1fac-4fe9-a275-89d07631877d'
     name: 'BG_RowHash'
     description: 'Default term that stores the computed hash value for defined attributes'
@@ -53,6 +57,7 @@ terms:
     isBusinessKey: false
     isForeignKey: false
     isNullable: true
+    isDefaultTerm: true
   - id: 'e9a4b83d-2c36-4948-92a6-b3515b828bda'
     name: 'BG_ValidToTimestamp'
     description: 'Default term for the technical validity or objects'
@@ -63,11 +68,13 @@ terms:
     isBusinessKey: false
     isForeignKey: false
     isNullable: true
+    isDefaultTerm: true
   - id: 'd6b8cf20-4829-43b5-bde0-aba3ecdfef61'
     name: 'timestamp'
     dataType:
-      platformDataTypeId: 'f7afc941-4327-4359-b72f-7f663b794f08'
+      platformDataTypeId: 'ee219fec-13ea-493e-9128-39a348ca0995'
     isBusinessKey: false
+    propertyValues: []
   - id: '5ee24de7-cfc0-4840-8900-553b318b9ee0'
     name: 'Name'
     dataType:
@@ -521,6 +528,7 @@ terms:
     dataType:
       length: 20
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+    isBusinessKeyForeignKey: true
 dataflows:
   - id: '9da71096-659c-423d-8839-b41bad6b06b1'
     name: 'Dataflow1'

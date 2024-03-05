@@ -12,6 +12,7 @@ terms:
     isIdentity: false
     isBusinessKey: false
     isForeignKey: false
+    isDefaultTerm: true
   - id: 'e13989d3-5c36-4079-8377-75bfee519c0b'
     name: 'BG_SourceSystem'
     description: 'Default term with an identifier of the source system'
@@ -23,11 +24,13 @@ terms:
     isBusinessKey: false
     isForeignKey: false
     isNullable: true
+    isDefaultTerm: true
   - id: 'd0f02cf4-c791-4a4b-a30e-cfea7e732235'
     name: 'timestamp'
     dataType:
-      platformDataTypeId: 'f7afc941-4327-4359-b72f-7f663b794f08'
+      platformDataTypeId: 'ee219fec-13ea-493e-9128-39a348ca0995'
     isBusinessKey: false
+    propertyValues: []
   - id: 'bc77647b-068a-4680-b4b1-e641480095d1'
     name: 'Code'
     dataType:
