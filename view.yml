@@ -6,24 +6,20 @@ views:
     description: 'Default view for data model.'
     modelObjects:
       - id: '16f272ca-065d-4571-ba73-75ab85a845b9'
-        x: 600
-        'y': 0
+        x: 1399
+        'y': 22
         collapsed: true
       - id: '085450b6-3d3c-447e-a5aa-05ac2e509fbc'
         x: 1399
         'y': 118
         collapsed: true
       - id: '0d0e6612-10b2-441e-b8cf-ea87a4882ff1'
-        x: 0
-        'y': 204
+        x: 455
+        'y': 514
         collapsed: true
       - id: '18b9541c-c60b-41bf-ac6d-8f3c4d0c3ba4'
-        x: 900
-        'y': 0
-        collapsed: true
-      - id: 'a71fa396-9d21-49e5-9b23-5e1deb0b3c6e'
-        x: 300
-        'y': 136
+        x: 84
+        'y': 870
         collapsed: true
       - id: '06df7103-65c7-4062-acd8-8448ab34e213'
         x: 0
@@ -34,40 +30,40 @@ views:
         'y': 68
         collapsed: true
       - id: 'f0fb3f33-5e0b-4dfe-ab6a-575ed2bed261'
-        x: 0
-        'y': 136
+        x: 2236
+        'y': 305
         collapsed: true
       - id: 'bc6f307f-bc3e-4bcf-8dee-704c0ed78d41'
-        x: 600
-        'y': 272
+        x: 1925
+        'y': 306
         collapsed: true
       - id: 'd42e9e11-0b7d-4e2a-b03b-12671afe41e8'
-        x: 600
-        'y': 68
+        x: 1833
+        'y': 463
         collapsed: true
       - id: 'aa033ca0-4dfa-4b91-bb3e-8b45b0d2dde8'
-        x: 0
-        'y': 272
+        x: 1839
+        'y': 593
         collapsed: true
       - id: '70514091-c314-454b-9d0d-b6b03aaa0be8'
-        x: 600
-        'y': 204
+        x: 1766
+        'y': 738
         collapsed: true
       - id: 'e80bffea-548d-4245-b03e-5f4e1ed4cc4c'
-        x: 900
-        'y': 68
+        x: 2119
+        'y': 738
         collapsed: true
       - id: '52d8b690-c099-4a66-a52c-088ec84e121a'
-        x: 300
-        'y': 204
+        x: 944
+        'y': 356
         collapsed: true
       - id: 'ceba80cd-1bb4-4145-a1f7-540b38e0afd0'
-        x: 387
-        'y': 733
+        x: 807
+        'y': 162
         collapsed: true
       - id: 'ae078661-b515-454e-b6a2-2c56e912120a'
-        x: 600
-        'y': 136
+        x: -56
+        'y': 329
         collapsed: true
       - id: '91970c05-1813-4400-9ede-743a6034096a'
         x: 1425
@@ -82,16 +78,16 @@ views:
         'y': 618
         collapsed: true
       - id: '49c5b222-e8d4-4537-a2e9-2f0c17d317ca'
-        x: 300
-        'y': 0
+        x: 1113
+        'y': 783
         collapsed: true
       - id: '8e7a553f-0353-492c-840c-a90ea4a7a001'
-        x: 0
-        'y': 68
+        x: 726
+        'y': 982
         collapsed: true
       - id: 'bc18e6f5-ded6-4d58-8ade-405a75256f4b'
-        x: 300
-        'y': 272
+        x: 709
+        'y': 899
         collapsed: true
   - id: 'edfe9c89-57e1-4f41-a8c1-d53b6de09472'
     name: 'Full Model'
