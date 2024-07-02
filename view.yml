@@ -6,8 +6,8 @@ views:
     description: 'Default view for data model.'
     modelObjects: []
   - id: 'edfe9c89-57e1-4f41-a8c1-d53b6de09472'
-    name: 'Sales Information ERP'
+    name: 'Full Model'
     type: 'data-pipe'
     default: true
-    description: 'ERP Sales Information'
+    description: 'All objects'
     modelObjects: []
