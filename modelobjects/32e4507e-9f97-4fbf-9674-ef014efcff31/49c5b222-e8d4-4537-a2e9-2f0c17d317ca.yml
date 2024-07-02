@@ -326,6 +326,8 @@ dataflows:
             joinOperatorId: '1c106214-02db-4770-b9df-48a855f277fb'
             id: 'a8f4899a-06e9-4737-84df-f58959578bb0'
             sourceModelObjectId: 'ceba80cd-1bb4-4145-a1f7-540b38e0afd0'
+            joinExpression: 'a8f4899a-06e9-4737-84df-f58959578bb0.d1ea5e2f-6e75-4276-beb8-8e2932698dc5 = ed441b1f-8fd9-4eca-9e50-4aa1ff93ab6d.1696f81b-480e-40a5-ab12-29035a60d6cd'
+            propertyValues: []
 relationships:
   - id: '2c4c9e5e-a622-4664-819f-e922ceb9b192'
     referencedModelObjectId: '085450b6-3d3c-447e-a5aa-05ac2e509fbc'
