@@ -126,6 +126,17 @@ terms:
     isNullable: true
     hiddenInSource: false
     hiddenInTarget: false
+  - id: 'e54ae76c-1241-4e53-9b91-a566a383709f'
+    name: 'BASE_UOM'
+    dataType:
+      length: 10
+      platformDataTypeId: '9245c3e9-05f8-4e48-962c-e1b3c49bc239'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
 dataflows:
   - id: '5614c6ab-70fa-4c79-88fe-de19c14d7cc7'
     name: 'Dataflow1'
@@ -147,6 +158,8 @@ dataflows:
             expression: '12218307-c5e5-4226-a2ff-51e18a11ff2f.6a693238-2dd1-415f-b773-3e5d11a49654'
           - termId: 'fdf4dc9f-6720-49fb-82b4-df9c5821bdd0'
             expression: '12218307-c5e5-4226-a2ff-51e18a11ff2f.f3a2f5dc-82a5-4d8d-aa86-011e6cf1f519'
+          - termId: 'e54ae76c-1241-4e53-9b91-a566a383709f'
+            expression: '12218307-c5e5-4226-a2ff-51e18a11ff2f.6d4f20e4-46a4-4d78-b956-7683dab456df'
         dataflowModelObjects:
           - id: '29679b32-4de2-4757-8199-aef07313e398'
             sourceModelObjectId: '70514091-c314-454b-9d0d-b6b03aaa0be8'
