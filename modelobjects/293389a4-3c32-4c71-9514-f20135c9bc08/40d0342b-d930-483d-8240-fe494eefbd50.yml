@@ -93,6 +93,17 @@ terms:
     isNullable: true
     hiddenInSource: false
     hiddenInTarget: false
+  - id: '947ad55a-ef9f-4f82-a344-0ecb3331757e'
+    name: 'BRANCH_NAME'
+    dataType:
+      length: 50
+      platformDataTypeId: '9245c3e9-05f8-4e48-962c-e1b3c49bc239'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
 dataflows:
   - id: '3d972855-04be-45c1-bc28-0f2b94330ce2'
     name: 'Dataflow1'
@@ -108,6 +119,8 @@ dataflows:
           - termId: '2a8ae269-2df2-477d-aa48-870e4213623c'
           - termId: 'afa56e53-d271-4612-81e5-e68306140a9f'
             expression: 'd84a1acc-23ec-4d7f-8a9f-8ce470fe198f.4b90df71-59d9-474f-8f7e-c509e757bb1b'
+          - termId: '947ad55a-ef9f-4f82-a344-0ecb3331757e'
+            expression: '90481f6e-8042-40f3-8d1b-ec7ecf766133.33ea36ca-0d53-4ea6-a2d0-dccf1e4b38a1'
         dataflowModelObjects:
           - id: 'd84a1acc-23ec-4d7f-8a9f-8ce470fe198f'
             sourceModelObjectId: '085450b6-3d3c-447e-a5aa-05ac2e509fbc'
