@@ -86,14 +86,15 @@ terms:
   - id: '1cdd54ba-c303-4274-8222-87491e872c29'
     name: 'CUSTOMER_ID'
     dataType:
-      precision: 38
       platformDataTypeId: 'ea625964-ee65-4825-8d1b-87ebbd7baa31'
+      precision: 38
     isIdentity: false
     isBusinessKey: true
     isForeignKey: false
-    isNullable: true
+    isNullable: false
     hiddenInSource: false
     hiddenInTarget: false
+    propertyValues: []
   - id: '698e82d5-8070-48cc-bb20-ac0d51d9a932'
     name: 'CUSTOMER'
     dataType:
