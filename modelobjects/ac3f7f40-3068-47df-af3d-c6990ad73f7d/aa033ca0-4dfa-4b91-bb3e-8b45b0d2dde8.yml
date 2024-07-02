@@ -1,5 +1,5 @@
 id: 'aa033ca0-4dfa-4b91-bb3e-8b45b0d2dde8'
-name: 'ITEM_Hub'
+name: 'ITEM'
 description: 'Generated Model Object from ITEM'
 modelObjectTypeId: 'ac3f7f40-3068-47df-af3d-c6990ad73f7d'
 terms:
@@ -71,3 +71,6 @@ dataflows:
           - id: '5adf514d-ec06-41bc-9c42-a0d02dc65bd3'
             sourceModelObjectId: '7629796c-075d-4761-b308-fe6777fed038'
             alias: 's1'
+propertyValues:
+  - propertyId: 'b0ee14c8-5179-4123-bed8-c81d60a9a0a2'
+    value: '<unselected>'
