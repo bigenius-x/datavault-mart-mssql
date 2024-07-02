@@ -5,10 +5,6 @@ configuration:
   id: 'biGENIUS.Implementation.Generator.VaultAndMart.Mssql'
   version: '1.5.0'
 sourceSystems:
-  - name: 'erp'
-    description: 'ERP'
-    id: '963df8c5-e464-4584-83f8-ff3734e75456'
-    activeDiscovery: 'dcfb76e2-57c3-4849-b250-f7337c2b99d2'
   - name: 'POS'
     description: 'POS'
     id: 'a86540c3-707b-4e4a-b19f-2317c01d045b'
