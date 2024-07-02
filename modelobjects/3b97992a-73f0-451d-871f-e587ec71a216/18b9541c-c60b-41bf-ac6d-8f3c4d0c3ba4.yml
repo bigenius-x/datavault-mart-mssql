@@ -140,18 +140,6 @@ terms:
     isNullable: true
     hiddenInSource: false
     hiddenInTarget: false
-  - id: '8cc0d4cb-9696-441b-b75b-0ac0789945be'
-    name: 'FK_COUNTRY_ISO_CODE_2'
-    dataType:
-      platformDataTypeId: '9245c3e9-05f8-4e48-962c-e1b3c49bc239'
-      length: 2
-    isIdentity: false
-    isBusinessKey: false
-    isForeignKey: true
-    isBusinessKeyForeignKey: true
-    isNullable: false
-    hiddenInSource: false
-    hiddenInTarget: false
 dataflows:
   - id: '1c287305-a5da-43f7-978a-73c7ce491b58'
     name: 'Dataflow1'
@@ -175,8 +163,6 @@ dataflows:
             expression: 'e837bf1d-3907-4411-b805-b58308d4b5f0.331213b5-3874-40fd-8248-128f17389dc2'
           - termId: 'ff23072d-9685-443e-a72e-228234d8c6c9'
             expression: 'e837bf1d-3907-4411-b805-b58308d4b5f0.bebb1ccd-138e-48f3-b9d5-66ce8beb1229'
-          - termId: '8cc0d4cb-9696-441b-b75b-0ac0789945be'
-            expression: 'e837bf1d-3907-4411-b805-b58308d4b5f0.9c1592e7-8241-477c-847c-2f8a9ccb90ba'
         dataflowModelObjects:
           - id: 'e837bf1d-3907-4411-b805-b58308d4b5f0'
             sourceModelObjectId: '7b52893f-6a38-4b9b-977e-0db58fc0e1cf'
@@ -188,14 +174,6 @@ relationships:
     relationshipTerms:
       - termId: '5017d3e4-1057-48d8-b09c-c66951e182cb'
         referenceTermId: 'bb036979-7bb7-4a13-ae9a-ad819610a2f9'
-    additionalTermIds: []
-    propertyValues: []
-  - id: 'b63c09c8-83ea-4fce-b252-2cb7a8e0abdd'
-    referencedModelObjectId: 'dd95e5bb-e887-4ff9-a2c2-33a2e6094f57'
-    role: 'COUNTRY'
-    relationshipTerms:
-      - termId: '8cc0d4cb-9696-441b-b75b-0ac0789945be'
-        referenceTermId: '307482a1-237c-4ad8-a496-b4923f44d2f2'
     additionalTermIds: []
     propertyValues: []
 propertyValues:
