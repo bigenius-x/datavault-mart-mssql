@@ -1,5 +1,5 @@
 id: 'bc6f307f-bc3e-4bcf-8dee-704c0ed78d41'
-name: 'EMPLOYEE_Hub'
+name: 'EMPLOYEE'
 description: 'Generated Model Object from EMPLOYEE'
 modelObjectTypeId: 'ac3f7f40-3068-47df-af3d-c6990ad73f7d'
 terms:
@@ -70,3 +70,6 @@ dataflows:
           - id: '884277d0-bc40-49fd-9f56-abf1952becda'
             sourceModelObjectId: '35fe2455-31ac-4a7e-95a4-c970f4414ada'
             alias: 's1'
+propertyValues:
+  - propertyId: 'b0ee14c8-5179-4123-bed8-c81d60a9a0a2'
+    value: '<unselected>'

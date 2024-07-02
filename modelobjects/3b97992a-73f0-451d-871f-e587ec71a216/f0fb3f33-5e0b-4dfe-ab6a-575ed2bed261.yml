@@ -85,7 +85,7 @@ terms:
     hiddenInSource: false
     hiddenInTarget: true
   - id: '1122c96e-7f46-4c47-8ab3-eb15f76ae91c'
-    name: 'FK_EMPLOYEE_Hub_EMPLOYEE_ID'
+    name: 'FK_EMPLOYEE_EMPLOYEE_Hub_EMPLOYEE_ID'
     dataType:
       platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
     isIdentity: false
