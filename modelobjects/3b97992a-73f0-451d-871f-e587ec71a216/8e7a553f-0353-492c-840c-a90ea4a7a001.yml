@@ -1,5 +1,5 @@
 id: '8e7a553f-0353-492c-840c-a90ea4a7a001'
-name: 'SALESTRANSACTION1'
+name: 'SALESTRANSACTION'
 description: 'Generated Model Object from SALESTRANSACTION'
 modelObjectTypeId: '3b97992a-73f0-451d-871f-e587ec71a216'
 terms:
@@ -224,3 +224,6 @@ relationships:
         referenceTermId: '86336d04-ee39-47a4-b857-02dfb04d8065'
     additionalTermIds: []
     propertyValues: []
+propertyValues:
+  - propertyId: 'b0ee14c8-5179-4123-bed8-c81d60a9a0a2'
+    value: '<unselected>'
