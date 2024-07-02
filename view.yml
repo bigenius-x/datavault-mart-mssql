@@ -148,3 +148,10 @@ views:
     description: 'Datamart'
     type: 'data-model'
     default: false
+    modelObjects:
+      - id: '40d0342b-d930-483d-8240-fe494eefbd50'
+      - id: 'b1673802-9766-41ab-8e8c-01112bb5cf06'
+      - id: '6950b040-5366-45f2-96a2-dc663af7af9d'
+      - id: 'a5d4f518-1c66-459b-bd69-7ede02b9ab91'
+      - id: '72173481-e9b8-459f-a5bc-e17f03f29cf9'
+      - id: 'cb63a6f4-975f-4ab4-ae68-43b6e7fbcd13'
