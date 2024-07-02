@@ -4,6 +4,10 @@ id: 'f4af988b-6568-4aee-2bb3-08db50014549'
 configuration:
   id: 'biGENIUS.Implementation.Generator.VaultAndMart.Mssql'
   version: '1.5.0'
-sourceSystems: []
+sourceSystems:
+  - id: 'cbdf229a-4dce-47e1-81a5-71e4bee0edb5'
+    name: 'Blackforest Markets'
+    description: 'Retail Chain'
+    sourceSystemTypeId: 'f69491d8-eed8-43a0-89f9-60195b3415c2'
 version: 'v1.4'
 propertyValues: []
