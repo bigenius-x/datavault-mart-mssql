@@ -1,5 +1,5 @@
 id: 'ceba80cd-1bb4-4145-a1f7-540b38e0afd0'
-name: 'LOYALTYCARD1'
+name: 'Loyaltycard_Customer'
 description: 'Generated Model Object from LOYALTYCARD'
 modelObjectTypeId: 'fc34f71a-8caf-4e6b-99ac-aeb595313273'
 terms:
@@ -136,3 +136,6 @@ relationships:
     additionalTermIds:
       - 'd1ea5e2f-6e75-4276-beb8-8e2932698dc5'
     propertyValues: []
+propertyValues:
+  - propertyId: 'b0ee14c8-5179-4123-bed8-c81d60a9a0a2'
+    value: '<unselected>'
