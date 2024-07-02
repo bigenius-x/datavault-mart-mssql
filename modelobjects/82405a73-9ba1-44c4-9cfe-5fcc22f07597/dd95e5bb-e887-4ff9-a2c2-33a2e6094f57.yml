@@ -47,14 +47,15 @@ terms:
   - id: '307482a1-237c-4ad8-a496-b4923f44d2f2'
     name: 'ISO_CODE_2'
     dataType:
-      length: 2
       platformDataTypeId: '9245c3e9-05f8-4e48-962c-e1b3c49bc239'
+      length: 2
     isIdentity: false
     isBusinessKey: true
     isForeignKey: false
-    isNullable: true
+    isNullable: false
     hiddenInSource: false
     hiddenInTarget: false
+    propertyValues: []
   - id: 'ee3992ca-8c4f-4b7c-9a63-8cd558e965d4'
     name: 'COUNTRY_ID'
     dataType:
