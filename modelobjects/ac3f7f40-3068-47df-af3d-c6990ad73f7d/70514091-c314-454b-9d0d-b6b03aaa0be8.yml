@@ -1,5 +1,5 @@
 id: '70514091-c314-454b-9d0d-b6b03aaa0be8'
-name: 'ITEMUNITOFMEASURE_Hub'
+name: 'ITEMUNITOFMEASURE'
 description: 'Generated Model Object from ITEMUNITOFMEASURE'
 modelObjectTypeId: 'ac3f7f40-3068-47df-af3d-c6990ad73f7d'
 terms:
@@ -84,3 +84,6 @@ dataflows:
           - id: '293da857-f80c-4268-b0f1-d9a0d8077a3c'
             sourceModelObjectId: '5fdad808-bf5c-410b-b8bf-9b0ec3ff8287'
             alias: 's1'
+propertyValues:
+  - propertyId: 'b0ee14c8-5179-4123-bed8-c81d60a9a0a2'
+    value: '<unselected>'
