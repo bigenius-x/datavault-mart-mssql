@@ -91,7 +91,7 @@ terms:
     isIdentity: false
     isBusinessKey: true
     isForeignKey: false
-    isNullable: true
+    isNullable: false
     hiddenInSource: false
     hiddenInTarget: false
   - id: '2d46a170-135b-46cc-a547-8462c4dc93e5'
@@ -102,7 +102,7 @@ terms:
     isIdentity: false
     isBusinessKey: true
     isForeignKey: false
-    isNullable: true
+    isNullable: false
     hiddenInSource: false
     hiddenInTarget: false
   - id: '2d0ef41a-6cf1-40a7-8ef5-e7fbbb6c67d7'
