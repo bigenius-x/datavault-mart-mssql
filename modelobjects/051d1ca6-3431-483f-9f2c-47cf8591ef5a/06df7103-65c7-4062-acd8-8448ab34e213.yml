@@ -28,6 +28,17 @@ terms:
     isNullable: true
     hiddenInSource: false
     hiddenInTarget: true
+  - id: '30ed3af6-8ceb-423b-bcfa-a20800470f38'
+    name: 'CUSTOMER_ID'
+    dataType:
+      precision: 38
+      platformDataTypeId: 'ea625964-ee65-4825-8d1b-87ebbd7baa31'
+    isIdentity: false
+    isBusinessKey: true
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
 dataflows:
   - id: '133460b5-19a1-4417-ba5f-0117bbc34e13'
     name: 'Dataflow1'
@@ -37,6 +48,8 @@ dataflows:
         termMappings:
           - termId: 'da042be6-9930-400b-a2dc-8f83d0df0bcd'
           - termId: '93caca8d-4b66-4059-be2d-e076209b7ae1'
+          - termId: '30ed3af6-8ceb-423b-bcfa-a20800470f38'
+            expression: 'fc0adb54-f477-422c-9491-d0fd7921555f.bb036979-7bb7-4a13-ae9a-ad819610a2f9'
         dataflowModelObjects:
           - alias: 's1'
             id: 'fc0adb54-f477-422c-9491-d0fd7921555f'
