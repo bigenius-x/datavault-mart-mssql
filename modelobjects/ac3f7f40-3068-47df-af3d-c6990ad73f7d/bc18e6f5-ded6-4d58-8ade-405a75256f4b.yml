@@ -1,5 +1,5 @@
 id: 'bc18e6f5-ded6-4d58-8ade-405a75256f4b'
-name: 'SALESTRANSACTION_Hub'
+name: 'SALESTRANSACTION'
 description: 'Generated Model Object from SALESTRANSACTION'
 modelObjectTypeId: 'ac3f7f40-3068-47df-af3d-c6990ad73f7d'
 terms:
@@ -106,3 +106,6 @@ dataflows:
           - id: '5afc1869-c0cd-44bd-a32f-366505d0a1f5'
             sourceModelObjectId: '79bab677-1b84-490d-930b-0f341d4d2f80'
             alias: 's1'
+propertyValues:
+  - propertyId: 'b0ee14c8-5179-4123-bed8-c81d60a9a0a2'
+    value: '<unselected>'
