@@ -13,7 +13,6 @@ views:
     modelObjects:
       - id: '9f19d8cc-f3a6-43f7-acfd-e1523b39353b'
       - id: 'ee1d26fd-9d08-4099-9bad-a08fb9aa11b5'
-      - id: '41aad21e-c17d-4872-975a-adfa315dee13'
   - id: '2142fb6b-b215-4238-b0e5-4bd90041a867'
     name: 'Sales Information POS'
     type: 'data-pipe'
