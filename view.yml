@@ -10,8 +10,7 @@ views:
     type: 'data-pipe'
     default: true
     description: 'ERP Sales Information'
-    modelObjects:
-      - id: '9f19d8cc-f3a6-43f7-acfd-e1523b39353b'
+    modelObjects: []
   - id: '2142fb6b-b215-4238-b0e5-4bd90041a867'
     name: 'Sales Information POS'
     type: 'data-pipe'
@@ -19,6 +18,5 @@ views:
     description: 'Sales Information POS'
     modelObjects:
       - id: 'b8472bc6-3141-40cd-9798-187139499292'
-      - id: '9f19d8cc-f3a6-43f7-acfd-e1523b39353b'
       - id: '62c29db0-10a1-4b01-82df-59b9d9914590'
       - id: '13032dc0-dd00-42ab-8392-ef68f1fb90f5'
