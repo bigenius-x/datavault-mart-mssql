@@ -19,7 +19,6 @@ views:
     default: true
     description: 'ERP Sales Information'
     modelObjects:
-      - id: 'e2cc86e3-e877-4a27-883c-0a34c9306278'
       - id: 'bc4ee020-60a0-44e2-a019-307d366bd4dc'
       - id: 'ce92cd13-9812-4900-bd69-02d3e8f08cdf'
       - id: 'df81a89a-ae2a-4c32-baaa-8cf561d1819d'
