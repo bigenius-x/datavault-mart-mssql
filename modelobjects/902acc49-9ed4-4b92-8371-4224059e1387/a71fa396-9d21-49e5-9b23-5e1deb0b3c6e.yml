@@ -47,6 +47,16 @@ terms:
     isNullable: true
     hiddenInSource: false
     hiddenInTarget: false
+  - id: '5c325443-9426-49f8-8d44-ed1561c5e0e6'
+    name: 'CUSTOMER_SINCE'
+    dataType:
+      platformDataTypeId: '4a8bdc4b-94cd-4a71-bac1-93b6b7120ef9'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
 dataflows:
   - id: 'bdf1585b-b20c-402a-af2a-008c7f1f16ec'
     name: 'Dataflow1'
@@ -78,3 +88,5 @@ dataflows:
             expression: 'f0d14e9b-31ab-4846-999a-1d495ddd4969.cab86054-a430-4ea9-8a2e-6553505005ad'
           - termId: '56c11b57-f5fd-41b7-9b80-d4a4a329f6b1'
             expression: 'f0d14e9b-31ab-4846-999a-1d495ddd4969.b449ab41-4e77-421a-8b19-faedddac616a'
+          - termId: '5c325443-9426-49f8-8d44-ed1561c5e0e6'
+            expression: 'f0d14e9b-31ab-4846-999a-1d495ddd4969.548e92e7-93d4-4ad8-b020-9a7e0ee89bf8'
