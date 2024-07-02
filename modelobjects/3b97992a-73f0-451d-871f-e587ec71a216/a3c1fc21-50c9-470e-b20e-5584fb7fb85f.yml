@@ -1,5 +1,5 @@
 id: 'a3c1fc21-50c9-470e-b20e-5584fb7fb85f'
-name: 'CUSTOMER_Satellite'
+name: 'CUSTOMER_Info'
 description: 'Generated Model Object from CUSTOMER'
 modelObjectTypeId: '3b97992a-73f0-451d-871f-e587ec71a216'
 terms:
@@ -162,3 +162,6 @@ relationships:
         referenceTermId: 'bb036979-7bb7-4a13-ae9a-ad819610a2f9'
     additionalTermIds: []
     propertyValues: []
+propertyValues:
+  - propertyId: 'b0ee14c8-5179-4123-bed8-c81d60a9a0a2'
+    value: '<unselected>'
