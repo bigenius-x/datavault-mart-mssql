@@ -99,6 +99,7 @@ terms:
     dataType:
       length: 1000
       platformDataTypeId: '9245c3e9-05f8-4e48-962c-e1b3c49bc239'
+    historizationTypeId: '7706a400-b271-4b4c-b714-80ad653429e3'
     isIdentity: false
     isBusinessKey: false
     isForeignKey: false
@@ -110,6 +111,7 @@ terms:
     dataType:
       length: 10
       platformDataTypeId: '9245c3e9-05f8-4e48-962c-e1b3c49bc239'
+    historizationTypeId: '7706a400-b271-4b4c-b714-80ad653429e3'
     isIdentity: false
     isBusinessKey: false
     isForeignKey: false
@@ -121,6 +123,7 @@ terms:
     dataType:
       length: 10
       platformDataTypeId: '9245c3e9-05f8-4e48-962c-e1b3c49bc239'
+    historizationTypeId: '7706a400-b271-4b4c-b714-80ad653429e3'
     isIdentity: false
     isBusinessKey: false
     isForeignKey: false
