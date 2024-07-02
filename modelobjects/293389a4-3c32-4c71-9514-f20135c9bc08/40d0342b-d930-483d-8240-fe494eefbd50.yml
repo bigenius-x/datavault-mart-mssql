@@ -1,0 +1,114 @@
+id: '40d0342b-d930-483d-8240-fe494eefbd50'
+name: 'BRANCH'
+description: 'Generated Model Object from BRANCH'
+modelObjectTypeId: '293389a4-3c32-4c71-9514-f20135c9bc08'
+terms:
+  - id: '86acce97-98f0-4740-af1e-0ca2685cd0be'
+    name: 'BG_SourceSystem'
+    description: 'Default term with an identifier of the source system'
+    dataType:
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+      length: 255
+    defaultTermId: 'c3654f1c-5c92-4200-82ef-baac15ffa0ba'
+    isDefaultTerm: true
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '05b514b3-30e8-48da-a29b-16f050ff968e'
+    name: 'BG_LoadTimestamp'
+    description: 'Default term with the load timestamp'
+    dataType:
+      platformDataTypeId: '88718695-75e5-413d-a8e9-fa27fe064353'
+    defaultTermId: '3fdfd83b-00b6-47e7-b139-9b25993626ac'
+    isDefaultTerm: true
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: false
+    hiddenInSource: false
+    hiddenInTarget: true
+  - id: '83f2e265-d354-4b3f-90ad-5a3d195d13fe'
+    name: 'BG_ValidFromTimestamp'
+    description: 'Default term for the technical validity or objects'
+    dataType:
+      platformDataTypeId: '88718695-75e5-413d-a8e9-fa27fe064353'
+    defaultTermId: 'dae67eab-4d4c-415c-b8a2-98bc6820719d'
+    isDefaultTerm: true
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: false
+    hiddenInSource: false
+    hiddenInTarget: true
+  - id: '0b67f9bb-8d11-4ef5-8e98-24efa7aee63f'
+    name: 'BG_ValidToTimestamp'
+    description: 'Default term for the technical validity or objects'
+    dataType:
+      platformDataTypeId: '88718695-75e5-413d-a8e9-fa27fe064353'
+    defaultTermId: '8a0e3b61-609b-4b0b-9a14-58a7730ed12e'
+    isDefaultTerm: true
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: true
+  - id: 'c14f14f8-d1af-4bb7-b825-a41de17b7d20'
+    name: 'BG_RowHash'
+    description: 'Default term that stores the computed hash value for defined attributes'
+    dataType:
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+      length: 20
+    defaultTermId: '2362debf-62f0-4e46-b0eb-bd221e3961eb'
+    isDefaultTerm: true
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: true
+  - id: '2a8ae269-2df2-477d-aa48-870e4213623c'
+    name: 'BRANCH_ID'
+    description: 'Default term with mart dimension identity'
+    dataType:
+      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
+    defaultTermId: '3d0d1df1-e8a7-45bb-abf4-63b4ecdbc2ea'
+    isDefaultTerm: true
+    isIdentity: true
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: false
+    hiddenInSource: false
+    hiddenInTarget: true
+  - id: 'afa56e53-d271-4612-81e5-e68306140a9f'
+    name: 'BRANCH_ID1'
+    dataType:
+      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
+    isIdentity: false
+    isBusinessKey: true
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+dataflows:
+  - id: '3d972855-04be-45c1-bc28-0f2b94330ce2'
+    name: 'Dataflow1'
+    dataflowSets:
+      - id: '3b1488cb-8704-40b5-ad75-cc8d1fa63a51'
+        name: 'Set1'
+        termMappings:
+          - termId: '86acce97-98f0-4740-af1e-0ca2685cd0be'
+          - termId: '05b514b3-30e8-48da-a29b-16f050ff968e'
+          - termId: '83f2e265-d354-4b3f-90ad-5a3d195d13fe'
+          - termId: '0b67f9bb-8d11-4ef5-8e98-24efa7aee63f'
+          - termId: 'c14f14f8-d1af-4bb7-b825-a41de17b7d20'
+          - termId: '2a8ae269-2df2-477d-aa48-870e4213623c'
+          - termId: 'afa56e53-d271-4612-81e5-e68306140a9f'
+            expression: 'd84a1acc-23ec-4d7f-8a9f-8ce470fe198f.4b90df71-59d9-474f-8f7e-c509e757bb1b'
+        dataflowModelObjects:
+          - id: 'd84a1acc-23ec-4d7f-8a9f-8ce470fe198f'
+            sourceModelObjectId: '085450b6-3d3c-447e-a5aa-05ac2e509fbc'
+            alias: 's1'
