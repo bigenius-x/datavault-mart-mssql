@@ -74,7 +74,7 @@ terms:
     name: 'BG_IncrementalFilter'
     description: 'Default term for incremental load'
     dataType:
-      platformDataTypeId: 'f7afc941-4327-4359-b72f-7f663b794f08'
+      platformDataTypeId: '88718695-75e5-413d-a8e9-fa27fe064353'
     defaultTermId: 'f70ffce7-44ad-4d1a-98fd-01854032b15f'
     isDefaultTerm: true
     isIdentity: false
@@ -83,6 +83,7 @@ terms:
     isNullable: false
     hiddenInSource: true
     hiddenInTarget: false
+    propertyValues: []
   - id: '7f86301c-174b-423d-9911-0654083171e8'
     name: 'FK_BRANCH_BRANCH_BK'
     dataType:
