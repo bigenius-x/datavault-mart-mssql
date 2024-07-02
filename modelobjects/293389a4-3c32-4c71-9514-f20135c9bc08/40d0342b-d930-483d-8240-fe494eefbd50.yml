@@ -145,6 +145,17 @@ terms:
     isNullable: true
     hiddenInSource: false
     hiddenInTarget: false
+  - id: '4ba710b3-ea7c-4aea-8cf8-6f4d4b76a711'
+    name: 'ZIP_CODE'
+    dataType:
+      length: 20
+      platformDataTypeId: '9245c3e9-05f8-4e48-962c-e1b3c49bc239'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
 dataflows:
   - id: '3d972855-04be-45c1-bc28-0f2b94330ce2'
     name: 'Dataflow1'
@@ -170,6 +181,8 @@ dataflows:
             expression: '90481f6e-8042-40f3-8d1b-ec7ecf766133.bcf4f976-842e-4f5b-aedd-035370e98b97'
           - termId: '427f872a-39b9-455b-9ee1-bd9e20a64d58'
             expression: '90481f6e-8042-40f3-8d1b-ec7ecf766133.0a037b73-b1aa-462a-9e3d-01d75dcbe66f'
+          - termId: '4ba710b3-ea7c-4aea-8cf8-6f4d4b76a711'
+            expression: '90481f6e-8042-40f3-8d1b-ec7ecf766133.7b9909c7-07b0-4f38-b0e9-a1f542f3da59'
         dataflowModelObjects:
           - id: 'd84a1acc-23ec-4d7f-8a9f-8ce470fe198f'
             sourceModelObjectId: '085450b6-3d3c-447e-a5aa-05ac2e509fbc'
