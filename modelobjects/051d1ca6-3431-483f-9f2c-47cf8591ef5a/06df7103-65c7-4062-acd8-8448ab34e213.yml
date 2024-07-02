@@ -73,6 +73,17 @@ terms:
     isNullable: true
     hiddenInSource: false
     hiddenInTarget: false
+  - id: '8b1b74ee-51c2-4955-a10f-1a0571aaa12f'
+    name: 'ADDRESS_LINE3'
+    dataType:
+      length: 100
+      platformDataTypeId: '9245c3e9-05f8-4e48-962c-e1b3c49bc239'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
 dataflows:
   - id: '133460b5-19a1-4417-ba5f-0117bbc34e13'
     name: 'Dataflow1'
@@ -90,6 +101,8 @@ dataflows:
             expression: 'dc3c8e90-bb38-4e9f-8828-a04409118738.baa43af4-4f78-49c6-a862-6fee4d1ab6d5'
           - termId: '2ef79fef-83a8-41f5-9230-3727bfc7f2d6'
             expression: 'dc3c8e90-bb38-4e9f-8828-a04409118738.c4685c9f-32f3-44e6-a96b-0e5d563c1f5a'
+          - termId: '8b1b74ee-51c2-4955-a10f-1a0571aaa12f'
+            expression: 'dc3c8e90-bb38-4e9f-8828-a04409118738.deaec2be-3710-4b8d-951e-9c150483480e'
         dataflowModelObjects:
           - alias: 's1'
             id: 'fc0adb54-f477-422c-9491-d0fd7921555f'
