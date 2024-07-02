@@ -1,7 +1,18 @@
 id: 'a71fa396-9d21-49e5-9b23-5e1deb0b3c6e'
 modelObjectTypeId: '902acc49-9ed4-4b92-8371-4224059e1387'
 name: 'Customer_Current'
-terms: []
+terms:
+  - id: '2d122bb9-e066-4e94-bc93-686496d7d2fa'
+    name: 'CUSTOMER_ID'
+    dataType:
+      precision: 38
+      platformDataTypeId: 'ea625964-ee65-4825-8d1b-87ebbd7baa31'
+    isIdentity: false
+    isBusinessKey: true
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
 dataflows:
   - id: 'bdf1585b-b20c-402a-af2a-008c7f1f16ec'
     name: 'Dataflow1'
@@ -24,3 +35,6 @@ dataflows:
             joinOperatorId: '1c106214-02db-4770-b9df-48a855f277fb'
             id: 'd21ff735-666d-4d47-8073-dacc81b7a7a9'
             sourceModelObjectId: '18b9541c-c60b-41bf-ac6d-8f3c4d0c3ba4'
+        termMappings:
+          - termId: '2d122bb9-e066-4e94-bc93-686496d7d2fa'
+            expression: '5bf6989d-2e4c-4516-94d8-883fce3ab8f8.bb036979-7bb7-4a13-ae9a-ad819610a2f9'
