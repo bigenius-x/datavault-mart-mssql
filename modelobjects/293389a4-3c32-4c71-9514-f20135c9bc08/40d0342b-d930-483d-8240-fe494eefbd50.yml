@@ -84,15 +84,16 @@ terms:
     hiddenInSource: false
     hiddenInTarget: true
   - id: 'afa56e53-d271-4612-81e5-e68306140a9f'
-    name: 'BRANCH_ID1'
+    name: 'BRANCH_BK'
     dataType:
       platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
     isIdentity: false
     isBusinessKey: true
     isForeignKey: false
-    isNullable: true
+    isNullable: false
     hiddenInSource: false
     hiddenInTarget: false
+    propertyValues: []
   - id: '947ad55a-ef9f-4f82-a344-0ecb3331757e'
     name: 'BRANCH_NAME'
     dataType:
