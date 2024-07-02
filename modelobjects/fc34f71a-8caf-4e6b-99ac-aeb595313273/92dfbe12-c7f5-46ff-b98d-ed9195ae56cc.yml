@@ -1,5 +1,5 @@
 id: '92dfbe12-c7f5-46ff-b98d-ed9195ae56cc'
-name: 'POS1'
+name: 'POS_Branch'
 description: 'Generated Model Object from POS'
 modelObjectTypeId: 'fc34f71a-8caf-4e6b-99ac-aeb595313273'
 terms:
@@ -135,3 +135,6 @@ relationships:
     additionalTermIds:
       - '1463d66d-8f2e-475f-b07c-10f712b2c6f8'
     propertyValues: []
+propertyValues:
+  - propertyId: 'b0ee14c8-5179-4123-bed8-c81d60a9a0a2'
+    value: '<unselected>'
