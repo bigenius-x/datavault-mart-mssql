@@ -13,6 +13,18 @@ terms:
     isNullable: true
     hiddenInSource: false
     hiddenInTarget: false
+  - id: '37c36af6-7dbe-4cf1-81b4-147dd62d485b'
+    name: 'Hub_HK'
+    dataType:
+      platformDataTypeId: '77e450ef-2083-4296-a00e-3da0da7ad152'
+      length: 20
+    description: 'Identifier of a record'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: false
+    hiddenInSource: false
+    hiddenInTarget: false
 dataflows:
   - id: 'bdf1585b-b20c-402a-af2a-008c7f1f16ec'
     name: 'Dataflow1'
@@ -38,3 +50,5 @@ dataflows:
         termMappings:
           - termId: '2d122bb9-e066-4e94-bc93-686496d7d2fa'
             expression: '5bf6989d-2e4c-4516-94d8-883fce3ab8f8.bb036979-7bb7-4a13-ae9a-ad819610a2f9'
+          - termId: '37c36af6-7dbe-4cf1-81b4-147dd62d485b'
+            expression: '5bf6989d-2e4c-4516-94d8-883fce3ab8f8.efc06393-6904-441e-84d0-8b30cc53de7b'
