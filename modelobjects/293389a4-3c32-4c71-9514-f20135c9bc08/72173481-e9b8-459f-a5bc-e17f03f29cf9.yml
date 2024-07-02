@@ -1,0 +1,128 @@
+id: '72173481-e9b8-459f-a5bc-e17f03f29cf9'
+name: 'ITEMUNITOFMEASURE'
+description: 'Generated Model Object from ITEMUNITOFMEASURE'
+modelObjectTypeId: '293389a4-3c32-4c71-9514-f20135c9bc08'
+terms:
+  - id: '6049c397-41ef-4f94-ae0f-460c61b1b1e3'
+    name: 'BG_SourceSystem'
+    description: 'Default term with an identifier of the source system'
+    dataType:
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+      length: 255
+    defaultTermId: 'c3654f1c-5c92-4200-82ef-baac15ffa0ba'
+    isDefaultTerm: true
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '6311b746-93f8-416e-97ce-982a3810d71d'
+    name: 'BG_LoadTimestamp'
+    description: 'Default term with the load timestamp'
+    dataType:
+      platformDataTypeId: '88718695-75e5-413d-a8e9-fa27fe064353'
+    defaultTermId: '3fdfd83b-00b6-47e7-b139-9b25993626ac'
+    isDefaultTerm: true
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: false
+    hiddenInSource: false
+    hiddenInTarget: true
+  - id: '1d254ed4-7ce4-45e8-afed-1e1383781ca3'
+    name: 'BG_ValidFromTimestamp'
+    description: 'Default term for the technical validity or objects'
+    dataType:
+      platformDataTypeId: '88718695-75e5-413d-a8e9-fa27fe064353'
+    defaultTermId: 'dae67eab-4d4c-415c-b8a2-98bc6820719d'
+    isDefaultTerm: true
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: false
+    hiddenInSource: false
+    hiddenInTarget: true
+  - id: '8e005ab1-c76f-45c5-bc12-f5404b718811'
+    name: 'BG_ValidToTimestamp'
+    description: 'Default term for the technical validity or objects'
+    dataType:
+      platformDataTypeId: '88718695-75e5-413d-a8e9-fa27fe064353'
+    defaultTermId: '8a0e3b61-609b-4b0b-9a14-58a7730ed12e'
+    isDefaultTerm: true
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: true
+  - id: '2378d74a-239c-46e4-843a-7d08b5e998d8'
+    name: 'BG_RowHash'
+    description: 'Default term that stores the computed hash value for defined attributes'
+    dataType:
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+      length: 20
+    defaultTermId: '2362debf-62f0-4e46-b0eb-bd221e3961eb'
+    isDefaultTerm: true
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: true
+  - id: '6a226327-3ed7-4fdf-a672-7cf044da255a'
+    name: 'ITEMUNITOFMEASURE_ID'
+    description: 'Default term with mart dimension identity'
+    dataType:
+      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
+    defaultTermId: '3d0d1df1-e8a7-45bb-abf4-63b4ecdbc2ea'
+    isDefaultTerm: true
+    isIdentity: true
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: false
+    hiddenInSource: false
+    hiddenInTarget: true
+  - id: '7d4dbff3-3167-4d11-8fd4-092a22875860'
+    name: 'ITEM_ID'
+    dataType:
+      precision: 38
+      platformDataTypeId: 'ea625964-ee65-4825-8d1b-87ebbd7baa31'
+    isIdentity: false
+    isBusinessKey: true
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '2d46a170-135b-46cc-a547-8462c4dc93e5'
+    name: 'UOM'
+    dataType:
+      length: 10
+      platformDataTypeId: '9245c3e9-05f8-4e48-962c-e1b3c49bc239'
+    isIdentity: false
+    isBusinessKey: true
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+dataflows:
+  - id: '5614c6ab-70fa-4c79-88fe-de19c14d7cc7'
+    name: 'Dataflow1'
+    dataflowSets:
+      - id: '18a80484-ecfa-43ba-b4bf-36f4622ee452'
+        name: 'Set1'
+        termMappings:
+          - termId: '6049c397-41ef-4f94-ae0f-460c61b1b1e3'
+          - termId: '6311b746-93f8-416e-97ce-982a3810d71d'
+          - termId: '1d254ed4-7ce4-45e8-afed-1e1383781ca3'
+          - termId: '8e005ab1-c76f-45c5-bc12-f5404b718811'
+          - termId: '2378d74a-239c-46e4-843a-7d08b5e998d8'
+          - termId: '6a226327-3ed7-4fdf-a672-7cf044da255a'
+          - termId: '7d4dbff3-3167-4d11-8fd4-092a22875860'
+            expression: '29679b32-4de2-4757-8199-aef07313e398.9a19e4dc-dce2-4b35-b33a-cd64cdd439a8'
+          - termId: '2d46a170-135b-46cc-a547-8462c4dc93e5'
+            expression: '29679b32-4de2-4757-8199-aef07313e398.7d27e18e-6db2-4cee-ab27-5517812a7509'
+        dataflowModelObjects:
+          - id: '29679b32-4de2-4757-8199-aef07313e398'
+            sourceModelObjectId: '70514091-c314-454b-9d0d-b6b03aaa0be8'
+            alias: 's1'
