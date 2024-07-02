@@ -37,14 +37,6 @@ terms:
     isForeignKey: false
     isNullable: true
     isDefaultTerm: true
-  - id: '18fb1cfc-63da-4235-8de3-b6af31069e91'
-    name: 'FK_Location_Code'
-    isForeignKey: true
-    dataType:
-      length: 10
-      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
-    isBusinessKey: true
-    isBusinessKeyForeignKey: true
   - id: 'fe384262-df24-44a6-8ccc-559843b57dab'
     name: 'FK_SalesInvoice_No_'
     isForeignKey: true
@@ -65,8 +57,6 @@ dataflows:
           - termId: '8e8bba60-5d20-41a2-9363-87d9e3188e23'
           - termId: '9189cfec-cbb1-490b-b3de-1a1710499096'
           - termId: 'ae9ea037-9c96-44dd-bbe4-7e304a503d60'
-          - termId: '18fb1cfc-63da-4235-8de3-b6af31069e91'
-            expression: 'b3710721-7a6a-4825-b6ff-6bbff737ec61.3b15bf39-2209-4ac3-a3f6-36fdfe9ba07b'
           - termId: 'fe384262-df24-44a6-8ccc-559843b57dab'
             expression: 'b3710721-7a6a-4825-b6ff-6bbff737ec61.8059e3e7-ee3d-4af9-bc14-fe3f70d943bc'
         dataflowModelObjects:
@@ -79,12 +69,6 @@ dataflows:
             sourceModelObjectId: 'bc4ee020-60a0-44e2-a019-307d366bd4dc'
             joinExpression: '5577d9e0-22b0-405e-948b-8f7c5a6ff989.84ab2440-7cfe-4863-b00d-c84b4c19dc53_ = b3710721-7a6a-4825-b6ff-6bbff737ec61.8059e3e7-ee3d-4af9-bc14-fe3f70d943bc'
 relationships:
-  - id: 'ad23cfe0-246b-41b9-8d17-f0d5704865e2'
-    referencedModelObjectId: 'd8775d0a-939e-4758-a1b2-f850968e7a87'
-    role: 'Location'
-    relationshipTerms:
-      - termId: '18fb1cfc-63da-4235-8de3-b6af31069e91'
-        referenceTermId: '89bfab93-d87d-4903-b61b-24427d9a674a'
   - id: '53e617e3-118c-4e2b-95bd-e0bc2fef8f56'
     referencedModelObjectId: '81866cb7-5d58-49c3-a037-d4cda1b87bb8'
     role: 'SalesInvoice'
