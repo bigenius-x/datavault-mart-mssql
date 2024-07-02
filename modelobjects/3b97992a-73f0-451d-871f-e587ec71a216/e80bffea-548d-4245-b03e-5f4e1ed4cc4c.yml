@@ -1,5 +1,5 @@
 id: 'e80bffea-548d-4245-b03e-5f4e1ed4cc4c'
-name: 'ITEMUNITOFMEASURE1'
+name: 'ITEMUNITOFMEASURE'
 description: 'Generated Model Object from ITEMUNITOFMEASURE'
 modelObjectTypeId: '3b97992a-73f0-451d-871f-e587ec71a216'
 terms:
@@ -178,3 +178,6 @@ relationships:
         referenceTermId: '7d27e18e-6db2-4cee-ab27-5517812a7509'
     additionalTermIds: []
     propertyValues: []
+propertyValues:
+  - propertyId: 'b0ee14c8-5179-4123-bed8-c81d60a9a0a2'
+    value: '<unselected>'
