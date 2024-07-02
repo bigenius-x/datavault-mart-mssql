@@ -1,0 +1,10 @@
+id: 'a71fa396-9d21-49e5-9b23-5e1deb0b3c6e'
+modelObjectTypeId: '902acc49-9ed4-4b92-8371-4224059e1387'
+name: 'Customer_Current'
+terms: []
+dataflows:
+  - id: 'bdf1585b-b20c-402a-af2a-008c7f1f16ec'
+    name: 'Dataflow1'
+    dataflowSets:
+      - id: 'a4aaf066-7d36-4179-a19f-deb046bf9927'
+        name: 'Set1'
