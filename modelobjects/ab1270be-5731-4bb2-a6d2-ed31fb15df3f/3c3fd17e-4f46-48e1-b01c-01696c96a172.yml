@@ -134,7 +134,6 @@ dataflows:
             expression: '07dfb020-5a7c-4992-a0fa-82e5cbdf5339.b32a9d0f-65b7-4201-96e0-8361d99b9f3d'
           - termId: '18a1cccd-b48c-439f-9e69-68a3a4bd05cf'
           - termId: '901c357c-318c-4e7d-80d2-027e789ab3ff'
-            expression: '07dfb020-5a7c-4992-a0fa-82e5cbdf5339.b32a9d0f-65b7-4201-96e0-8361d99b9f3d'
         dataflowModelObjects:
           - id: '07dfb020-5a7c-4992-a0fa-82e5cbdf5339'
             sourceModelObjectId: '022aa3d3-bd5c-473d-a189-cb8f8ee3b5f5'
