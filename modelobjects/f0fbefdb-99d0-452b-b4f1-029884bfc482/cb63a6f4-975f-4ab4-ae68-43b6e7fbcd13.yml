@@ -224,6 +224,10 @@ dataflows:
           - id: '82346584-a5b9-410c-912b-9a5f1401ace5'
             sourceModelObjectId: '49c5b222-e8d4-4537-a2e9-2f0c17d317ca'
             alias: 's1'
+          - alias: 's2'
+            joinOperatorId: '1c106214-02db-4770-b9df-48a855f277fb'
+            id: 'd1e8c4c6-10ad-408f-838b-c671b75adcd1'
+            sourceModelObjectId: '8e7a553f-0353-492c-840c-a90ea4a7a001'
 relationships:
   - id: '3add70be-8788-4886-a8e9-c014e1c63887'
     referencedModelObjectId: '40d0342b-d930-483d-8240-fe494eefbd50'
