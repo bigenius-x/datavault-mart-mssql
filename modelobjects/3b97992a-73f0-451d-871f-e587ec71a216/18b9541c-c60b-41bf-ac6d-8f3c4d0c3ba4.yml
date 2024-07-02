@@ -141,7 +141,7 @@ terms:
     hiddenInSource: false
     hiddenInTarget: false
   - id: '2b1d7268-78ee-4826-a577-34753b7a5284'
-    name: 'FK_COUNTRY_Reference_Table_ISO_CODE_2'
+    name: 'FK_COUNTRY_COUNTRY_Reference_Table_ISO_CODE_2'
     dataType:
       platformDataTypeId: '9245c3e9-05f8-4e48-962c-e1b3c49bc239'
       length: 2

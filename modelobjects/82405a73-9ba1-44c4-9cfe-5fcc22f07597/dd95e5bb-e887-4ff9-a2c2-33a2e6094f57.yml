@@ -1,5 +1,5 @@
 id: 'dd95e5bb-e887-4ff9-a2c2-33a2e6094f57'
-name: 'COUNTRY_Reference_Table'
+name: 'COUNTRY'
 description: 'Generated Model Object from COUNTRY'
 modelObjectTypeId: '82405a73-9ba1-44c4-9cfe-5fcc22f07597'
 terms:
@@ -109,3 +109,6 @@ dataflows:
           - id: '77577868-89f8-4265-90dd-08a360a6aab8'
             sourceModelObjectId: '2acc0823-f987-4f31-a7c8-a3dad7803a18'
             alias: 's1'
+propertyValues:
+  - propertyId: 'b0ee14c8-5179-4123-bed8-c81d60a9a0a2'
+    value: '<unselected>'
