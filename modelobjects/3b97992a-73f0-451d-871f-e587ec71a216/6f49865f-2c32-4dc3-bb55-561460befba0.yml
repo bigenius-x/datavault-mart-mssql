@@ -713,6 +713,4 @@ relationships:
     relationshipTerms:
       - termId: 'e9693376-6b0a-4b53-8869-e0881989d08b'
         referenceTermId: '81afdf23-9622-488f-83e9-58e777c9abf2'
-propertyValues:
-  - propertyId: 'a57fa4ce-3f1f-4542-85e0-27c0c5dc9b3f'
-    value: ''
+propertyValues: []

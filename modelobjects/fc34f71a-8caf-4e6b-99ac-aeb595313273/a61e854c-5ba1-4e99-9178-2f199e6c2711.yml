@@ -115,7 +115,6 @@ relationships:
     relationshipTerms:
       - termId: '04cde707-df4f-4fa7-a901-20ff092babba'
         referenceTermId: '81afdf23-9622-488f-83e9-58e777c9abf2'
-    missingBusinessKeyBehavior: 'none'
   - id: 'c7ad3eb3-185b-489c-9fe2-ce13f303fb81'
     referencedModelObjectId: '1b31df90-a5ec-40ad-8ebd-3ba2c4f96cc2'
     role: 'Item'

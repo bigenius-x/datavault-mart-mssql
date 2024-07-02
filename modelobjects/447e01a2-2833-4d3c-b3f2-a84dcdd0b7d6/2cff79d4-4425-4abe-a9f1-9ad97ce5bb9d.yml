@@ -102,10 +102,4 @@ dataflows:
           - alias: 's1'
             id: 'af16465d-96f4-4bcd-8a47-52813e251f55'
             sourceModelObjectId: '13032dc0-dd00-42ab-8392-ef68f1fb90f5'
-propertyValues:
-  - propertyId: '2a2e531d-d6a5-4e2d-b18d-34c2a52a2e73'
-    value: ''
-  - propertyId: '713ec758-07f0-4d05-8b91-5d3427261f76'
-    value: ''
-  - propertyId: 'a57fa4ce-3f1f-4542-85e0-27c0c5dc9b3f'
-    value: ''
+propertyValues: []

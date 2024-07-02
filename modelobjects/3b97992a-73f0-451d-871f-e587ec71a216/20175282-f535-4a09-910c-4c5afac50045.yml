@@ -1116,6 +1116,4 @@ relationships:
     relationshipTerms:
       - termId: '2ca85ce8-9e83-4938-b353-cf09481359c6'
         referenceTermId: 'd15e38bb-6e21-454e-8d61-bce831327cbe'
-propertyValues:
-  - propertyId: 'a57fa4ce-3f1f-4542-85e0-27c0c5dc9b3f'
-    value: ''
+propertyValues: []

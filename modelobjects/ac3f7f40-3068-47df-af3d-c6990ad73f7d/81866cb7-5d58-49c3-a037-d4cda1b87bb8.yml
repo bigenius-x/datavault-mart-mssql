@@ -60,6 +60,4 @@ dataflows:
             sourceModelObjectId: '7407bcdd-7e07-440d-8442-c28b6e1b4a05'
             alias: 's1'
 tags: []
-propertyValues:
-  - propertyId: 'a57fa4ce-3f1f-4542-85e0-27c0c5dc9b3f'
-    value: ''
+propertyValues: []

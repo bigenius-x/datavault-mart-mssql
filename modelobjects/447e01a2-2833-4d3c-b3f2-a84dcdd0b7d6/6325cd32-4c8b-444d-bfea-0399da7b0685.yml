@@ -41,7 +41,6 @@ propertyValues:
     value: 'Cached'
   - propertyId: '713ec758-07f0-4d05-8b91-5d3427261f76'
     value: 'None'
-  - propertyId: 'a57fa4ce-3f1f-4542-85e0-27c0c5dc9b3f'
 tags: []
 dataflows:
   - id: '4b5594b7-099f-41a7-8424-dec754c1efbc'
