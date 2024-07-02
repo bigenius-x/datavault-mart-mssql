@@ -176,12 +176,6 @@ relationships:
         referenceTermId: 'bb036979-7bb7-4a13-ae9a-ad819610a2f9'
     additionalTermIds: []
     propertyValues: []
-  - id: 'f08819ec-f5cf-457d-aa79-df6ba7c7f089'
-    referencedModelObjectId: 'dd95e5bb-e887-4ff9-a2c2-33a2e6094f57'
-    role: 'COUNTRY_Reference_Table'
-    relationshipTerms: []
-    additionalTermIds: []
-    propertyValues: []
 propertyValues:
   - propertyId: 'b0ee14c8-5179-4123-bed8-c81d60a9a0a2'
     value: '<unselected>'
