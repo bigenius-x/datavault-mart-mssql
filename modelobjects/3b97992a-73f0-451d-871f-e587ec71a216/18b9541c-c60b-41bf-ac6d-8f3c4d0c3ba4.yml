@@ -85,7 +85,7 @@ terms:
     hiddenInSource: false
     hiddenInTarget: true
   - id: '5017d3e4-1057-48d8-b09c-c66951e182cb'
-    name: 'FK_CUSTOMER_Hub_CUSTOMER_ID'
+    name: 'FK_CUSTOMER_CUSTOMER_Hub_CUSTOMER_ID'
     dataType:
       precision: 38
       platformDataTypeId: 'ea625964-ee65-4825-8d1b-87ebbd7baa31'
