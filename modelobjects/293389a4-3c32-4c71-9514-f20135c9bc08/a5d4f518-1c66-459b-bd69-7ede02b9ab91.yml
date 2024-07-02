@@ -86,14 +86,15 @@ terms:
   - id: 'ffb73b93-078e-4a15-9a7b-157e3201ce1f'
     name: 'ITEM_ID1'
     dataType:
-      precision: 38
       platformDataTypeId: 'ea625964-ee65-4825-8d1b-87ebbd7baa31'
+      precision: 38
     isIdentity: false
     isBusinessKey: true
     isForeignKey: false
-    isNullable: true
+    isNullable: false
     hiddenInSource: false
     hiddenInTarget: false
+    propertyValues: []
   - id: '0263b030-9c0d-4d81-b9ba-3e277e7995e3'
     name: 'DESCRIPTION'
     dataType:
