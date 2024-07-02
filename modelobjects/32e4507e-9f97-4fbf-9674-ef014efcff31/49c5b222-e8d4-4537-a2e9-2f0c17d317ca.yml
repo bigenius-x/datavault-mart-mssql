@@ -322,6 +322,10 @@ dataflows:
             sourceModelObjectId: '92dfbe12-c7f5-46ff-b98d-ed9195ae56cc'
             joinExpression: '5ecc6c9f-6e91-4bc1-ade4-ff838d74db8b.1463d66d-8f2e-475f-b07c-10f712b2c6f8 = ed441b1f-8fd9-4eca-9e50-4aa1ff93ab6d.21b851e1-c384-42e7-9e87-97d442470355'
             propertyValues: []
+          - alias: 's3'
+            joinOperatorId: '1c106214-02db-4770-b9df-48a855f277fb'
+            id: 'a8f4899a-06e9-4737-84df-f58959578bb0'
+            sourceModelObjectId: 'ceba80cd-1bb4-4145-a1f7-540b38e0afd0'
 relationships:
   - id: '2c4c9e5e-a622-4664-819f-e922ceb9b192'
     referencedModelObjectId: '085450b6-3d3c-447e-a5aa-05ac2e509fbc'
