@@ -157,6 +157,8 @@ dataflows:
           - id: 'c25dc6e4-9af2-481b-8f5d-1d53abc04b64'
             sourceModelObjectId: '968dc600-689d-4c2a-82b9-bcdf64661f51'
             alias: 's1'
+        whereExpression: 'c25dc6e4-9af2-481b-8f5d-1d53abc04b64.8b031b87-9900-4708-90bc-7c0572ec4925 = ''CUST'''
+        propertyValues: []
 relationships:
   - id: '546abb98-8de5-4b6a-acc8-2d078dda6be7'
     referencedModelObjectId: '0d0e6612-10b2-441e-b8cf-ea87a4882ff1'
