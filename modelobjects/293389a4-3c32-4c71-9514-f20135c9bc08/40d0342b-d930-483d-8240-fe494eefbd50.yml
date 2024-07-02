@@ -135,6 +135,16 @@ terms:
     isNullable: true
     hiddenInSource: false
     hiddenInTarget: false
+  - id: '427f872a-39b9-455b-9ee1-bd9e20a64d58'
+    name: 'ARTICLE_NUMBER_APPROX'
+    dataType:
+      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
 dataflows:
   - id: '3d972855-04be-45c1-bc28-0f2b94330ce2'
     name: 'Dataflow1'
@@ -158,6 +168,8 @@ dataflows:
             expression: '90481f6e-8042-40f3-8d1b-ec7ecf766133.5684be27-0525-4386-b4a9-53291719c1dc'
           - termId: '7faae830-377d-49f1-9ffe-6ba233b19c8d'
             expression: '90481f6e-8042-40f3-8d1b-ec7ecf766133.bcf4f976-842e-4f5b-aedd-035370e98b97'
+          - termId: '427f872a-39b9-455b-9ee1-bd9e20a64d58'
+            expression: '90481f6e-8042-40f3-8d1b-ec7ecf766133.0a037b73-b1aa-462a-9e3d-01d75dcbe66f'
         dataflowModelObjects:
           - id: 'd84a1acc-23ec-4d7f-8a9f-8ce470fe198f'
             sourceModelObjectId: '085450b6-3d3c-447e-a5aa-05ac2e509fbc'
