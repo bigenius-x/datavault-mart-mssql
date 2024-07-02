@@ -130,3 +130,7 @@ dataflows:
             joinOperatorId: '1c106214-02db-4770-b9df-48a855f277fb'
             id: '12218307-c5e5-4226-a2ff-51e18a11ff2f'
             sourceModelObjectId: 'e80bffea-548d-4245-b03e-5f4e1ed4cc4c'
+            joinExpression: '12218307-c5e5-4226-a2ff-51e18a11ff2f.dc19bd48-242d-48f8-9a56-4b60d163c543 = 29679b32-4de2-4757-8199-aef07313e398.6b5d30b0-b02f-4ac2-bd07-770e54870976'
+            propertyValues:
+              - propertyId: 'ada2da7c-fd97-4e60-9eac-6b119fd4abb3'
+                value: 'BG_ValidFromTimestamp'
