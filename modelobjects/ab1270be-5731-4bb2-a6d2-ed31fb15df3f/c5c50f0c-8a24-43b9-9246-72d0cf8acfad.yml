@@ -70,13 +70,6 @@ terms:
     isForeignKey: false
     isNullable: true
     isDefaultTerm: true
-  - id: 'a26e605e-433c-4598-974c-8a094b4c16c6'
-    name: 'FK_SalesData_FK_Customer_SellToCustomer_No_'
-    isForeignKey: true
-    dataType:
-      length: 20
-      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
-    isBusinessKeyForeignKey: true
   - id: '2e0825df-9226-4d91-b4c9-2f6ecc47cdb9'
     name: 'Quantity'
     dataType:
@@ -106,8 +99,6 @@ dataflows:
           - termId: 'a75defd0-bd4a-4e42-b91f-d327dc549083'
           - termId: '9829b644-1230-447b-9657-e42864b301f6'
           - termId: '52f67322-5a1c-4175-b332-9ea6bfe3d88d'
-          - termId: 'a26e605e-433c-4598-974c-8a094b4c16c6'
-            expression: '022a1411-eb2e-4515-ac28-96357403ff4a.804236c2-cd1c-445c-a697-c2e5dad730a2'
           - termId: '2e0825df-9226-4d91-b4c9-2f6ecc47cdb9'
             expression: '4c9b1d63-06da-49be-9a6f-4dde98c88abe.cbfcb792-3c4d-475c-aceb-575a9a268c91'
           - termId: 'f042c79a-7f35-414e-aa77-0217d48082a9'
@@ -121,10 +112,4 @@ dataflows:
             id: '4c9b1d63-06da-49be-9a6f-4dde98c88abe'
             sourceModelObjectId: 'bc4ee020-60a0-44e2-a019-307d366bd4dc'
             joinExpression: '4c9b1d63-06da-49be-9a6f-4dde98c88abe.84ab2440-7cfe-4863-b00d-c84b4c19dc53 = 022a1411-eb2e-4515-ac28-96357403ff4a.8059e3e7-ee3d-4af9-bc14-fe3f70d943bc'
-relationships:
-  - id: 'b314b46d-2dc7-4cb2-9458-4ca86969ee5a'
-    referencedModelObjectId: 'a61e854c-5ba1-4e99-9178-2f199e6c2711'
-    role: 'SalesData'
-    relationshipTerms:
-      - termId: 'a26e605e-433c-4598-974c-8a094b4c16c6'
-        referenceTermId: '04cde707-df4f-4fa7-a901-20ff092babba'
+relationships: []
