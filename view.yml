@@ -21,10 +21,6 @@ views:
         x: 84
         'y': 870
         collapsed: true
-      - id: '06df7103-65c7-4062-acd8-8448ab34e213'
-        x: 0
-        'y': 0
-        collapsed: true
       - id: 'a3c1fc21-50c9-470e-b20e-5584fb7fb85f'
         x: 300
         'y': 68
