@@ -16,5 +16,4 @@ views:
     type: 'data-pipe'
     default: false
     description: 'Sales Information POS'
-    modelObjects:
-      - id: '62c29db0-10a1-4b01-82df-59b9d9914590'
+    modelObjects: []
