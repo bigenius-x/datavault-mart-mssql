@@ -4,11 +4,7 @@ views:
     type: 'data-model'
     default: true
     description: 'Default view for data model.'
-    modelObjects:
-      - id: 'c5c50f0c-8a24-43b9-9246-72d0cf8acfad'
-        x: 254
-        'y': 144
-        collapsed: true
+    modelObjects: []
   - id: 'edfe9c89-57e1-4f41-a8c1-d53b6de09472'
     name: 'Sales Information ERP'
     type: 'data-pipe'
@@ -29,7 +25,6 @@ views:
       - id: '41aad21e-c17d-4872-975a-adfa315dee13'
       - id: '5aa8afc1-f299-4b7d-8263-a5b932da2903'
       - id: '8141c3f9-4a0c-4dfb-a73a-c50585aa5952'
-      - id: 'c5c50f0c-8a24-43b9-9246-72d0cf8acfad'
   - id: '2142fb6b-b215-4238-b0e5-4bd90041a867'
     name: 'Sales Information POS'
     type: 'data-pipe'
@@ -43,4 +38,3 @@ views:
       - id: 'ee1d26fd-9d08-4099-9bad-a08fb9aa11b5'
       - id: '62c29db0-10a1-4b01-82df-59b9d9914590'
       - id: '13032dc0-dd00-42ab-8392-ef68f1fb90f5'
-      - id: 'c5c50f0c-8a24-43b9-9246-72d0cf8acfad'
