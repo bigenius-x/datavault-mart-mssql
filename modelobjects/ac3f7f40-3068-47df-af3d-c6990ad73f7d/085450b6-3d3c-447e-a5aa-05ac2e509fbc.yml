@@ -1,5 +1,5 @@
 id: '085450b6-3d3c-447e-a5aa-05ac2e509fbc'
-name: 'BRANCH_Hub'
+name: 'BRANCH'
 description: 'Generated Model Object from BRANCH'
 modelObjectTypeId: 'ac3f7f40-3068-47df-af3d-c6990ad73f7d'
 terms:
@@ -70,3 +70,6 @@ dataflows:
           - id: '3122c0a3-7c36-4eb2-80b6-293dd3e622e0'
             sourceModelObjectId: 'cfeb06c6-d7c4-4d31-9c31-768ae6e0faa6'
             alias: 's1'
+propertyValues:
+  - propertyId: 'b0ee14c8-5179-4123-bed8-c81d60a9a0a2'
+    value: '<unselected>'
