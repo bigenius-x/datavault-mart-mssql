@@ -1,5 +1,5 @@
 id: '4f4c8a7b-8760-4e37-881f-12e5b69f8328'
-name: 'SALESTRANSACTION1'
+name: 'POS_SALES'
 description: 'Generated Model Object from SALESTRANSACTION'
 modelObjectTypeId: 'fc34f71a-8caf-4e6b-99ac-aeb595313273'
 terms:
@@ -312,3 +312,6 @@ relationships:
     additionalTermIds:
       - 'cc460dcd-129b-4296-815a-e5e148708078'
     propertyValues: []
+propertyValues:
+  - propertyId: 'b0ee14c8-5179-4123-bed8-c81d60a9a0a2'
+    value: '<unselected>'
