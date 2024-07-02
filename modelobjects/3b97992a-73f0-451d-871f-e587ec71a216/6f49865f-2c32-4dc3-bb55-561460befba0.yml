@@ -523,13 +523,6 @@ terms:
     dataType:
       platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
     isBusinessKey: false
-  - id: 'e9693376-6b0a-4b53-8869-e0881989d08b'
-    name: 'FK_Customer_No_'
-    isForeignKey: true
-    dataType:
-      length: 20
-      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
-    isBusinessKeyForeignKey: true
 dataflows:
   - id: '9da71096-659c-423d-8839-b41bad6b06b1'
     name: 'Dataflow1'
@@ -699,18 +692,10 @@ dataflows:
             expression: '6ab80485-9d80-4f64-ab81-0df283264de4.bc9039da-10a8-4cd2-afe1-6321d766a952'
           - termId: '00df2d78-b493-4a4e-b0a8-0ff9d063cf8d'
             expression: '6ab80485-9d80-4f64-ab81-0df283264de4.f6372e75-4ff3-4432-8688-1bd035f6474d'
-          - termId: 'e9693376-6b0a-4b53-8869-e0881989d08b'
-            expression: '6ab80485-9d80-4f64-ab81-0df283264de4.41008c6c-625d-464f-8148-b458bf325017'
         dataflowModelObjects:
           - id: '6ab80485-9d80-4f64-ab81-0df283264de4'
             sourceModelObjectId: 'd7111915-55fc-4755-937b-4ad3aa3b3868'
             alias: 's1'
 tags: []
-relationships:
-  - id: '4024104f-38fe-4ab9-bae9-c4c16d591b78'
-    referencedModelObjectId: 'a7269756-1a42-4678-8a99-d82550e835f3'
-    role: 'Customer'
-    relationshipTerms:
-      - termId: 'e9693376-6b0a-4b53-8869-e0881989d08b'
-        referenceTermId: '81afdf23-9622-488f-83e9-58e777c9abf2'
+relationships: []
 propertyValues: []

@@ -37,14 +37,6 @@ terms:
     isForeignKey: false
     isNullable: true
     isDefaultTerm: true
-  - id: '04cde707-df4f-4fa7-a901-20ff092babba'
-    name: 'FK_Customer_SellToCustomer_No_'
-    isForeignKey: true
-    dataType:
-      length: 20
-      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
-    isBusinessKey: true
-    isBusinessKeyForeignKey: true
   - id: '2d7423e8-38b3-4f8a-847f-c099ee68ceb6'
     name: 'FK_Item_No_'
     isForeignKey: true
@@ -69,14 +61,6 @@ terms:
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: true
     isBusinessKeyForeignKey: true
-  - id: '73cbdcca-e490-4ac2-8eb5-97b94b9149ef'
-    name: 'FK_Customer_BillToCustomer_No_'
-    isForeignKey: true
-    dataType:
-      length: 20
-      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
-    isBusinessKey: true
-    isBusinessKeyForeignKey: true
 tags: []
 dataflows:
   - id: '7969180b-55b3-4994-924b-36b830260700'
@@ -89,16 +73,12 @@ dataflows:
           - termId: '8e8bba60-5d20-41a2-9363-87d9e3188e23'
           - termId: '9189cfec-cbb1-490b-b3de-1a1710499096'
           - termId: 'ae9ea037-9c96-44dd-bbe4-7e304a503d60'
-          - termId: '04cde707-df4f-4fa7-a901-20ff092babba'
-            expression: 'b3710721-7a6a-4825-b6ff-6bbff737ec61.804236c2-cd1c-445c-a697-c2e5dad730a2'
           - termId: '2d7423e8-38b3-4f8a-847f-c099ee68ceb6'
             expression: '5577d9e0-22b0-405e-948b-8f7c5a6ff989.198d52e4-070e-4fb1-83ae-c09d6977f1e4'
           - termId: '18fb1cfc-63da-4235-8de3-b6af31069e91'
             expression: 'b3710721-7a6a-4825-b6ff-6bbff737ec61.3b15bf39-2209-4ac3-a3f6-36fdfe9ba07b'
           - termId: 'fe384262-df24-44a6-8ccc-559843b57dab'
             expression: 'b3710721-7a6a-4825-b6ff-6bbff737ec61.8059e3e7-ee3d-4af9-bc14-fe3f70d943bc'
-          - termId: '73cbdcca-e490-4ac2-8eb5-97b94b9149ef'
-            expression: 'b3710721-7a6a-4825-b6ff-6bbff737ec61.7ab2114a-949e-480e-9555-e015f84225b7'
         dataflowModelObjects:
           - alias: 's1'
             id: 'b3710721-7a6a-4825-b6ff-6bbff737ec61'
@@ -109,12 +89,6 @@ dataflows:
             sourceModelObjectId: 'bc4ee020-60a0-44e2-a019-307d366bd4dc'
             joinExpression: '5577d9e0-22b0-405e-948b-8f7c5a6ff989.84ab2440-7cfe-4863-b00d-c84b4c19dc53_ = b3710721-7a6a-4825-b6ff-6bbff737ec61.8059e3e7-ee3d-4af9-bc14-fe3f70d943bc'
 relationships:
-  - id: '6a248550-6038-4927-aa55-48d18db565a5'
-    referencedModelObjectId: 'a7269756-1a42-4678-8a99-d82550e835f3'
-    role: 'SellToCustomer'
-    relationshipTerms:
-      - termId: '04cde707-df4f-4fa7-a901-20ff092babba'
-        referenceTermId: '81afdf23-9622-488f-83e9-58e777c9abf2'
   - id: 'c7ad3eb3-185b-489c-9fe2-ce13f303fb81'
     referencedModelObjectId: '1b31df90-a5ec-40ad-8ebd-3ba2c4f96cc2'
     role: 'Item'
@@ -133,9 +107,3 @@ relationships:
     relationshipTerms:
       - termId: 'fe384262-df24-44a6-8ccc-559843b57dab'
         referenceTermId: '23f95d69-7f4f-4577-bd84-00eed53aed9e'
-  - id: '1cb09937-0798-45f5-a92e-535c6431d84c'
-    referencedModelObjectId: 'a7269756-1a42-4678-8a99-d82550e835f3'
-    role: 'BillToCustomer'
-    relationshipTerms:
-      - termId: '73cbdcca-e490-4ac2-8eb5-97b94b9149ef'
-        referenceTermId: '81afdf23-9622-488f-83e9-58e777c9abf2'

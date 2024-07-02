@@ -98,13 +98,6 @@ terms:
       length: 20
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKeyForeignKey: true
-  - id: '70acfba2-c6d2-497d-a7d3-e34694321301'
-    name: 'FK_SalesData_FK_Customer_BillToCustomer_No_'
-    isForeignKey: true
-    dataType:
-      length: 20
-      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
-    isBusinessKeyForeignKey: true
   - id: '2e0825df-9226-4d91-b4c9-2f6ecc47cdb9'
     name: 'Quantity'
     dataType:
@@ -142,8 +135,6 @@ dataflows:
             expression: '022a1411-eb2e-4515-ac28-96357403ff4a.3b15bf39-2209-4ac3-a3f6-36fdfe9ba07b'
           - termId: 'b57631ef-6baf-405c-81e0-055190a3735e'
             expression: '022a1411-eb2e-4515-ac28-96357403ff4a.8059e3e7-ee3d-4af9-bc14-fe3f70d943bc'
-          - termId: '70acfba2-c6d2-497d-a7d3-e34694321301'
-            expression: '022a1411-eb2e-4515-ac28-96357403ff4a.7ab2114a-949e-480e-9555-e015f84225b7'
           - termId: '2e0825df-9226-4d91-b4c9-2f6ecc47cdb9'
             expression: '4c9b1d63-06da-49be-9a6f-4dde98c88abe.cbfcb792-3c4d-475c-aceb-575a9a268c91'
           - termId: 'f042c79a-7f35-414e-aa77-0217d48082a9'
@@ -170,5 +161,3 @@ relationships:
         referenceTermId: '18fb1cfc-63da-4235-8de3-b6af31069e91'
       - termId: 'b57631ef-6baf-405c-81e0-055190a3735e'
         referenceTermId: 'fe384262-df24-44a6-8ccc-559843b57dab'
-      - termId: '70acfba2-c6d2-497d-a7d3-e34694321301'
-        referenceTermId: '73cbdcca-e490-4ac2-8eb5-97b94b9149ef'
