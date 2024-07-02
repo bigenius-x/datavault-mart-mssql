@@ -12,7 +12,6 @@ views:
     description: 'ERP Sales Information'
     modelObjects:
       - id: 'bc4ee020-60a0-44e2-a019-307d366bd4dc'
-      - id: '7407bcdd-7e07-440d-8442-c28b6e1b4a05'
       - id: '9f19d8cc-f3a6-43f7-acfd-e1523b39353b'
       - id: 'ee1d26fd-9d08-4099-9bad-a08fb9aa11b5'
       - id: 'f00b2c0e-0224-49c0-b371-a83b96aba6bb'
@@ -27,7 +26,6 @@ views:
     description: 'Sales Information POS'
     modelObjects:
       - id: 'bc4ee020-60a0-44e2-a019-307d366bd4dc'
-      - id: '7407bcdd-7e07-440d-8442-c28b6e1b4a05'
       - id: 'b8472bc6-3141-40cd-9798-187139499292'
       - id: '9f19d8cc-f3a6-43f7-acfd-e1523b39353b'
       - id: 'ee1d26fd-9d08-4099-9bad-a08fb9aa11b5'
