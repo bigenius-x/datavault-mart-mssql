@@ -1,5 +1,5 @@
 id: '16f272ca-065d-4571-ba73-75ab85a845b9'
-name: 'BRANCH1'
+name: 'BRANCH'
 description: 'Generated Model Object from BRANCH'
 modelObjectTypeId: '3b97992a-73f0-451d-871f-e587ec71a216'
 terms:
@@ -198,3 +198,6 @@ relationships:
         referenceTermId: '4b90df71-59d9-474f-8f7e-c509e757bb1b'
     additionalTermIds: []
     propertyValues: []
+propertyValues:
+  - propertyId: 'b0ee14c8-5179-4123-bed8-c81d60a9a0a2'
+    value: '<unselected>'
