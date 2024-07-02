@@ -1,5 +1,5 @@
 id: '91970c05-1813-4400-9ede-743a6034096a'
-name: 'POS_Hub'
+name: 'POS'
 description: 'Generated Model Object from POS'
 modelObjectTypeId: 'ac3f7f40-3068-47df-af3d-c6990ad73f7d'
 terms:
@@ -70,3 +70,6 @@ dataflows:
           - id: 'e841b3aa-32eb-4a78-b32d-1bc5e8cc6f7d'
             sourceModelObjectId: '652123ca-98ba-47a3-945b-60135644f76a'
             alias: 's1'
+propertyValues:
+  - propertyId: 'b0ee14c8-5179-4123-bed8-c81d60a9a0a2'
+    value: '<unselected>'
