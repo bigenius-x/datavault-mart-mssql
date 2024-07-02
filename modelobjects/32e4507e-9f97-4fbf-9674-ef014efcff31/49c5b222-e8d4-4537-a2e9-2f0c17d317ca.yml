@@ -1,5 +1,5 @@
 id: '49c5b222-e8d4-4537-a2e9-2f0c17d317ca'
-name: 'POS_SALES'
+name: 'Sales'
 description: 'Generated Model Object from POS_SALES'
 modelObjectTypeId: '32e4507e-9f97-4fbf-9674-ef014efcff31'
 terms:
@@ -401,3 +401,6 @@ relationships:
     additionalTermIds:
       - 'a17f64ad-ba0d-42f3-89bb-d000f775ec8f'
     propertyValues: []
+propertyValues:
+  - propertyId: 'b0ee14c8-5179-4123-bed8-c81d60a9a0a2'
+    value: '<unselected>'
