@@ -211,6 +211,4 @@ dataflows:
           - id: 'c5b21c7a-bb1a-4e85-adff-1df6ba8a38d5'
             sourceModelObjectId: 'a71fa396-9d21-49e5-9b23-5e1deb0b3c6e'
             alias: 's1'
-            propertyValues:
-              - propertyId: 'ada2da7c-fd97-4e60-9eac-6b119fd4abb3'
-                value: 'BG_ValidFromTimestamp'
+            propertyValues: []
