@@ -17,5 +17,4 @@ views:
     default: false
     description: 'Sales Information POS'
     modelObjects:
-      - id: 'b8472bc6-3141-40cd-9798-187139499292'
       - id: '62c29db0-10a1-4b01-82df-59b9d9914590'
