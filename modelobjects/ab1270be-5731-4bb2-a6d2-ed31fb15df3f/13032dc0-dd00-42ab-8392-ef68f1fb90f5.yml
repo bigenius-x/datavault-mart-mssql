@@ -154,13 +154,6 @@ terms:
       length: 20
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKeyForeignKey: true
-  - id: '05076aef-99aa-4a4a-a6e8-6a3e598a2cb6'
-    name: 'FK_SalesData_FK_Item_No_'
-    isForeignKey: true
-    dataType:
-      length: 20
-      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
-    isBusinessKeyForeignKey: true
   - id: '2b5a1a25-d91b-40e2-8192-763187616ffc'
     name: 'FK_SalesData_FK_Location_Code'
     isForeignKey: true
@@ -216,8 +209,6 @@ dataflows:
             expression: 'd3c5188e-3029-49c6-bd7d-fdc3fa315637.d464ff11-67d5-4016-bcc2-5f3f13bf2237'
           - termId: '3b2a4dec-1410-4f43-a4d6-2c03d4481d44'
             expression: 'd3c5188e-3029-49c6-bd7d-fdc3fa315637.cdd54ec2-3241-4411-a9d4-7525a7f58427'
-          - termId: '05076aef-99aa-4a4a-a6e8-6a3e598a2cb6'
-            expression: 'd3c5188e-3029-49c6-bd7d-fdc3fa315637.7225df4d-96db-4526-9f00-b2427bc81bb7'
           - termId: '2b5a1a25-d91b-40e2-8192-763187616ffc'
             expression: 'd3c5188e-3029-49c6-bd7d-fdc3fa315637.b8161ecb-6182-4d2a-b143-91a9853f9690'
           - termId: 'cb52813a-98a8-40b3-b4c9-ba12aecf84b3'
@@ -234,8 +225,6 @@ relationships:
     relationshipTerms:
       - termId: '3b2a4dec-1410-4f43-a4d6-2c03d4481d44'
         referenceTermId: '04cde707-df4f-4fa7-a901-20ff092babba'
-      - termId: '05076aef-99aa-4a4a-a6e8-6a3e598a2cb6'
-        referenceTermId: '2d7423e8-38b3-4f8a-847f-c099ee68ceb6'
       - termId: '2b5a1a25-d91b-40e2-8192-763187616ffc'
         referenceTermId: '18fb1cfc-63da-4235-8de3-b6af31069e91'
       - termId: 'cb52813a-98a8-40b3-b4c9-ba12aecf84b3'

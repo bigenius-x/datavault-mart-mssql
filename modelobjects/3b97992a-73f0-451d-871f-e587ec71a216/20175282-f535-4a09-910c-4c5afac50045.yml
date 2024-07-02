@@ -830,13 +830,6 @@ terms:
       length: 20
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: false
-  - id: '2ca85ce8-9e83-4938-b353-cf09481359c6'
-    name: 'FK_Item_No_'
-    isForeignKey: true
-    dataType:
-      length: 20
-      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
-    isBusinessKeyForeignKey: true
 dataflows:
   - id: '4f5fcb3d-23ad-495c-8b80-949efbe90cfd'
     name: 'Dataflow1'
@@ -1102,18 +1095,10 @@ dataflows:
             expression: '9a45abc2-80fc-47b7-a212-6ace39f7f3fe.3caf4b7a-2265-4c5d-8e6b-fc16b33b5c47'
           - termId: 'a3e22066-95f2-45f3-94c0-db16dd3e8ace'
             expression: '9a45abc2-80fc-47b7-a212-6ace39f7f3fe.7e899997-1131-4a0e-b5cd-b5939224b458'
-          - termId: '2ca85ce8-9e83-4938-b353-cf09481359c6'
-            expression: '9a45abc2-80fc-47b7-a212-6ace39f7f3fe.739b75ba-19ba-4371-905d-e1b40212987d'
         dataflowModelObjects:
           - id: '9a45abc2-80fc-47b7-a212-6ace39f7f3fe'
             sourceModelObjectId: 'df81a89a-ae2a-4c32-baaa-8cf561d1819d'
             alias: 's1'
 tags: []
-relationships:
-  - id: 'edb0eb18-7e19-4408-847d-be452b1addd6'
-    referencedModelObjectId: '1b31df90-a5ec-40ad-8ebd-3ba2c4f96cc2'
-    role: 'Item'
-    relationshipTerms:
-      - termId: '2ca85ce8-9e83-4938-b353-cf09481359c6'
-        referenceTermId: 'd15e38bb-6e21-454e-8d61-bce831327cbe'
+relationships: []
 propertyValues: []
