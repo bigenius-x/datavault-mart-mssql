@@ -11,9 +11,3 @@ views:
     default: true
     description: 'ERP Sales Information'
     modelObjects: []
-  - id: '2142fb6b-b215-4238-b0e5-4bd90041a867'
-    name: 'Sales Information POS'
-    type: 'data-pipe'
-    default: false
-    description: 'Sales Information POS'
-    modelObjects: []
