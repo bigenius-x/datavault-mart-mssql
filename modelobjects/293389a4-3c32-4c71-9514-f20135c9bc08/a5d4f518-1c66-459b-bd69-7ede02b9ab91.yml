@@ -116,6 +116,17 @@ terms:
     isNullable: true
     hiddenInSource: false
     hiddenInTarget: false
+  - id: '43542327-f4e8-4d39-9774-ffdf92c57d51'
+    name: 'SALES_UOM'
+    dataType:
+      length: 10
+      platformDataTypeId: '9245c3e9-05f8-4e48-962c-e1b3c49bc239'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
 dataflows:
   - id: '4b80547f-05ab-467f-b969-1f1370a98632'
     name: 'Dataflow1'
@@ -135,6 +146,8 @@ dataflows:
             expression: 'fc84f593-bbba-4311-ba62-4d62f8d9df3b.5dd57884-c137-436f-b3e3-0bdedbc832b4'
           - termId: 'c4f1cf58-1003-4649-b698-cbfbb040754c'
             expression: 'fc84f593-bbba-4311-ba62-4d62f8d9df3b.3a24206f-164d-44aa-8c8e-0f5fd3c77650'
+          - termId: '43542327-f4e8-4d39-9774-ffdf92c57d51'
+            expression: 'fc84f593-bbba-4311-ba62-4d62f8d9df3b.6032c729-5380-40ab-89b8-590d83b2c611'
         dataflowModelObjects:
           - id: 'c928844d-8876-4d2f-a24b-e7b5b4d2e9ed'
             sourceModelObjectId: 'aa033ca0-4dfa-4b91-bb3e-8b45b0d2dde8'
