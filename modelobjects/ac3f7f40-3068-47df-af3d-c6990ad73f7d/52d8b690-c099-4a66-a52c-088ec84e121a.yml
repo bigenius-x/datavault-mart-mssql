@@ -1,5 +1,5 @@
 id: '52d8b690-c099-4a66-a52c-088ec84e121a'
-name: 'LOYALTYCARD_Hub'
+name: 'LOYALTYCARD'
 description: 'Generated Model Object from LOYALTYCARD'
 modelObjectTypeId: 'ac3f7f40-3068-47df-af3d-c6990ad73f7d'
 terms:
@@ -70,3 +70,6 @@ dataflows:
           - id: 'e33847f5-4aed-4c1e-8146-a12f19144ca0'
             sourceModelObjectId: 'ca8e5d30-0389-45e4-9b66-822fd0145920'
             alias: 's1'
+propertyValues:
+  - propertyId: 'b0ee14c8-5179-4123-bed8-c81d60a9a0a2'
+    value: '<unselected>'
