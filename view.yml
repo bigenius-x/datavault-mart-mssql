@@ -176,3 +176,7 @@ views:
     default: false
     modelObjects:
       - id: 'e7bf4931-bab2-4086-a9f1-2d1b4beaef29'
+      - id: '7629796c-075d-4761-b308-fe6777fed038'
+      - id: 'd42e9e11-0b7d-4e2a-b03b-12671afe41e8'
+      - id: 'aa033ca0-4dfa-4b91-bb3e-8b45b0d2dde8'
+      - id: 'a5d4f518-1c66-459b-bd69-7ede02b9ab91'
