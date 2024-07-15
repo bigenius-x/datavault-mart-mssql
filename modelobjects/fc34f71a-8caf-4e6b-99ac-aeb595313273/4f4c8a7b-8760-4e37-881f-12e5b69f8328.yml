@@ -221,6 +221,32 @@ terms:
     hiddenInSource: false
     hiddenInTarget: true
     isIdentityForeignKey: true
+  - id: '0b39fa8d-f529-46b8-b89d-028c3fad09eb'
+    name: 'FK_EMPLOYEE_EMPLOYEE_ID'
+    dataType:
+      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
+    isIdentity: false
+    isBusinessKey: true
+    isForeignKey: true
+    isBusinessKeyForeignKey: true
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'ac90c958-eac5-4629-9dfb-e8ea77ac25f6'
+    name: 'EMPLOYEE_EMPLOYEE_HK'
+    description: 'Identifier of the referenced Hub record'
+    dataType:
+      platformDataTypeId: '77e450ef-2083-4296-a00e-3da0da7ad152'
+      length: 20
+    defaultTermId: '3e06f270-8fdf-4e8e-80f6-3583cf8bf51c'
+    isDefaultTerm: true
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: true
+    isNullable: false
+    hiddenInSource: false
+    hiddenInTarget: true
+    isIdentityForeignKey: true
 dataflows:
   - id: 'd8caf2e6-9103-40db-a684-39202ab9f62a'
     name: 'Dataflow1'
@@ -254,6 +280,8 @@ dataflows:
           - termId: '38059f56-e328-4d28-9143-ff2f6e6ca485'
             expression: '5e7eacfe-bb36-4b1c-9de2-1b048242560c.0c0555c6-a227-4482-bc51-78a524235d94'
           - termId: 'cc460dcd-129b-4296-815a-e5e148708078'
+          - termId: '0b39fa8d-f529-46b8-b89d-028c3fad09eb'
+          - termId: 'ac90c958-eac5-4629-9dfb-e8ea77ac25f6'
         dataflowModelObjects:
           - id: '5e7eacfe-bb36-4b1c-9de2-1b048242560c'
             sourceModelObjectId: '79bab677-1b84-490d-930b-0f341d4d2f80'
@@ -311,6 +339,15 @@ relationships:
         referenceTermId: '86336d04-ee39-47a4-b857-02dfb04d8065'
     additionalTermIds:
       - 'cc460dcd-129b-4296-815a-e5e148708078'
+    propertyValues: []
+  - id: '8b1143b3-644e-4d86-8e2c-1dbce675d966'
+    referencedModelObjectId: 'bc6f307f-bc3e-4bcf-8dee-704c0ed78d41'
+    role: 'EMPLOYEE'
+    relationshipTerms:
+      - termId: '0b39fa8d-f529-46b8-b89d-028c3fad09eb'
+        referenceTermId: '49fb2e21-e13e-4365-b7b4-912807a14704'
+    additionalTermIds:
+      - 'ac90c958-eac5-4629-9dfb-e8ea77ac25f6'
     propertyValues: []
 propertyValues:
   - propertyId: 'b0ee14c8-5179-4123-bed8-c81d60a9a0a2'
