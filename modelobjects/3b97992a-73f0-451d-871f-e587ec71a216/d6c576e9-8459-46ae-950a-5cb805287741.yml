@@ -117,6 +117,18 @@ terms:
     isNullable: true
     hiddenInSource: false
     hiddenInTarget: false
+  - id: '091582cf-2a20-49c0-9c74-5fc2e51ae29f'
+    name: 'FK_ITEM_ITEM_ID'
+    dataType:
+      precision: 38
+      platformDataTypeId: 'ea625964-ee65-4825-8d1b-87ebbd7baa31'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: true
+    isBusinessKeyForeignKey: true
+    isNullable: true
+    hiddenInSource: true
+    hiddenInTarget: false
 dataflows:
   - id: '19efad6e-0b1f-4e29-9f9f-41331fd4a394'
     name: 'Dataflow1'
@@ -136,7 +148,17 @@ dataflows:
             expression: '5dd28de9-a91b-4fc6-bb08-68a26b69777c.8d355e79-ab59-48d9-b680-aa7d72ac8e27'
           - termId: '82ee229b-5e8e-4125-9dce-63f7f2413642'
             expression: '5dd28de9-a91b-4fc6-bb08-68a26b69777c.af2f630d-f595-4f10-9794-7ab137178a6d'
+          - termId: '091582cf-2a20-49c0-9c74-5fc2e51ae29f'
         dataflowModelObjects:
           - alias: 's1'
             id: '5dd28de9-a91b-4fc6-bb08-68a26b69777c'
             sourceModelObjectId: '7629796c-075d-4761-b308-fe6777fed038'
+relationships:
+  - id: 'f93dc6f8-a094-4fb8-99f2-5db9caa60c80'
+    referencedModelObjectId: 'aa033ca0-4dfa-4b91-bb3e-8b45b0d2dde8'
+    role: 'ITEM'
+    relationshipTerms:
+      - termId: '091582cf-2a20-49c0-9c74-5fc2e51ae29f'
+        referenceTermId: '432bd86f-6808-4cc5-8436-2a8b31a27f7a'
+    additionalTermIds: []
+    propertyValues: []
