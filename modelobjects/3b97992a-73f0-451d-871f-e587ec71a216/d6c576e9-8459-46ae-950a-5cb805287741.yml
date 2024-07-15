@@ -154,6 +154,21 @@ dataflows:
           - alias: 's1'
             id: '5dd28de9-a91b-4fc6-bb08-68a26b69777c'
             sourceModelObjectId: '7629796c-075d-4761-b308-fe6777fed038'
+      - id: '2882f380-8147-4cb0-85e3-cfa607d73824'
+        name: 'Set2'
+        setOperatorId: 'd921d814-3fed-4cf8-b359-854754b78fea'
+        propertyValues: []
+        termMappings:
+          - termId: '37b9e30e-6148-49ce-8752-8920b035869d'
+          - termId: '863736e5-8826-45e3-bc34-273c11174cad'
+          - termId: '4d40880b-e878-4d28-9e87-5b5fe787283a'
+          - termId: 'fa042624-5f3b-4702-8d15-652a7931e8b9'
+          - termId: '158d5187-39a0-409a-bbbe-c2dd23d49643'
+          - termId: 'ceb1191c-15c8-40e1-abb9-d95efde3e374'
+          - termId: 'fd026733-0569-41fa-8cd5-decceecdd5c4'
+          - termId: '4b3c347f-1024-4d76-af52-8814a5667a1e'
+          - termId: '82ee229b-5e8e-4125-9dce-63f7f2413642'
+          - termId: '091582cf-2a20-49c0-9c74-5fc2e51ae29f'
 relationships:
   - id: 'f93dc6f8-a094-4fb8-99f2-5db9caa60c80'
     referencedModelObjectId: 'aa033ca0-4dfa-4b91-bb3e-8b45b0d2dde8'
