@@ -74,5 +74,4 @@ dataflows:
 propertyValues:
   - propertyId: 'b0ee14c8-5179-4123-bed8-c81d60a9a0a2'
     value: '<unselected>'
-tags:
-  - '$tasklist#6ec2d8ea-3be1-43a2-1462-08dba958486f'
+tags: []
