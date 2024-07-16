@@ -174,3 +174,5 @@ views:
     description: 'demo'
     type: 'data-pipe'
     default: false
+    modelObjects:
+      - id: 'e7bf4931-bab2-4086-a9f1-2d1b4beaef29'
