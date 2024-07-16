@@ -151,3 +151,5 @@ dataflows:
           - id: 'fb8ec5e3-4721-44c5-bd56-af2b2af4af77'
             sourceModelObjectId: 'e7bf4931-bab2-4086-a9f1-2d1b4beaef29'
             alias: 's1'
+tags:
+  - '$tasklist#6ec2d8ea-3be1-43a2-1462-08dba958486f'
