@@ -191,6 +191,17 @@ terms:
     isNullable: true
     hiddenInSource: false
     hiddenInTarget: false
+  - id: 'a8792c8b-dca7-44e4-a235-b5a158509874'
+    name: 'FK_BRANCH_BRANCH1_BRANCH_ID'
+    dataType:
+      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: true
+    isBusinessKeyForeignKey: true
+    isNullable: true
+    hiddenInSource: true
+    hiddenInTarget: false
 dataflows:
   - id: '6696cb21-12e0-4b85-a83c-02978488b3ee'
     name: 'Dataflow1'
@@ -224,6 +235,7 @@ dataflows:
             expression: 'b58d0851-909f-4a1e-861c-37466699a1f8.09dbf5b2-50e8-4481-8c32-7c5191387726'
           - termId: '820e4c6f-0730-4a83-a12d-b4d7a219857e'
             expression: 'b58d0851-909f-4a1e-861c-37466699a1f8.e8568d61-d4ab-4e68-b063-4a82bb7478d5'
+          - termId: 'a8792c8b-dca7-44e4-a235-b5a158509874'
         dataflowModelObjects:
           - id: 'b58d0851-909f-4a1e-861c-37466699a1f8'
             sourceModelObjectId: 'cfeb06c6-d7c4-4d31-9c31-768ae6e0faa6'
@@ -234,6 +246,14 @@ relationships:
     role: 'BRANCH'
     relationshipTerms:
       - termId: 'a2b9c1a2-7d24-41ea-91ef-539e53df05de'
+        referenceTermId: '4b90df71-59d9-474f-8f7e-c509e757bb1b'
+    additionalTermIds: []
+    propertyValues: []
+  - id: 'af654ac9-2f15-4a42-8bc0-f8b503c5d48f'
+    referencedModelObjectId: '085450b6-3d3c-447e-a5aa-05ac2e509fbc'
+    role: 'BRANCH1'
+    relationshipTerms:
+      - termId: 'a8792c8b-dca7-44e4-a235-b5a158509874'
         referenceTermId: '4b90df71-59d9-474f-8f7e-c509e757bb1b'
     additionalTermIds: []
     propertyValues: []
