@@ -82,6 +82,16 @@ terms:
     isNullable: false
     hiddenInSource: false
     hiddenInTarget: true
+  - id: 'b941fad3-7dd6-4313-910b-0492650f3717'
+    name: 'LOYALTYCARD_ID'
+    dataType:
+      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
+    isIdentity: false
+    isBusinessKey: true
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
 dataflows:
   - id: '9762da94-7df3-4556-8558-d789ade5551e'
     name: 'Dataflow1'
@@ -95,6 +105,8 @@ dataflows:
           - termId: '05929f66-b537-44c7-8dbb-1d8a4b6508e3'
           - termId: '29619d03-2acc-497c-9864-83e5a2db27c4'
           - termId: '8099f6ac-8b6a-49b9-9368-a647a1b9444e'
+          - termId: 'b941fad3-7dd6-4313-910b-0492650f3717'
+            expression: '136eccec-af0b-4d67-83c7-e471119b2301.cefaddcb-0b1e-4e56-b99b-7ca7939576f0'
         dataflowModelObjects:
           - alias: 's1'
             id: '136eccec-af0b-4d67-83c7-e471119b2301'
