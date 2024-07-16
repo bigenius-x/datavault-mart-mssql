@@ -1,0 +1,97 @@
+id: 'd4804f2a-30d1-4019-bd5a-b26e78262558'
+modelObjectTypeId: '293389a4-3c32-4c71-9514-f20135c9bc08'
+name: 'Dim_Loyaltycard'
+terms:
+  - id: 'b45091d6-ebb9-48c5-8296-4e441a4c8130'
+    name: 'BG_SourceSystem'
+    description: 'Default term with an identifier of the source system'
+    dataType:
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+      length: 255
+    defaultTermId: 'c3654f1c-5c92-4200-82ef-baac15ffa0ba'
+    isDefaultTerm: true
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'f384af75-2cd7-4938-b839-35047d69dec7'
+    name: 'BG_LoadTimestamp'
+    description: 'Default term with the load timestamp'
+    dataType:
+      platformDataTypeId: '88718695-75e5-413d-a8e9-fa27fe064353'
+    defaultTermId: '3fdfd83b-00b6-47e7-b139-9b25993626ac'
+    isDefaultTerm: true
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: false
+    hiddenInSource: false
+    hiddenInTarget: true
+  - id: '9bc84bd8-f829-4336-9a39-264a3295f6cc'
+    name: 'BG_ValidFromTimestamp'
+    description: 'Default term for the technical validity or objects'
+    dataType:
+      platformDataTypeId: '88718695-75e5-413d-a8e9-fa27fe064353'
+    defaultTermId: 'dae67eab-4d4c-415c-b8a2-98bc6820719d'
+    isDefaultTerm: true
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: false
+    hiddenInSource: false
+    hiddenInTarget: true
+  - id: '05929f66-b537-44c7-8dbb-1d8a4b6508e3'
+    name: 'BG_ValidToTimestamp'
+    description: 'Default term for the technical validity or objects'
+    dataType:
+      platformDataTypeId: '88718695-75e5-413d-a8e9-fa27fe064353'
+    defaultTermId: '8a0e3b61-609b-4b0b-9a14-58a7730ed12e'
+    isDefaultTerm: true
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: true
+  - id: '29619d03-2acc-497c-9864-83e5a2db27c4'
+    name: 'BG_RowHash'
+    description: 'Default term that stores the computed hash value for defined attributes'
+    dataType:
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+      length: 20
+    defaultTermId: '2362debf-62f0-4e46-b0eb-bd221e3961eb'
+    isDefaultTerm: true
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: true
+  - id: '8099f6ac-8b6a-49b9-9368-a647a1b9444e'
+    name: 'Dim_Loyaltycard_ID'
+    description: 'Default term with mart dimension identity'
+    dataType:
+      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
+    defaultTermId: '3d0d1df1-e8a7-45bb-abf4-63b4ecdbc2ea'
+    isDefaultTerm: true
+    isIdentity: true
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: false
+    hiddenInSource: false
+    hiddenInTarget: true
+dataflows:
+  - id: '9762da94-7df3-4556-8558-d789ade5551e'
+    name: 'Dataflow1'
+    dataflowSets:
+      - id: '878a2e9a-5a33-4a1f-a367-3ea55dd0f7a5'
+        name: 'Set1'
+        termMappings:
+          - termId: 'b45091d6-ebb9-48c5-8296-4e441a4c8130'
+          - termId: 'f384af75-2cd7-4938-b839-35047d69dec7'
+          - termId: '9bc84bd8-f829-4336-9a39-264a3295f6cc'
+          - termId: '05929f66-b537-44c7-8dbb-1d8a4b6508e3'
+          - termId: '29619d03-2acc-497c-9864-83e5a2db27c4'
+          - termId: '8099f6ac-8b6a-49b9-9368-a647a1b9444e'
