@@ -169,3 +169,8 @@ views:
         x: 627.25
         'y': 68
         collapsed: true
+  - id: '68b3a814-6816-4b21-8db1-9063513b6d08'
+    name: 'demo'
+    description: 'demo'
+    type: 'data-pipe'
+    default: false
