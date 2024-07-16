@@ -169,10 +169,6 @@ views:
         x: 627.25
         'y': 68
         collapsed: true
-      - id: 'd4804f2a-30d1-4019-bd5a-b26e78262558'
-        x: 1060.25
-        'y': 252
-        collapsed: true
   - id: '68b3a814-6816-4b21-8db1-9063513b6d08'
     name: 'demo'
     description: 'demo'
@@ -185,4 +181,3 @@ views:
       - id: 'aa033ca0-4dfa-4b91-bb3e-8b45b0d2dde8'
       - id: 'a5d4f518-1c66-459b-bd69-7ede02b9ab91'
       - id: '52d8b690-c099-4a66-a52c-088ec84e121a'
-      - id: 'd4804f2a-30d1-4019-bd5a-b26e78262558'

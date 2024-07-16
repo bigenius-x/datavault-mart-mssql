@@ -247,31 +247,6 @@ terms:
     isNullable: true
     hiddenInSource: false
     hiddenInTarget: false
-  - id: '49697992-d90e-4774-becf-2422f8b192df'
-    name: 'Dim_Loyaltycard_Dim_Loyaltycard_ID'
-    description: 'Default term with the identity of the referenced mart dimension'
-    dataType:
-      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
-    defaultTermId: '618f7171-3c96-4093-9f01-05b68d3ee3f1'
-    isDefaultTerm: true
-    isIdentity: false
-    isBusinessKey: false
-    isForeignKey: true
-    isNullable: false
-    hiddenInSource: false
-    hiddenInTarget: true
-    isIdentityForeignKey: true
-  - id: '30511988-a8ff-4dbc-80f7-a0acea93b7f1'
-    name: 'FK_Dim_Loyaltycard_LOYALTYCARD_ID'
-    dataType:
-      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
-    isIdentity: false
-    isBusinessKey: false
-    isForeignKey: true
-    isBusinessKeyForeignKey: true
-    isNullable: true
-    hiddenInSource: false
-    hiddenInTarget: false
 dataflows:
   - id: '97cb485a-e8bb-4292-8b13-a3faedc371c1'
     name: 'Dataflow1'
@@ -309,8 +284,6 @@ dataflows:
             expression: 'd1e8c4c6-10ad-408f-838b-c671b75adcd1.e7c0056d-e1ed-47e1-978f-d92cd4aec829'
           - termId: 'f34909e5-2ffa-4bd8-9a90-668f7473029f'
             expression: 'd1e8c4c6-10ad-408f-838b-c671b75adcd1.85ba2e35-fc86-4b11-b2c4-d13f82583599'
-          - termId: '49697992-d90e-4774-becf-2422f8b192df'
-          - termId: '30511988-a8ff-4dbc-80f7-a0acea93b7f1'
         dataflowModelObjects:
           - id: '82346584-a5b9-410c-912b-9a5f1401ace5'
             sourceModelObjectId: '49c5b222-e8d4-4537-a2e9-2f0c17d317ca'
@@ -359,13 +332,4 @@ relationships:
         referenceTermId: 'ffb73b93-078e-4a15-9a7b-157e3201ce1f'
     additionalTermIds:
       - 'cc4ca719-f2fc-4f05-a3fb-6d07943a98e5'
-    propertyValues: []
-  - id: 'e6659fb4-4251-4024-9fe1-cf39b9117c58'
-    referencedModelObjectId: 'd4804f2a-30d1-4019-bd5a-b26e78262558'
-    role: 'Dim_Loyaltycard'
-    relationshipTerms:
-      - termId: '30511988-a8ff-4dbc-80f7-a0acea93b7f1'
-        referenceTermId: 'b941fad3-7dd6-4313-910b-0492650f3717'
-    additionalTermIds:
-      - '49697992-d90e-4774-becf-2422f8b192df'
     propertyValues: []
