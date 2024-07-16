@@ -95,3 +95,7 @@ dataflows:
           - termId: '05929f66-b537-44c7-8dbb-1d8a4b6508e3'
           - termId: '29619d03-2acc-497c-9864-83e5a2db27c4'
           - termId: '8099f6ac-8b6a-49b9-9368-a647a1b9444e'
+        dataflowModelObjects:
+          - alias: 's1'
+            id: '136eccec-af0b-4d67-83c7-e471119b2301'
+            sourceModelObjectId: '52d8b690-c099-4a66-a52c-088ec84e121a'
