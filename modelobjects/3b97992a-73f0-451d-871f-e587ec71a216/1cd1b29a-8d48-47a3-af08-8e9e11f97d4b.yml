@@ -1,5 +1,5 @@
 id: '1cd1b29a-8d48-47a3-af08-8e9e11f97d4b'
-name: 'ITEM1'
+name: 'ITEM_Label'
 description: 'Generated Model Object from ITEM'
 modelObjectTypeId: '3b97992a-73f0-451d-871f-e587ec71a216'
 terms:
@@ -150,3 +150,6 @@ relationships:
         referenceTermId: '432bd86f-6808-4cc5-8436-2a8b31a27f7a'
     additionalTermIds: []
     propertyValues: []
+propertyValues:
+  - propertyId: 'b0ee14c8-5179-4123-bed8-c81d60a9a0a2'
+    value: '<unselected>'
