@@ -84,14 +84,15 @@ terms:
   - id: '8d355e79-ab59-48d9-b680-aa7d72ac8e27'
     name: 'DESCRIPTION'
     dataType:
-      length: 1000
       platformDataTypeId: '9245c3e9-05f8-4e48-962c-e1b3c49bc239'
+      length: 400
     isIdentity: false
     isBusinessKey: false
     isForeignKey: false
     isNullable: true
     hiddenInSource: false
     hiddenInTarget: false
+    propertyValues: []
   - id: 'af2f630d-f595-4f10-9794-7ab137178a6d'
     name: 'BASE_UOM'
     dataType:
