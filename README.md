@@ -1,4 +1,4 @@
-# biGENIUS Example Project for DataVault and DataMart MSSQL Example
+# biGENIUS Example Project for DataVault and DataMart MSSQL
 
 This is an example project for datavault and datamart MSSQL for the biGENIUS-X application. This repository should give a quick introduction to datavault and datamart modeling in MSSQL.
 
