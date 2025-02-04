@@ -80,7 +80,7 @@ terms:
     isDefaultTerm: true
     isForeignKey: false
     isIdentity: false
-    isNullable: false
+    isNullable: true
     dataType:
       platformDataTypeId: '88718695-75e5-413d-a8e9-fa27fe064353'
     propertyValues: []
