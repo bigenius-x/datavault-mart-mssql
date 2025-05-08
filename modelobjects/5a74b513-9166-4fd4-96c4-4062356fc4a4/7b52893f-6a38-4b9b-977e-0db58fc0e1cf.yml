@@ -1,6 +1,7 @@
 id: '7b52893f-6a38-4b9b-977e-0db58fc0e1cf'
 name: 'CUSTOMER'
-description: 'Generated Model Object from CUSTOMER'
+description: 'Generated Model Object from CUSTOMER.'
+isDeactivated: false
 modelObjectTypeId: '5a74b513-9166-4fd4-96c4-4062356fc4a4'
 terms:
   - id: 'f6f9e767-e3db-495b-9709-ccf4d44046b0'
