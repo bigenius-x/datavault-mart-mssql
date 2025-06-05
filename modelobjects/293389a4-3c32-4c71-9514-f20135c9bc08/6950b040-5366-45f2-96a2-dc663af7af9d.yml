@@ -190,7 +190,7 @@ dataflows:
             sourceModelObjectId: '06df7103-65c7-4062-acd8-8448ab34e213'
             propertyValues:
               - propertyId: 'ada2da7c-fd97-4e60-9eac-6b119fd4abb3'
-                value: 'BG_ValidFromTimestamp'
+                value: 'da042be6-9930-400b-a2dc-8f83d0df0bcd'
         termMappings:
           - termId: '09893255-4c9e-40c6-8a5e-1e5fa26b7432'
           - termId: '09132f0c-78d7-42ef-89e7-330920530b92'
