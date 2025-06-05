@@ -71,7 +71,7 @@ terms:
       length: 20
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
   - id: '814557e3-01fe-43c1-ac7f-9e59eae123eb'
-    name: 'Customer_Current_ID'
+    name: 'Customer_Current_SK'
     description: 'Default term with mart dimension identity'
     defaultTermId: '3d0d1df1-e8a7-45bb-abf4-63b4ecdbc2ea'
     hiddenInSource: false
