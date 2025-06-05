@@ -96,7 +96,7 @@ terms:
     dataType:
       platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
   - id: '49484b53-d839-4028-9f78-a4d9e71b62f4'
-    name: 'BRANCH_BRANCH_ID'
+    name: 'ITEM_BRANCH_SK'
     description: 'Default term with the identity of the referenced mart dimension'
     defaultTermId: '618f7171-3c96-4093-9f01-05b68d3ee3f1'
     hiddenInSource: false
@@ -122,7 +122,7 @@ terms:
       platformDataTypeId: 'ea625964-ee65-4825-8d1b-87ebbd7baa31'
       precision: 38
   - id: 'fc4fbe0c-08c6-43ef-9289-56f9e5c36fec'
-    name: 'Customer_History_Customer_History_ID'
+    name: 'ITEM_Customer_History_SK'
     description: 'Default term with the identity of the referenced mart dimension'
     defaultTermId: '618f7171-3c96-4093-9f01-05b68d3ee3f1'
     hiddenInSource: false
@@ -160,7 +160,7 @@ terms:
       length: 10
       platformDataTypeId: '9245c3e9-05f8-4e48-962c-e1b3c49bc239'
   - id: '27de1261-9122-42ea-97a6-dbefa4d0632b'
-    name: 'ITEMUNITOFMEASURE_ITEMUNITOFMEASURE_ID'
+    name: 'ITEM_ITEMUNITOFMEASURE_SK'
     description: 'Default term with the identity of the referenced mart dimension'
     defaultTermId: '618f7171-3c96-4093-9f01-05b68d3ee3f1'
     hiddenInSource: false
@@ -186,7 +186,7 @@ terms:
       platformDataTypeId: 'ea625964-ee65-4825-8d1b-87ebbd7baa31'
       precision: 38
   - id: 'cc4ca719-f2fc-4f05-a3fb-6d07943a98e5'
-    name: 'ITEM_ITEM_ID'
+    name: 'ITEM_ITEM_SK'
     description: 'Default term with the identity of the referenced mart dimension'
     defaultTermId: '618f7171-3c96-4093-9f01-05b68d3ee3f1'
     hiddenInSource: false

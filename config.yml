@@ -1,4 +1,1 @@
-DefaultTerms:
-  - InternalCode: '618f7171-3c96-4093-9f01-05b68d3ee3f1'
-    Name: 'BG_MartFact_ForeignKey_Identity'
-    NamingConvention: '{{ReferencedModelObject.Name}}_{{Role}}_ID'
+DefaultTerms: []
