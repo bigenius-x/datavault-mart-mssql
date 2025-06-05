@@ -71,7 +71,7 @@ terms:
       length: 20
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
   - id: '2a8ae269-2df2-477d-aa48-870e4213623c'
-    name: 'BRANCH_ID'
+    name: 'BRANCH_SK'
     description: 'Default term with mart dimension identity'
     defaultTermId: '3d0d1df1-e8a7-45bb-abf4-63b4ecdbc2ea'
     hiddenInSource: false
@@ -180,7 +180,7 @@ dataflows:
             sourceModelObjectId: '16f272ca-065d-4571-ba73-75ab85a845b9'
             propertyValues:
               - propertyId: 'ada2da7c-fd97-4e60-9eac-6b119fd4abb3'
-                value: 'BG_ValidFromTimestamp'
+                value: 'dbf3048e-4a01-4888-b60c-e088f4dd10ea'
         termMappings:
           - termId: '86acce97-98f0-4740-af1e-0ca2685cd0be'
           - termId: '05b514b3-30e8-48da-a29b-16f050ff968e'

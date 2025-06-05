@@ -71,7 +71,7 @@ terms:
       length: 20
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
   - id: '6a226327-3ed7-4fdf-a672-7cf044da255a'
-    name: 'ITEMUNITOFMEASURE_ID'
+    name: 'ITEMUNITOFMEASURE_SK'
     description: 'Default term with mart dimension identity'
     defaultTermId: '3d0d1df1-e8a7-45bb-abf4-63b4ecdbc2ea'
     hiddenInSource: false
@@ -157,7 +157,7 @@ dataflows:
             sourceModelObjectId: 'e80bffea-548d-4245-b03e-5f4e1ed4cc4c'
             propertyValues:
               - propertyId: 'ada2da7c-fd97-4e60-9eac-6b119fd4abb3'
-                value: 'BG_ValidFromTimestamp'
+                value: 'a880af84-2721-4277-b2fb-22eb90f484b8'
         termMappings:
           - termId: '6049c397-41ef-4f94-ae0f-460c61b1b1e3'
           - termId: '6311b746-93f8-416e-97ce-982a3810d71d'
