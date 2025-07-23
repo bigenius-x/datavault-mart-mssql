@@ -1,7 +1,7 @@
 id: 'f4af988b-6568-4aee-2bb3-08db50014549'
 name: 'Product Launch Event'
 description: 'product-launch-event'
-version: 'v1.5'
+version: 'v1.6'
 configuration:
   id: 'biGENIUS.Implementation.Generator.VaultAndMart.Mssql'
   version: '1.9.2'
