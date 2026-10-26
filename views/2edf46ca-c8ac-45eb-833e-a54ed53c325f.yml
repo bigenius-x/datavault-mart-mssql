@@ -1,0 +1,86 @@
+id: '2edf46ca-c8ac-45eb-833e-a54ed53c325f'
+name: 'Datamodel View 1'
+description: 'Default view for data model.'
+default: true
+type: 'data-model'
+modelObjects:
+  - id: '16f272ca-065d-4571-ba73-75ab85a845b9'
+    collapsed: true
+    x: 1867
+    'y': 369
+  - id: '085450b6-3d3c-447e-a5aa-05ac2e509fbc'
+    collapsed: true
+    x: 1537
+    'y': 366
+  - id: '0d0e6612-10b2-441e-b8cf-ea87a4882ff1'
+    collapsed: true
+    x: 780
+    'y': 547
+  - id: '18b9541c-c60b-41bf-ac6d-8f3c4d0c3ba4'
+    collapsed: true
+    x: 305
+    'y': 512
+  - id: 'a3c1fc21-50c9-470e-b20e-5584fb7fb85f'
+    collapsed: true
+    x: 305
+    'y': 452
+  - id: 'f0fb3f33-5e0b-4dfe-ab6a-575ed2bed261'
+    collapsed: true
+    x: 278
+    'y': 917
+  - id: 'bc6f307f-bc3e-4bcf-8dee-704c0ed78d41'
+    collapsed: true
+    x: 286
+    'y': 833
+  - id: 'd42e9e11-0b7d-4e2a-b03b-12671afe41e8'
+    collapsed: true
+    x: 1855
+    'y': 626
+  - id: 'aa033ca0-4dfa-4b91-bb3e-8b45b0d2dde8'
+    collapsed: true
+    x: 1543
+    'y': 629
+  - id: '70514091-c314-454b-9d0d-b6b03aaa0be8'
+    collapsed: true
+    x: 1548
+    'y': 730
+  - id: 'e80bffea-548d-4245-b03e-5f4e1ed4cc4c'
+    collapsed: true
+    x: 1856
+    'y': 732
+  - id: '52d8b690-c099-4a66-a52c-088ec84e121a'
+    collapsed: true
+    x: 780
+    'y': 362
+  - id: 'ceba80cd-1bb4-4145-a1f7-540b38e0afd0'
+    collapsed: true
+    x: 780
+    'y': 453
+  - id: 'ae078661-b515-454e-b6a2-2c56e912120a'
+    collapsed: true
+    x: 302
+    'y': 584
+  - id: '91970c05-1813-4400-9ede-743a6034096a'
+    collapsed: true
+    x: 1540
+    'y': 549
+  - id: '92dfbe12-c7f5-46ff-b98d-ed9195ae56cc'
+    collapsed: true
+    x: 1596
+    'y': 463
+  - id: '4f4c8a7b-8760-4e37-881f-12e5b69f8328'
+    collapsed: true
+    x: 1160
+    'y': 475
+  - id: '49c5b222-e8d4-4537-a2e9-2f0c17d317ca'
+    collapsed: true
+    x: 1162
+    'y': 673
+  - id: '8e7a553f-0353-492c-840c-a90ea4a7a001'
+    collapsed: true
+    x: 1877
+    'y': 800
+  - id: 'bc18e6f5-ded6-4d58-8ade-405a75256f4b'
+    collapsed: true
+    x: 1548
+    'y': 793

@@ -1,0 +1,26 @@
+id: '8868e61d-37de-4c27-88a4-0c900b6bb9e3'
+name: 'Datamart'
+description: 'Datamart'
+default: false
+type: 'data-model'
+modelObjects:
+  - id: '40d0342b-d930-483d-8240-fe494eefbd50'
+    collapsed: true
+    x: 290
+    'y': 68
+  - id: '6950b040-5366-45f2-96a2-dc663af7af9d'
+    collapsed: true
+    x: 627.25
+    'y': -38
+  - id: 'a5d4f518-1c66-459b-bd69-7ede02b9ab91'
+    collapsed: true
+    x: 626.75
+    'y': 201
+  - id: '72173481-e9b8-459f-a5bc-e17f03f29cf9'
+    collapsed: true
+    x: 1001.5
+    'y': 69
+  - id: 'cb63a6f4-975f-4ab4-ae68-43b6e7fbcd13'
+    collapsed: true
+    x: 627.25
+    'y': 68
